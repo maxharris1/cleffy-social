@@ -145,13 +145,15 @@ def images(path="q1/items.json", tag="src", failf="q1/image_fails.json"):
         url = ii.get("thumburl") if ii.get("width", 0) > 2400 else ii["url"]
         if url.lower().endswith((".tif", ".tiff", ".pdf", ".djvu")):
             url = ii.get("thumburl") or url
-        for a in range(6):
+        for a in range(8):
             time.sleep(2 + 10 * a)
             rr = S.get(url, timeout=120)
-            if rr.status_code == 200: break
-        if rr.status_code != 200:
-            print(f"FAIL {key}: {rr.status_code}"); fails.append(key); continue
-        raw = f"/tmp/src/{key}.raw"
+            if rr.status_code == 200 and rr.headers.get("content-type", "").startswith("image"): break
+            if rr.status_code == 429:
+                time.sleep(min(120, int(rr.headers.get("retry-after", "30") or 30)))
+        if rr.status_code != 200 or not rr.headers.get("content-type", "").startswith("image"):
+            print(f"FAIL {key}: {rr.status_code} {rr.headers.get('content-type')}"); fails.append(key); continue
+        raw = f"/tmp/src/{key}.download"
         open(raw, "wb").write(rr.content)
         c = sh("convert", raw + "[0]", "-auto-orient", "-colorspace", "sRGB", "-quality", "93", dst)
         os.remove(raw)
