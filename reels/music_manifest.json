@@ -1,11 +1,13 @@
 {
  "1": {
-  "file": "File:PDP-CH - Wilhelm Backhaus - Liebestraum No. 3 in A-flat major, S.541-3 (Liszt) - Hmv-d788-05754.flac",
+  "file": "File:Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac",
   "license": "Public domain",
-  "artist": "",
-  "mean_db": -17.8,
-  "title": "Liszt, Liebestraum No. 3 (Wilhelm Backhaus)",
-  "performer": "Liszt, Liebestraum No. 3, played by Wilhelm Backhaus (HMV 78)"
+  "artist": "Frédéric Chopin / Frank Lévy",
+  "mean_db": -18.6,
+  "title": "Chopin, Nocturne Op. 9 No. 2 (Frank Lévy)",
+  "performer": "Chopin, Nocturne in E-flat, Op. 9 No. 2, played by Frank Lévy (Musopen)",
+  "flatness": 0.011,
+  "hf_db": -55.3
  },
  "2": {
   "file": "File:Beethoven - Fuer Elise (Piano Performance by eldüendesüarez).wav",
@@ -13,7 +15,9 @@
   "artist": "Beethoven",
   "mean_db": -19.6,
   "title": "Beethoven, Für Elise (eldüendesüarez)",
-  "performer": "Beethoven, Für Elise, played by eldüendesüarez via Wikimedia Commons"
+  "performer": "Beethoven, Für Elise, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.012,
+  "hf_db": -57.6
  },
  "3": {
   "file": "File:Kimiko Ishizaka - J.S. Bach- -Open- Goldberg Variations, BWV 988 (Piano) - 01 Aria.mp3",
@@ -21,6 +25,8 @@
   "artist": "JS Bach and Kimiko Ishizaka",
   "mean_db": -18.0,
   "title": "Bach, Goldberg Variations: Aria (Kimiko Ishizaka)",
-  "performer": "Bach, Goldberg Variations, Aria, played by Kimiko Ishizaka (Open Goldberg)"
+  "performer": "Bach, Goldberg Variations, Aria, played by Kimiko Ishizaka (Open Goldberg)",
+  "flatness": 0.02,
+  "hf_db": -55.3
  }
 }
