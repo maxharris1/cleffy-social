@@ -53,6 +53,12 @@
   "title": "Byrd, Pavane 'The Earl of Salisbury'",
   "performer": "Byrd, Pavane \"The Earl of Salisbury\", via Wikimedia Commons"
  },
+ "10": {
+  "file": "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac",
+  "start": 0,
+  "title": "Chopin, Nocturne Op. 15 No. 2 (Luke Faulkner)",
+  "performer": "Chopin, Nocturne in F-sharp, Op. 15 No. 2 (a Paderewski favourite), played by Luke Faulkner (Musopen)"
+ },
  "11": {
   "file": "File:Regina Caeli.wav",
   "start": 0,
@@ -70,6 +76,18 @@
   "start": 0,
   "title": "Beethoven, Moonlight Sonata, first movement (eldüendesüarez)",
   "performer": "Beethoven, Moonlight Sonata, first movement, played by eldüendesüarez via Wikimedia Commons"
+ },
+ "14": {
+  "file": "File:Chopin - Nocturne No. 13 in C minor, Op. 48 No. 1 (Luke Faulkner).flac",
+  "start": 0,
+  "title": "Chopin, Nocturne Op. 48 No. 1 (Luke Faulkner)",
+  "performer": "Chopin, Nocturne in C minor, Op. 48 No. 1, played by Luke Faulkner (Musopen)"
+ },
+ "15": {
+  "file": "File:Chopin - Nocturne No. 17 in B major, Op. 62 No. 1 (Olga Gurevich).flac",
+  "start": 0,
+  "title": "Chopin, Nocturne Op. 62 No. 1 (Olga Gurevich)",
+  "performer": "Chopin, Nocturne in B, Op. 62 No. 1, played by Olga Gurevich (Musopen)"
  },
  "16": {
   "file": "File:Chopin - Nocturne No. 3 in B major, Op. 9 No. 3 (Xuan He).flac",
@@ -154,5 +172,11 @@
   "start": 0,
   "title": "Handel, Messiah: Hallelujah chorus, closing bars",
   "performer": "Handel, Messiah, Hallelujah chorus, closing bars, via Wikimedia Commons"
+ },
+ "30": {
+  "file": "File:Chopin - Nocturne No. 10 in A-flat major, Op. 32 No. 2 (Olga Gurevich).flac",
+  "start": 0,
+  "title": "Chopin, Nocturne Op. 32 No. 2 (Olga Gurevich)",
+  "performer": "Chopin, Nocturne in A-flat, Op. 32 No. 2, played by Olga Gurevich (Musopen)"
  }
 }
