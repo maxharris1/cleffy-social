@@ -170,10 +170,10 @@ def pool():
         if m and not is_clean(m) and m["secs"] >= DUR - 0.5:      # a quiet or noisy opening: try 30 s in too
             m2 = measure(dst, start=30)
             if m2 and is_clean(m2): m = {**m2, "start": 30}
-        os.remove(dst)
+        os.remove(dst); time.sleep(2)
         return t, {**v, "m": m, "clean": bool(m and is_clean(m))}
     t0 = time.time()
-    with cf.ThreadPoolExecutor(3) as ex:
+    with cf.ThreadPoolExecutor(1) as ex:
         for k, (t, v) in enumerate(ex.map(one, titles)):
             if v is None: continue
             out[t] = v
