@@ -91,8 +91,18 @@ def build(only):
               f"atrim=duration={DUR},afade=t=in:d=0.4,afade=t=out:st={DUR-2}:d=2,loudnorm=I=-16:TP=-1.5")
         vf = (f"scale=2160:3840,zoompan=z='1+0.03*on/{DUR*30}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
               f":d=1:s=1080x1920:fps=30,format=yuv420p")
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-loop", "1", "-i", frame, "-i", src,
-                        "-filter_complex", f"[0:v]{vf}[v];[1:a]{af}[a]", "-map", "[v]", "-map", "[a]",
+        cover = f"covers/{os.path.basename(p['video'])[:-4]}.jpg"
+        if os.path.exists(cover):
+            # end card: the curated card fades in for the last 1.2 s; post_reel.py points the grid cover at it
+            fc = (f"[0:v]{vf},trim=duration={DUR},setpts=PTS-STARTPTS[a];"
+                  f"[2:v]scale=1080:1920,fps=30,format=yuv420p,trim=duration={DUR},setpts=PTS-STARTPTS[c];"
+                  f"[a][c]xfade=transition=fade:duration=0.4:offset={DUR-1.2}[v];[1:a]{af}[au]")
+            inputs = ["-loop", "1", "-i", frame, "-i", src, "-loop", "1", "-i", cover]
+        else:
+            fc = f"[0:v]{vf}[v];[1:a]{af}[au]"
+            inputs = ["-loop", "1", "-i", frame, "-i", src]
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", *inputs,
+                        "-filter_complex", fc, "-map", "[v]", "-map", "[au]",
                         "-frames:v", str(DUR * 30), "-t", str(DUR), "-c:v", "libx264", "-preset", "medium", "-crf", "20",
                         "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-movflags", "+faststart", out], check=True)
         mean = subprocess.run(["ffmpeg", "-i", out, "-af", "volumedetect", "-f", "null", "-"],

@@ -19,7 +19,8 @@ DRY = os.environ.get("DRY_RUN") == "1"
 FORCE_N = os.environ.get("FORCE_N", "").strip()
 NO_PUBLISH = os.environ.get("NO_PUBLISH") == "1"  # upload and process, but never publish
 STATE = "state/posted.json"
-MANIFEST = "reels/music_manifest.json"  # written by tools/commons_music.py build: the recording in each video
+MANIFEST = "reels/music_manifest.json"
+COVER = lambda p: f"covers/{os.path.basename(p['video'])[:-4]}.jpg"  # written by tools/commons_music.py build: the recording in each video
 LATE_LIMIT_H = 6  # skip a slot rather than post it more than 6 hours late
 
 
@@ -143,6 +144,7 @@ def main():
         "caption": caption,
         "share_to_feed": True,
         "audio_name": audio_name[:100],
+        **({"thumb_offset": 14500} if os.path.exists(COVER(p)) else {}),  # grid cover = the curated end card
     })
     cid = container["id"]
     print(f"Container: {cid}")
