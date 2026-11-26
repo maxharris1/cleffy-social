@@ -1,0 +1,51 @@
+name: Heartbeat
+
+# GitHub drops most scheduled runs for this repo, so posting runs on a chain instead:
+# each run checks every 10 minutes for about 5.5 hours, posting whatever is due, then starts the next run.
+# The 3-hourly cron only restarts the chain if it ever breaks (a second copy just waits its turn).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 */3 * * *"
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  beat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - name: Post what is due, every 10 minutes
+        env:
+          IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: "0"
+        run: |
+          git config user.name "cleffy-bot"; git config user.email "cleffy-bot@users.noreply.github.com"
+          end=$((SECONDS + 19800))
+          while [ $SECONDS -lt $end ]; do
+            git pull -q --rebase || true
+            echo "check $(date -u +%FT%TZ)"
+            python post_reel.py || echo "post step failed, will retry"
+            if [ -n "$(git status --porcelain state)" ]; then
+              git add state; git commit -qm "Record posted Reel"
+              for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done
+            fi
+            sleep 600
+          done
+      - name: Start the next heartbeat
+        if: always()
+        run: gh workflow run heartbeat.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
