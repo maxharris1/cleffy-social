@@ -120,7 +120,15 @@ def main():
         return
     print(f"Due: #{p['n']} {p['title']} ({p['when_et']})")
 
-    audio_id, label = find_audio(p["audio_search"])
+    audio_id, label = None, None
+    if p.get("audio_id"):
+        try:
+            a = call("GET", p["audio_id"], params={"user_id": IG_USER})
+            audio_id, label = p["audio_id"], f"{p['audio_label']} (picked)"
+        except SystemExit:
+            print(f"Picked track {p['audio_label']} unavailable; searching instead")
+    if not audio_id:
+        audio_id, label = find_audio(p["audio_search"])
     if not audio_id:
         die("no audio found; not posting a silent Reel")
     print(f"Audio: {label}")
