@@ -39,7 +39,8 @@ def sh(*a, **k):
 # ---------------------------------------------------------------- audio measurement
 def measure(path_or_url, start=0.0, secs=DUR):
     """Loudness, hiss and silence of a DUR-second window (after leading silence) of a recording."""
-    tmp = "/tmp/m.wav"
+    import threading
+    tmp = f"/tmp/m-{threading.get_ident()}.wav"
     r = sh("ffmpeg", "-loglevel", "error", "-y", "-ss", str(start), "-t", str(secs + 20), "-i", path_or_url,
            "-af", f"silenceremove=start_periods=1:start_threshold=-50dB,atrim=duration={secs}", "-ac", "2", "-ar", "44100", tmp,
            timeout=240)
@@ -102,29 +103,81 @@ def vinfo(titles):
     return res
 
 
+def fetch_local(url, dst, cap=12_000_000):
+    """Download (the start of) a recording with our User-Agent; ffmpeg's own fetches get refused."""
+    for a in range(6):
+        try:
+            with S.get(url, stream=True, timeout=120) as r:
+                if r.status_code == 429:
+                    time.sleep(min(120, int(r.headers.get("retry-after", "30") or 30))); continue
+                if r.status_code != 200: time.sleep(5 * (a + 1)); continue
+                n = 0
+                with open(dst, "wb") as f:
+                    for ch in r.iter_content(1 << 16):
+                        f.write(ch); n += len(ch)
+                        if n >= cap: break
+                return True
+        except Exception:
+            time.sleep(5 * (a + 1))
+    return False
+
+
+def queries_for(it):
+    a = it.get("audio") or ""
+    comp, _, piece = a.partition(",")
+    comp = re.sub(r"\(.*?\)", "", comp).strip()
+    piece = re.sub(r"\(.*?\)", "", piece).split(":")[0].strip(" .")
+    piece = re.sub(r",? from .*$", "", piece)
+    last = comp.split()[-1] if comp else ""
+    if last.lower() in ("anonymous", "traditional", "trad.", "unknown"): last = ""
+    qs = []
+    if piece: qs.append(f"{last} {piece}".strip())
+    if last: qs.append(f"{last} piano" if "piano" in a.lower() else last)
+    return [q for q in qs if q.strip()]
+
+
 def pool():
+    """Targeted recording pool: search Commons for each item's planned piece and composer, measure each hit."""
+    import concurrent.futures as cf
     os.makedirs("q1", exist_ok=True)
-    P = "q1/pool.json"
-    out = json.load(open(P)) if os.path.exists(P) else {}
-    titles = []
-    for c in POOL_CATS:
-        fs = cat_files(c)
-        print(f"{c}: {len(fs)} files"); titles += fs
-    titles = [t for t in dict.fromkeys(titles) if re.search(r"\.(flac|ogg|oga|opus|wav|mp3)$", t, re.I) and t not in out]
-    print(f"{len(titles)} new audio files to check")
-    t0 = time.time()
+    P, Q = "q1/pool.json", "q1/pool_queries.json"
+    out = {k: v for k, v in (json.load(open(P)) if os.path.exists(P) else {}).items() if v.get("m")}
+    qmap = json.load(open(Q)) if os.path.exists(Q) else {}
+    items = json.load(open("q1/items.json"))
+    qs = sorted({q for it in items for q in queries_for(it)})
+    print(f"{len(qs)} queries")
+    for q in qs:
+        if q in qmap: continue
+        r = get({"action": "query", "generator": "search", "gsrnamespace": 6, "gsrsearch": f"{q} filemime:audio", "gsrlimit": 8})
+        qmap[q] = [p["title"] for p in (r.get("query", {}).get("pages", {}) or {}).values()
+                   if not re.search(r"\.(mid|midi)$", p["title"], re.I)]
+        time.sleep(0.5)
+    json.dump(qmap, open(Q, "w"), indent=0, ensure_ascii=False)
+    titles = [t for t in dict.fromkeys(t for v in qmap.values() for t in v) if t not in out]
+    print(f"{len(titles)} recordings to check")
+    infos = {}
     for i in range(0, len(titles), 40):
-        if time.time() - t0 > 4.6 * 3600: print("time budget reached"); break
-        info = vinfo(titles[i:i + 40])
-        for t, v in info.items():
-            if not OK_LIC.search(v["license"]):
-                continue
-            m = measure(v["listen"])
-            ok = is_clean(m)
-            out[t] = {**v, "m": m, "clean": bool(ok)}
-            print(f"{'OK ' if ok else '-- '}{t} | {v['license']} | {m}")
-            time.sleep(1.5)
-        json.dump(out, open(P, "w"), indent=0, ensure_ascii=False)
+        infos.update(vinfo(titles[i:i + 40])); time.sleep(0.5)
+    def one(t):
+        v = infos.get(t)
+        if not v or not OK_LIC_BUILD.search(v["license"]): return t, None
+        dst = f"/tmp/pool-{abs(hash(t))}.audio"
+        if not fetch_local(v["listen"], dst): return t, {**v, "m": None, "clean": False, "err": "download"}
+        m = measure(dst)
+        if m and not is_clean(m) and m["secs"] >= DUR - 0.5:      # a quiet or noisy opening: try 30 s in too
+            m2 = measure(dst, start=30)
+            if m2 and is_clean(m2): m = {**m2, "start": 30}
+        os.remove(dst)
+        return t, {**v, "m": m, "clean": bool(m and is_clean(m))}
+    t0 = time.time()
+    with cf.ThreadPoolExecutor(3) as ex:
+        for k, (t, v) in enumerate(ex.map(one, titles)):
+            if v is None: continue
+            out[t] = v
+            print(f"{'OK ' if v['clean'] else '-- '}{t} | {v['license']} | {v['m']}")
+            if k % 20 == 0: json.dump(out, open(P, "w"), indent=0, ensure_ascii=False)
+            if time.time() - t0 > 4.6 * 3600: print("time budget reached"); break
+    json.dump(out, open(P, "w"), indent=0, ensure_ascii=False)
     print(f"pool: {sum(1 for v in out.values() if v['clean'])} clean of {len(out)}")
 
 
