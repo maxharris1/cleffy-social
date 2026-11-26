@@ -6,7 +6,7 @@ on:
       mode:
         description: "search = list recordings on Wikimedia Commons; build = put the picks from music.json into reels/ and commit"
         type: choice
-        options: [search, build, check]
+        options: [search, build, check, covertest]
         default: search
       only:
         description: "build only these post numbers (space separated; blank = all in music.json)"
@@ -36,6 +36,11 @@ jobs:
         env:
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
         run: python tools/check_audio.py ${{ inputs.only || '8' }}
+      - name: Test cover hosting
+        if: inputs.mode == 'covertest'
+        env:
+          IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+        run: python tools/cover_host.py covers/${{ inputs.only }}
       - name: Commit reels
         if: inputs.mode == 'build'
         run: |
