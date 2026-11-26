@@ -248,5 +248,55 @@
   "performer": "Mozart, Serenade No. 10 \"Gran Partita\", Largo, played by the United States Marine Band",
   "flatness": 0.011,
   "hf_db": -50.3
+ },
+ "21": {
+  "file": "File:Schubert - Piano Sonata No. 14 in A minor, D784 - II. Andante (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -19.1,
+  "title": "Schubert, Piano Sonata D. 784: Andante (Paul Pitman)",
+  "performer": "Schubert, Piano Sonata in A minor, D. 784, Andante, played by Paul Pitman (Musopen)",
+  "flatness": 0.016,
+  "hf_db": -60.0
+ },
+ "22": {
+  "file": "File:Bach, JS - Minuet in G (2) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -19.7,
+  "title": "Minuet, Anna Magdalena Bach Notebook (eldüendesüarez)",
+  "performer": "Minuet from the Anna Magdalena Bach Notebook, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.008,
+  "hf_db": -50.8
+ },
+ "23": {
+  "file": "File:Maple Leaf Rag - Strolling Strings - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Scott Joplin; Performance: United States Air Force Band, Strolling Strings; Recording: United States Air Force",
+  "mean_db": -17.0,
+  "title": "Joplin, Maple Leaf Rag (US Air Force Strolling Strings)",
+  "performer": "Joplin, Maple Leaf Rag, played by the United States Air Force Strolling Strings",
+  "flatness": 0.031,
+  "hf_db": -44.0
+ },
+ "25": {
+  "file": "File:Beethoven - Moonlight Sonata Op-27 No-2 Mvt-3 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -18.4,
+  "title": "Beethoven, Moonlight Sonata, third movement (eldüendesüarez)",
+  "performer": "Beethoven, Moonlight Sonata, third movement, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.008,
+  "hf_db": -48.2
+ },
+ "27": {
+  "file": "File:Chopin - Waltz No. 6 in D-flat major, Op. 64, No. 1 'Minute' (Olga Gurevich).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -18.0,
+  "title": "Chopin, Minute Waltz, Op. 64 No. 1 (Olga Gurevich)",
+  "performer": "Chopin, Minute Waltz, Op. 64 No. 1, played by Olga Gurevich (Musopen)",
+  "flatness": 0.017,
+  "hf_db": -52.8
  }
 }
