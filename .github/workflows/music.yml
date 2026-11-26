@@ -42,7 +42,7 @@ jobs:
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
         run: python tools/cover_host.py covers/${{ inputs.only }}
       - name: Commit reels
-        if: inputs.mode == 'build'
+        if: always() && inputs.mode == 'build'
         run: |
           if [ -n "$(git status --porcelain reels)" ]; then
             git config user.name "cleffy-bot"

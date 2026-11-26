@@ -34,9 +34,10 @@
   "Prelude C major BWV 846 Musopen"
  ],
  "6": [
-  "Pilgrims Chorus Tannhauser",
-  "Tannhauser overture",
-  "Pilgrims Chorus Tannhauser Musopen"
+  "Tannhäuser overture",
+  "Tannhauser Overture band",
+  "Wagner Tannhäuser Marine Band",
+  "Pilgrims Chorus Tannhäuser band"
  ],
  "7": [
   "Mozart bassoon",
@@ -59,8 +60,10 @@
  ],
  "10": [
   "Paderewski Minuet",
-  "Paderewski",
-  "Paderewski Minuet Musopen"
+  "Chopin Nocturne Musopen",
+  "Chopin nocturne flac",
+  "Chopin Waltz Musopen",
+  "Chopin Mazurka Musopen"
  ],
  "11": [
   "Gregorian chant",
@@ -83,17 +86,16 @@
  ],
  "14": [
   "Liszt Consolation",
-  "Liszt piano",
-  "Liszt Hungarian Rhapsody",
-  "Liszt Un sospiro",
-  "Liszt Musopen"
+  "Liszt Liebestraum piano",
+  "Liszt Musopen",
+  "Liszt piano flac",
+  "Liszt Un Sospiro"
  ],
  "15": [
-  "Mendelssohn Lieder ohne Worte",
-  "Mendelssohn Song without words",
-  "Venetian Boat Song",
-  "Mendelssohn Spring Song",
-  "Mendelssohn piano"
+  "Mendelssohn Song Without Words",
+  "Lieder ohne Worte",
+  "Mendelssohn Venetian Gondola",
+  "Mendelssohn piano Musopen"
  ],
  "16": [
   "Fauré piano",
@@ -119,9 +121,10 @@
   "Saint-Saens The Swan Musopen"
  ],
  "20": [
-  "Lacrimosa Mozart Requiem",
-  "Mozart Requiem",
-  "Lacrimosa Mozart Requiem Musopen"
+  "Lacrimosa Requiem",
+  "Mozart Requiem Lacrimosa choir",
+  "Mozart Lacrimosa ogg",
+  "Ave verum corpus"
  ],
  "21": [
   "Schubert Impromptu Op 90 No 3",
@@ -179,8 +182,9 @@
  "30": [
   "Fanny Hensel",
   "Fanny Mendelssohn",
-  "Hensel Das Jahr",
   "Hensel piano",
-  "Fanny Mendelssohn Hensel Lied"
+  "Mendelssohn Song Without Words",
+  "Chopin Nocturne Olga Gurevich",
+  "Chopin Nocturne Luke Faulkner"
  ]
 }

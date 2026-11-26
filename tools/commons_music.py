@@ -70,10 +70,20 @@ def build(only):
     man = json.load(open(MAN)) if os.path.exists(MAN) else {}
     posts = {p["n"]: p for p in json.load(open("posts.json"))}
     os.makedirs("reels", exist_ok=True); os.makedirs("/tmp/music", exist_ok=True)
+    failed = []
     for n_s, m in picks.items():
         n = int(n_s)
         if only and n not in only: continue
-        p = posts[n]
+        try:
+            build_one(n, m, posts[n], man, MAN)
+        except (SystemExit, Exception) as e:
+            print(f"FAIL #{n}: {e}"); failed.append(n)
+    if failed:
+        sys.exit(f"failed: {' '.join(map(str, failed))}")
+
+
+def build_one(n, m, p, man, MAN):
+    if True:
         url, lic, art = info(m["file"])
         if not OK_LIC.search(lic):
             sys.exit(f"#{n}: licence '{lic}' not allowed")
@@ -122,6 +132,16 @@ def build(only):
                                 capture_output=True, text=True).stderr
         hf = float(re.search(r"mean_volume: (-?[\d.]+)", hf_out).group(1))
         print(f"#{n}: spectral flatness {flat:.3f}, energy above 6 kHz {hf} dB")
+        dur_out = subprocess.run(["ffmpeg", "-i", out, "-map", "0:a", "-af", "silencedetect=n=-50dB:d=1.5", "-f", "null", "-"],
+                                 capture_output=True, text=True).stderr
+        adur = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a:0", "-show_entries", "format=duration:stream=duration",
+                               "-of", "csv=p=0", out], capture_output=True, text=True).stdout.split()
+        if adur and min(float(x) for x in adur if x.replace('.', '', 1).isdigit()) < DUR - 0.5:
+            os.remove(out)
+            sys.exit(f"#{n}: recording is shorter than the Reel ({adur}); pick a longer one")
+        if re.search(r"silence_start: ([\d.]+)", dur_out) and float(re.search(r"silence_start: ([\d.]+)", dur_out).group(1)) < DUR - 2.5:
+            os.remove(out)
+            sys.exit(f"#{n}: recording runs out (or goes silent) before the end of the Reel; pick a longer one or another start")
         if flat > 0.06 or hf > -45:
             os.remove(out)
             sys.exit(f"#{n}: recording is noisy (hiss or surface noise); pick a cleaner one")
