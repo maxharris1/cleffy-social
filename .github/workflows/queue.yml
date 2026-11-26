@@ -1,0 +1,70 @@
+name: Queue
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "pool = measure clean recordings; images = fetch q1/items.json images; build = render q1/queue.json Reels"
+        type: choice
+        options: [pool, images, build]
+        default: pool
+
+permissions:
+  contents: write
+
+jobs:
+  prep:
+    if: inputs.mode != 'build'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg imagemagick
+      - run: python tools/queue_tools.py ${{ inputs.mode }}
+      - name: Upload images
+        if: inputs.mode == 'images'
+        run: |
+          gh release view q1-src >/dev/null 2>&1 || gh release create q1-src --title "Queue images" --notes "Source images for the 3-month queue"
+          gh release upload q1-src /tmp/src-*.zip --clobber
+      - name: Commit
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain q1)" ]; then
+            git config user.name "cleffy-bot"; git config user.email "cleffy-bot@users.noreply.github.com"
+            git add q1; git commit -m "Queue: ${{ inputs.mode }}"
+            for i in 1 2 3 4 5; do git pull --rebase -q && git push && break; sleep 10; done
+          fi
+
+  build:
+    if: inputs.mode == 'build'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: |
+          gh release view q1-reels >/dev/null 2>&1 || gh release create q1-reels --title "Queued Reels" --notes "Finished Reels for the 3-month queue; post_reel.py downloads each one when it is due" || true
+          mkdir -p /tmp/frames && gh release download q1-frames -p 'frames-*.zip' -D /tmp/frames && cd /tmp/frames && for z in frames-*.zip; do unzip -oq "$z"; done
+      - run: python tools/queue_tools.py build ${{ matrix.shard }} 4
+      - name: Commit manifest
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain q1)" ]; then
+            git config user.name "cleffy-bot"; git config user.email "cleffy-bot@users.noreply.github.com"
+            git add q1; git commit -m "Queue: built Reels (shard ${{ matrix.shard }})"
+            for i in 1 2 3 4 5 6; do git pull --rebase -q && git push && break; sleep $((RANDOM % 20 + 5)); done
+          fi
