@@ -144,7 +144,7 @@ def pool():
     out = {k: v for k, v in (json.load(open(P)) if os.path.exists(P) else {}).items() if v.get("m")}
     qmap = json.load(open(Q)) if os.path.exists(Q) else {}
     items = json.load(open("q1/items.json"))
-    qs = sorted({q for it in items for q in queries_for(it)})
+    qs = sorted({q for it in items for q in queries_for(it)} | set(json.load(open("q1/pool_extra_queries.json")) if os.path.exists("q1/pool_extra_queries.json") else []))
     print(f"{len(qs)} queries")
     for q in qs:
         if q in qmap: continue
