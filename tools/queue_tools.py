@@ -189,20 +189,29 @@ def images(path="q1/items.json", tag="src", failf="q1/image_fails.json"):
     items = json.load(open(path))
     os.makedirs("/tmp/src", exist_ok=True)
     fails = []
-    for it in items:
+    t0 = time.time()
+    todo = list(items) + [None]          # None marks the start of one retry pass for failures
+    while todo:
+        it = todo.pop(0)
+        if it is None:
+            retry = [x for x in items if x["key"] in fails]; fails = []
+            todo = retry; print(f"retrying {len(retry)}"); time.sleep(60); continue
+        if time.time() - t0 > 4.5 * 3600:
+            print("time budget reached"); fails += [x["key"] for x in todo if x]; break
         key, f = it["key"], it["commons_file"]
         dst = f"/tmp/src/{key}.jpg"
-        r = get({"action": "query", "titles": f, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 2400})
+        if os.path.exists(dst): continue
+        r = get({"action": "query", "titles": f, "prop": "imageinfo", "iiprop": "url|size|extmetadata", "iiurlwidth": 1920})   # a standard thumbnail size (others get refused)
         p = next(iter(r.get("query", {}).get("pages", {}).values()), {})
         ii = (p.get("imageinfo") or [None])[0]
         if not ii:
             print(f"MISSING {key}: {f}"); fails.append(key); continue
         lic = clean(ii.get("extmetadata", {}).get("LicenseShortName", {}).get("value"))
-        url = ii.get("thumburl") if ii.get("width", 0) > 2400 else ii["url"]
+        url = ii.get("thumburl") if ii.get("width", 0) > 1920 else ii["url"]
         if url.lower().endswith((".tif", ".tiff", ".pdf", ".djvu")):
             url = ii.get("thumburl") or url
-        for a in range(8):
-            time.sleep(2 + 10 * a)
+        for a in range(4):
+            time.sleep(1 + 5 * a)
             rr = S.get(url, timeout=120)
             if rr.status_code == 200 and rr.headers.get("content-type", "").startswith("image"): break
             if rr.status_code == 429:
