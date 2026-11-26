@@ -208,5 +208,45 @@
   "performer": "Chopin, Nocturne in A-flat, Op. 32 No. 2, played by Olga Gurevich (Musopen)",
   "flatness": 0.026,
   "hf_db": -59.7
+ },
+ "17": {
+  "file": "File:Chopin - Waltz No. 3 in A minor, Op. 34 No. 2 (Olga Gurevich).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -17.6,
+  "title": "Chopin, Waltz in A minor, Op. 34 No. 2 (Olga Gurevich)",
+  "performer": "Chopin, Waltz in A minor, Op. 34 No. 2, played by Olga Gurevich (Musopen)",
+  "flatness": 0.015,
+  "hf_db": -56.5
+ },
+ "19": {
+  "file": "File:Chopin - Nocturne No. 1 in B-flat minor, Op. 9 No. 1 (Olga Gurevich).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -16.8,
+  "title": "Chopin, Nocturne Op. 9 No. 1 (Olga Gurevich)",
+  "performer": "Chopin, Nocturne in B-flat minor, Op. 9 No. 1, played by Olga Gurevich (Musopen)",
+  "flatness": 0.023,
+  "hf_db": -50.8
+ },
+ "20": {
+  "file": "File:Chopin - Nocturne No. 14 in F-sharp minor, Op. 48 No. 2 (Luke Faulkner).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin / Luke Faulkner",
+  "mean_db": -17.5,
+  "title": "Chopin, Nocturne Op. 48 No. 2 (Luke Faulkner)",
+  "performer": "Chopin, Nocturne in F-sharp minor, Op. 48 No. 2, played by Luke Faulkner (Musopen)",
+  "flatness": 0.006,
+  "hf_db": -58.4
+ },
+ "29": {
+  "file": "File:Mozart's Serenade No. 10 \"Grand Partita\" - I. Largo. Molto Allegro - United States Marine Band.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -19.2,
+  "title": "Mozart, Gran Partita: Largo (US Marine Band)",
+  "performer": "Mozart, Serenade No. 10 \"Gran Partita\", Largo, played by the United States Marine Band",
+  "flatness": 0.011,
+  "hf_db": -50.3
  }
 }
