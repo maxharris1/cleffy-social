@@ -56,7 +56,7 @@ def measure(path_or_url, start=0.0, secs=DUR):
     os.remove(tmp)
     return {"mean_db": float(mv.group(1)) if mv else -99, "hf_db": float(hf.group(1)) if hf else 0,
             "flatness": round(sum(fl) / len(fl), 4) if fl else 1, "silence_at": float(sil.group(1)) if sil else None,
-            "secs": float(du or 0)}
+            "secs": float(du) if re.fullmatch(r"[\d.]+", du or "") else 0.0}
 
 
 def is_clean(m, max_hf=-45):
@@ -159,6 +159,9 @@ def pool():
     for i in range(0, len(titles), 40):
         infos.update(vinfo(titles[i:i + 40])); time.sleep(0.5)
     def one(t):
+        try: return one_(t)
+        except Exception as ex: print(f"ERR {t}: {ex}"); return t, None
+    def one_(t):
         v = infos.get(t)
         if not v or not OK_LIC_BUILD.search(v["license"]): return t, None
         dst = f"/tmp/pool-{abs(hash(t))}.audio"
