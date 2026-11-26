@@ -66,6 +66,8 @@ def do_search(only=()):
 
 def build(only):
     picks = json.load(open("music.json"))
+    MAN = "reels/music_manifest.json"
+    man = json.load(open(MAN)) if os.path.exists(MAN) else {}
     posts = {p["n"]: p for p in json.load(open("posts.json"))}
     os.makedirs("reels", exist_ok=True); os.makedirs("/tmp/music", exist_ok=True)
     for n_s, m in picks.items():
@@ -99,6 +101,9 @@ def build(only):
         print(f"#{n}: {m['file']} | {lic} | {art} | mean {mv.group(1) if mv else '?'} dB -> {out}")
         if not mv or float(mv.group(1)) < -45:
             sys.exit(f"#{n}: audio is near silent")
+        man[str(n)] = {"file": m["file"], "license": lic, "artist": art, "mean_db": float(mv.group(1)),
+                       "title": m.get("title", ""), "performer": m.get("performer", "")}
+        json.dump(man, open(MAN, "w"), indent=1, ensure_ascii=False)
 
 
 if __name__ == "__main__":

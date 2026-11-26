@@ -1,13 +1,13 @@
-"""Post the next due Cleffy Reel to Instagram with music.
+"""Post the next due Cleffy Reel to Instagram (each video carries its own public-domain recording).
 
 Reads IG_PAGE_TOKEN from the environment (GitHub Actions secret). Never prints it.
 Env:
   IG_PAGE_TOKEN  Page access token for the Cleffy Facebook Page (required)
   IG_USER_ID     Instagram user id (default @cleffy.io)
-  DRY_RUN        "1" = check token, find the due post and audio, upload nothing
+  DRY_RUN        "1" = check token, find the due post and its recording, upload nothing
   FORCE_N        post this calendar number now, ignoring its time (manual test)
 """
-import json, os, sys, time
+import json, os, re, sys, time
 from datetime import datetime, timezone
 import requests
 
@@ -19,8 +19,7 @@ DRY = os.environ.get("DRY_RUN") == "1"
 FORCE_N = os.environ.get("FORCE_N", "").strip()
 NO_PUBLISH = os.environ.get("NO_PUBLISH") == "1"  # upload and process, but never publish
 STATE = "state/posted.json"
-MUSIC_OK = "state/music_ok.json"      # written once a published Reel reports media_audio_type MUSIC
-MUSIC_BROKEN = "state/music_broken.json"  # written if a published Reel came out without music; stops the schedule
+MANIFEST = "reels/music_manifest.json"  # written by tools/commons_music.py build: the recording in each video
 LATE_LIMIT_H = 6  # skip a slot rather than post it more than 6 hours late
 
 
@@ -122,37 +121,28 @@ def main():
         print("Nothing due.")
         return
     print(f"Due: #{p['n']} {p['title']} ({p['when_et']})")
-    if os.path.exists(MUSIC_BROKEN) and not FORCE_N:
-        die("a published Reel came out without music; schedule stopped until state/music_broken.json is removed")
-    if not os.path.exists(MUSIC_OK) and not FORCE_N and not DRY:
-        print("Holding: music on Reels not verified yet (no state/music_ok.json). Nothing posted.")
-        return
-
-    audio_id, label = None, None
-    if p.get("audio_id"):
-        try:
-            a = call("GET", p["audio_id"], params={"user_id": IG_USER})
-            audio_id, label = p["audio_id"], f"{p['audio_label']} (picked)"
-        except SystemExit:
-            print(f"Picked track {p['audio_label']} unavailable; searching instead")
-    if not audio_id:
-        audio_id, label = find_audio(p["audio_search"])
-    if not audio_id:
-        die("no audio found; not posting a silent Reel")
-    print(f"Audio: {label}")
+    # Each Reel carries its own recording (Meta's API doesn't attach library music).
+    # Only post a Reel whose video was built with a checked, non-silent recording.
+    man = json.load(open(MANIFEST, encoding="utf-8")) if os.path.exists(MANIFEST) else {}
+    m = man.get(str(p["n"]))
+    if not m:
+        die(f"#{p['n']} has no recording built into its video yet; not posting a silent Reel")
+    caption = p["caption"]
+    if re.search(r"cc by", m["license"], re.I) and m.get("performer"):
+        caption = caption.replace("\n\n#", f"\nMusic: {m['performer']}, {m['license']}.\n\n#", 1)
+    audio_name = m.get("title") or p["audio_search"]
+    print(f"Recording: {m['file']} | {m['license']} | {m['mean_db']} dB | audio name: {audio_name}")
 
     if DRY:
         print("Dry run: stopping before upload.")
         return
 
-    # JSON body so audio_configuration goes as a nested object (Instagram Audio API).
-    # The video carries a silent track, so its own volume doesn't matter; leave video_volume at its default.
     container = call("POST", f"{IG_USER}/media", json={
         "media_type": "REELS",
         "upload_type": "resumable",
-        "caption": p["caption"],
+        "caption": caption,
         "share_to_feed": True,
-        "audio_configuration": {"audio_id": str(audio_id), "audio_volume": 100},
+        "audio_name": audio_name[:100],
     })
     cid = container["id"]
     print(f"Container: {cid}")
@@ -188,20 +178,7 @@ def main():
     done.append(p["n"])
     os.makedirs("state", exist_ok=True)
     json.dump(sorted(done), open(STATE, "w"))
-    kind = media.get("media_audio_type")
-    for _ in range(6):
-        if kind == "MUSIC":
-            break
-        time.sleep(20)
-        kind = call("GET", pub["id"], params={"fields": "media_audio_type"}).get("media_audio_type")
-    print(f"Audio on the published Reel: {kind}")
-    if kind == "MUSIC":
-        if not os.path.exists(MUSIC_OK):
-            json.dump({"verified_on": p["n"], "media": pub["id"]}, open(MUSIC_OK, "w"))
-    else:
-        json.dump({"post": p["n"], "media": pub["id"], "audio_type": kind}, open(MUSIC_BROKEN, "w"))
-        die(f"#{p['n']} published without music ({kind}); schedule stopped")
-
+    print(f"Audio on the published Reel: {media.get('media_audio_type')} (recording built into the video)")
 
 if __name__ == "__main__":
     main()
