@@ -156,6 +156,27 @@ def build_one(n, m, p, man, MAN):
         json.dump(man, open(MAN, "w"), indent=1, ensure_ascii=False)
 
 
+def reframe(only):
+    """New frames, same recordings: rebuild each Reel's picture and keep the audio already in it."""
+    posts = {p["n"]: p for p in json.load(open("posts.json"))}
+    man = json.load(open("reels/music_manifest.json"))
+    vf = (f"scale=2160:3840,zoompan=z='1+0.03*on/{DUR*30}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+          f":d=1:s=1080x1920:fps=30,format=yuv420p")
+    for n in sorted(only or map(int, man)):
+        p = posts[n]; out = p["video"]; base = os.path.basename(out)[:-4]
+        frame, cover = f"frames/{base}.jpg", f"covers/{base}.jpg"
+        tmp = f"/tmp/{base}.mp4"
+        fc = (f"[0:v]{vf},trim=duration={DUR},setpts=PTS-STARTPTS[a];"
+              f"[2:v]scale=1080:1920,fps=30,format=yuv420p,trim=duration={DUR},setpts=PTS-STARTPTS[c];"
+              f"[a][c]xfade=transition=fade:duration=0.4:offset={DUR-1.2}[v]")
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-loop", "1", "-i", frame, "-i", out, "-loop", "1", "-i", cover,
+                        "-filter_complex", fc, "-map", "[v]", "-map", "1:a", "-frames:v", str(DUR * 30), "-t", str(DUR),
+                        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "copy", "-movflags", "+faststart", tmp], check=True)
+        os.replace(tmp, out)
+        print(f"#{n}: reframed {out}")
+
+
 if __name__ == "__main__":
     if sys.argv[1] == "search": do_search([int(x) for x in sys.argv[2:]])
+    elif sys.argv[1] == "reframe": reframe([int(x) for x in sys.argv[2:]])
     else: build([int(x) for x in sys.argv[2:]])

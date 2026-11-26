@@ -6,7 +6,7 @@ on:
       mode:
         description: "search = list recordings on Wikimedia Commons; build = put the picks from music.json into reels/ and commit"
         type: choice
-        options: [search, build, check, covertest]
+        options: [search, build, reframe, check, covertest]
         default: search
       only:
         description: "build only these post numbers (space separated; blank = all in music.json)"
@@ -31,6 +31,9 @@ jobs:
       - name: Build
         if: inputs.mode == 'build'
         run: python tools/commons_music.py build ${{ inputs.only }}
+      - name: Reframe
+        if: inputs.mode == 'reframe'
+        run: python tools/commons_music.py reframe ${{ inputs.only }}
       - name: Check published Reels have sound
         if: inputs.mode == 'check'
         env:
@@ -42,7 +45,7 @@ jobs:
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
         run: python tools/cover_host.py covers/${{ inputs.only }}
       - name: Commit reels
-        if: always() && inputs.mode == 'build'
+        if: always() && (inputs.mode == 'build' || inputs.mode == 'reframe')
         run: |
           if [ -n "$(git status --porcelain reels)" ]; then
             git config user.name "cleffy-bot"
