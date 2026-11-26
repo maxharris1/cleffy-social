@@ -129,8 +129,8 @@ def pool():
 
 
 # ---------------------------------------------------------------- images
-def images():
-    items = json.load(open("q1/items.json"))
+def images(path="q1/items.json", tag="src", failf="q1/image_fails.json"):
+    items = json.load(open(path))
     os.makedirs("/tmp/src", exist_ok=True)
     fails = []
     for it in items:
@@ -160,9 +160,9 @@ def images():
         print(f"ok {key} {ii.get('width')}x{ii.get('height')} | {lic}")
     files = sorted(glob.glob("/tmp/src/*.jpg"))
     for n in range(0, len(files), 60):
-        with zipfile.ZipFile(f"/tmp/src-{n // 60}.zip", "w") as z:
+        with zipfile.ZipFile(f"/tmp/{tag}-{n // 60}.zip", "w") as z:
             for fn in files[n:n + 60]: z.write(fn, os.path.basename(fn))
-    json.dump(fails, open("q1/image_fails.json", "w"))
+    json.dump(fails, open(failf, "w"))
     print(f"{len(files)} images, failed: {fails}")
 
 
@@ -231,4 +231,5 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "pool": pool()
     elif cmd == "images": images()
+    elif cmd == "imagesx": images("q1/items-extra.json", "srcx", "q1/image_fails_x.json")
     elif cmd == "build": build(int(sys.argv[2]), int(sys.argv[3]))

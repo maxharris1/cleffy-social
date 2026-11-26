@@ -6,7 +6,7 @@ on:
       mode:
         description: "pool = measure clean recordings; images = fetch q1/items.json images; build = render q1/queue.json Reels"
         type: choice
-        options: [pool, images, build]
+        options: [pool, images, imagesx, build]
         default: pool
 
 permissions:
@@ -27,10 +27,10 @@ jobs:
       - run: pip install requests==2.32.3 && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg imagemagick
       - run: python tools/queue_tools.py ${{ inputs.mode }}
       - name: Upload images
-        if: inputs.mode == 'images'
+        if: inputs.mode == 'images' || inputs.mode == 'imagesx'
         run: |
           gh release view q1-src >/dev/null 2>&1 || gh release create q1-src --title "Queue images" --notes "Source images for the 3-month queue"
-          gh release upload q1-src /tmp/src-*.zip --clobber
+          gh release upload q1-src /tmp/src*-*.zip --clobber
       - name: Commit
         if: always()
         run: |
