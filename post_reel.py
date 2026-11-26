@@ -83,6 +83,12 @@ def find_audio(planned):
 def main():
     me = call("GET", "me", params={"fields": "id,name"})
     print(f"Token works for: {me.get('name')} ({me.get('id')})")
+    dbg = call("GET", "debug_token", params={"input_token": TOKEN}).get("data", {})
+    exp = dbg.get("expires_at", 0)
+    left = (exp - time.time()) / 86400 if exp else None
+    print(f"Token type: {dbg.get('type')}, expires: {'never' if not exp else f'in {left:.1f} days'}")
+    if left is not None and left < 7:
+        print("WARNING: token expires within a week; renew IG_PAGE_TOKEN")
     acct = call("GET", IG_USER, params={"fields": "username"})
     print(f"Instagram account: @{acct.get('username')}")
 
