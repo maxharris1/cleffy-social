@@ -91,7 +91,7 @@ def build_one(n, m, p, man, MAN):
         src = f"/tmp/music/{n}{ext}"
         import time
         for attempt in range(6):   # upload.wikimedia.org rate-limits bursts: back off on 429
-            time.sleep(4 + attempt * 20)
+            time.sleep(15 + attempt * 30)
             with S.get(url, stream=True, timeout=300) as r:
                 if r.status_code == 429 and attempt < 5: continue
                 r.raise_for_status()
@@ -147,7 +147,7 @@ def build_one(n, m, p, man, MAN):
         if re.search(r"silence_start: ([\d.]+)", dur_out) and float(re.search(r"silence_start: ([\d.]+)", dur_out).group(1)) < DUR - 2.5:
             os.remove(out)
             sys.exit(f"#{n}: recording runs out (or goes silent) before the end of the Reel; pick a longer one or another start")
-        if flat > 0.06 or hf > -45:
+        if flat > 0.06 or hf > m.get("max_hf", -45):  # bright modern string/band recordings may allow a little more top end
             os.remove(out)
             sys.exit(f"#{n}: recording is noisy (hiss or surface noise); pick a cleaner one")
         man[str(n)] = {"file": m["file"], "license": lic, "artist": art, "mean_db": float(mv.group(1)),
