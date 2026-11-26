@@ -1,0 +1,48 @@
+name: Post Reels
+
+on:
+  schedule:
+    # every 15 minutes; the script only posts when a slot in posts.json is due
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (check token and audio, post nothing)"
+        type: boolean
+        default: true
+      force_n:
+        description: "Post this calendar number now (leave blank for the schedule)"
+        required: false
+
+concurrency:
+  group: post-reels
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3
+      - name: Post due Reel
+        env:
+          IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          FORCE_N: ${{ github.event_name == 'workflow_dispatch' && inputs.force_n || '' }}
+        run: python post_reel.py
+      - name: Record what was posted
+        run: |
+          if [ -n "$(git status --porcelain state)" ]; then
+            git config user.name "cleffy-bot"
+            git config user.email "cleffy-bot@users.noreply.github.com"
+            git add state
+            git commit -m "Record posted Reel"
+            git push
+          fi
