@@ -1,0 +1,43 @@
+name: Music
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "search = list recordings on Wikimedia Commons; build = put the picks from music.json into reels/ and commit"
+        type: choice
+        options: [search, build]
+        default: search
+      only:
+        description: "build only these post numbers (space separated; blank = all in music.json)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  music:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests==2.32.3 && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Search
+        if: inputs.mode == 'search'
+        run: python tools/commons_music.py search
+      - name: Build
+        if: inputs.mode == 'build'
+        run: python tools/commons_music.py build ${{ inputs.only }}
+      - name: Commit reels
+        if: inputs.mode == 'build'
+        run: |
+          if [ -n "$(git status --porcelain reels)" ]; then
+            git config user.name "cleffy-bot"
+            git config user.email "cleffy-bot@users.noreply.github.com"
+            git add reels
+            git commit -m "Put recordings into Reels"
+            git push
+          fi
