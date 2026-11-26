@@ -10,6 +10,10 @@ on:
         description: "Dry run (check token and audio, post nothing)"
         type: boolean
         default: true
+      no_publish:
+        description: "Upload test (upload and process, never publish)"
+        type: boolean
+        default: false
       force_n:
         description: "Post this calendar number now (leave blank for the schedule)"
         required: false
@@ -35,6 +39,7 @@ jobs:
         env:
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          NO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.no_publish && '1' || '0' }}
           FORCE_N: ${{ github.event_name == 'workflow_dispatch' && inputs.force_n || '' }}
         run: python post_reel.py
       - name: Record what was posted

@@ -16,6 +16,7 @@ TOKEN = os.environ["IG_PAGE_TOKEN"]
 IG_USER = os.environ.get("IG_USER_ID", "17841437414226316")
 DRY = os.environ.get("DRY_RUN") == "1"
 FORCE_N = os.environ.get("FORCE_N", "").strip()
+NO_PUBLISH = os.environ.get("NO_PUBLISH") == "1"  # upload and process, but never publish
 STATE = "state/posted.json"
 LATE_LIMIT_H = 6  # skip a slot rather than post it more than 6 hours late
 
@@ -141,6 +142,9 @@ def main():
     else:
         die("container not ready after 10 minutes")
 
+    if NO_PUBLISH:
+        print("Upload test passed: container is ready. Not publishing; it expires unpublished in 24 hours.")
+        return
     pub = call("POST", f"{IG_USER}/media_publish", data={"creation_id": cid})
     media = call("GET", pub["id"], params={"fields": "permalink"})
     print(f"Published #{p['n']}: {media.get('permalink')}")
