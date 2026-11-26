@@ -89,10 +89,15 @@ def build_one(n, m, p, man, MAN):
             sys.exit(f"#{n}: licence '{lic}' not allowed")
         ext = os.path.splitext(url)[1]
         src = f"/tmp/music/{n}{ext}"
-        with S.get(url, stream=True, timeout=300) as r:
-            r.raise_for_status()
-            with open(src, "wb") as f:
-                for c in r.iter_content(1 << 16): f.write(c)
+        import time
+        for attempt in range(6):   # upload.wikimedia.org rate-limits bursts: back off on 429
+            time.sleep(4 + attempt * 20)
+            with S.get(url, stream=True, timeout=300) as r:
+                if r.status_code == 429 and attempt < 5: continue
+                r.raise_for_status()
+                with open(src, "wb") as f:
+                    for c in r.iter_content(1 << 16): f.write(c)
+                break
         frame = f"frames/{os.path.basename(p['video'])[:-4]}.jpg"
         out = p["video"]
         start = float(m.get("start", 0))
