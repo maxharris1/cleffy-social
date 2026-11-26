@@ -36,9 +36,11 @@
   "Pilgrims Chorus Tannhauser Musopen"
  ],
  "7": [
-  "Mozart Bassoon Concerto K191",
-  "Mozart bassoon concerto",
-  "Mozart Bassoon Concerto K191 Musopen"
+  "Mozart bassoon",
+  "Mozart concerto",
+  "Eine kleine Nachtmusik",
+  "Mozart symphony 40",
+  "Mozart serenade"
  ],
  "8": [
   "Chopin Prelude Op 28 No 4",
@@ -46,9 +48,11 @@
   "Chopin Prelude Op 28 No 4 Musopen"
  ],
  "9": [
-  "Arcadelt bianco dolce cigno",
   "Renaissance lute",
-  "Arcadelt bianco dolce cigno Musopen"
+  "Francesco da Milano",
+  "lute music",
+  "madrigal Renaissance",
+  "Arcadelt"
  ],
  "10": [
   "Paderewski Minuet",
@@ -56,15 +60,18 @@
   "Paderewski Minuet Musopen"
  ],
  "11": [
-  "Gregorian chant vespers",
-  "Gregorian chant antiphon",
-  "Magnificat chant",
-  "Gregorian chant vespers Musopen"
+  "Gregorian chant",
+  "plainchant",
+  "antiphon chant",
+  "Salve Regina chant",
+  "Magnificat chant"
  ],
  "12": [
   "Mozart K 545",
-  "Mozart sonata facile",
-  "Mozart K 545 Musopen"
+  "Mozart Sonata facile",
+  "Mozart piano sonata",
+  "Rondo alla Turca",
+  "Mozart K 331"
  ],
  "13": [
   "Moonlight Sonata first movement",
@@ -72,19 +79,25 @@
   "Moonlight Sonata first movement Musopen"
  ],
  "14": [
-  "Liszt Sonata B minor",
-  "Liszt sonata",
-  "Liszt Sonata B minor Musopen"
+  "Liszt Consolation",
+  "Liszt piano",
+  "Liszt Hungarian Rhapsody",
+  "Liszt Un sospiro",
+  "Liszt Musopen"
  ],
  "15": [
-  "Songs Without Words Mendelssohn",
   "Mendelssohn Lieder ohne Worte",
-  "Songs Without Words Mendelssohn Musopen"
+  "Mendelssohn Song without words",
+  "Venetian Boat Song",
+  "Mendelssohn Spring Song",
+  "Mendelssohn piano"
  ],
  "16": [
-  "Faure Apres un reve",
-  "Faure piano",
-  "Faure Apres un reve Musopen"
+  "Fauré piano",
+  "Fauré Barcarolle",
+  "Fauré Nocturne",
+  "Faure Sicilienne",
+  "Fauré Pavane"
  ],
  "17": [
   "Vivaldi Winter Largo",
@@ -113,9 +126,11 @@
   "Schubert Impromptu Op 90 No 3 Musopen"
  ],
  "22": [
-  "Dowland Lachrimae",
-  "Dowland lute",
-  "Dowland Lachrimae Musopen"
+  "Dowland",
+  "Lachrimae",
+  "Flow my tears",
+  "lute galliard",
+  "Elizabethan lute"
  ],
  "23": [
   "Maple Leaf Rag",
@@ -123,14 +138,18 @@
   "Maple Leaf Rag Musopen"
  ],
  "24": [
-  "Grieg Arietta",
   "Grieg Lyric Pieces",
-  "Grieg Arietta Musopen"
+  "Grieg Arietta",
+  "Grieg piano",
+  "Grieg Notturno",
+  "Grieg Wedding Day at Troldhaugen"
  ],
  "25": [
-  "Missa solemnis Kyrie",
-  "Beethoven Missa solemnis",
-  "Missa solemnis Kyrie Musopen"
+  "Missa solemnis",
+  "Beethoven symphony 7",
+  "Beethoven Ode to Joy",
+  "Beethoven symphony 5",
+  "Beethoven Emperor concerto"
  ],
  "26": [
   "Gymnopedie 1",
@@ -138,10 +157,11 @@
   "Gymnopedie 1 Musopen"
  ],
  "27": [
+  "Offenbach",
+  "Can-can",
   "Galop infernal",
-  "Orpheus in the Underworld can-can",
-  "Offenbach can-can",
-  "Galop infernal Musopen"
+  "Orpheus in the Underworld overture",
+  "Offenbach overture"
  ],
  "28": [
   "Debussy Arabesque 1",
@@ -156,6 +176,8 @@
  "30": [
   "Fanny Hensel",
   "Fanny Mendelssohn",
-  "Fanny Hensel Musopen"
+  "Hensel Das Jahr",
+  "Hensel piano",
+  "Fanny Mendelssohn Hensel Lied"
  ]
 }
