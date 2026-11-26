@@ -101,8 +101,23 @@ def build(only):
         print(f"#{n}: {m['file']} | {lic} | {art} | mean {mv.group(1) if mv else '?'} dB -> {out}")
         if not mv or float(mv.group(1)) < -45:
             sys.exit(f"#{n}: audio is near silent")
+        # Cleanliness: old 78s and noisy transfers have broadband hiss (high spectral flatness,
+        # lots of energy above 6 kHz). A clean piano recording sits near 0.01-0.03 flatness.
+        flat_out = subprocess.run(["ffmpeg", "-i", out, "-af", "aspectralstats=measure=flatness,"
+                                   "ametadata=print:key=lavfi.aspectralstats.1.flatness", "-f", "null", "-"],
+                                  capture_output=True, text=True).stderr
+        vals = [float(x) for x in re.findall(r"flatness=([\d.]+)", flat_out)]
+        flat = sum(vals) / len(vals) if vals else 1.0
+        hf_out = subprocess.run(["ffmpeg", "-i", out, "-af", "highpass=f=6000,volumedetect", "-f", "null", "-"],
+                                capture_output=True, text=True).stderr
+        hf = float(re.search(r"mean_volume: (-?[\d.]+)", hf_out).group(1))
+        print(f"#{n}: spectral flatness {flat:.3f}, energy above 6 kHz {hf} dB")
+        if flat > 0.06 or hf > -45:
+            os.remove(out)
+            sys.exit(f"#{n}: recording is noisy (hiss or surface noise); pick a cleaner one")
         man[str(n)] = {"file": m["file"], "license": lic, "artist": art, "mean_db": float(mv.group(1)),
-                       "title": m.get("title", ""), "performer": m.get("performer", "")}
+                       "title": m.get("title", ""), "performer": m.get("performer", ""),
+                       "flatness": round(flat, 3), "hf_db": hf}
         json.dump(man, open(MAN, "w"), indent=1, ensure_ascii=False)
 
 
