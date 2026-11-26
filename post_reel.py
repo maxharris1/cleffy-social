@@ -128,8 +128,8 @@ def main():
     if not m:
         die(f"#{p['n']} has no recording built into its video yet; not posting a silent Reel")
     caption = p["caption"]
-    if re.search(r"cc by", m["license"], re.I) and m.get("performer"):
-        caption = caption.replace("\n\n#", f"\nMusic: {m['performer']}, {m['license']}.\n\n#", 1)
+    if m.get("performer"):  # credit every performer; CC BY and CC BY-SA require it
+        caption = caption.replace("\n\n#", f"\nMusic: {m['performer']}. {m['license']}.\n\n#", 1)
     audio_name = m.get("title") or p["audio_search"]
     print(f"Recording: {m['file']} | {m['license']} | {m['mean_db']} dB | audio name: {audio_name}")
 
