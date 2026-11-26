@@ -13,36 +13,50 @@ OK_LIC = re.compile(r"public domain|^pd|cc0|cc by(-sa)? ?[1-4]", re.I)
 DUR = 15  # seconds per Reel
 
 
-def search(q, limit=12):
-    r = S.get(API, params={"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+def get(params):
+    import time
+    for i in range(6):
+        r = S.get(API, params=params, timeout=60)
+        try:
+            return r.json()
+        except ValueError:
+            time.sleep(5 * (i + 1))
+    r.raise_for_status(); return {}
+
+
+def search(q, limit=15):
+    r = get({"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
                            "gsrsearch": f"{q} filemime:audio", "gsrlimit": limit,
-                           "prop": "imageinfo", "iiprop": "url|mime|extmetadata|size"}, timeout=60).json()
+                           "prop": "imageinfo", "iiprop": "url|mime|extmetadata|size"})
     out = []
     for p in (r.get("query", {}).get("pages", {}) or {}).values():
         ii = (p.get("imageinfo") or [{}])[0]; em = ii.get("extmetadata", {})
         lic = em.get("LicenseShortName", {}).get("value", "")
         art = re.sub("<[^>]+>", "", html.unescape(em.get("Artist", {}).get("value", "")))[:60]
+        if "midi" in (ii.get("mime") or ""): continue
         out.append((p["title"], ii.get("mime"), lic, art.strip(), ii.get("size", 0)))
     return out
 
 
 def info(title):
-    r = S.get(API, params={"action": "query", "format": "json", "titles": title, "prop": "imageinfo",
-                           "iiprop": "url|extmetadata"}, timeout=60).json()
+    r = get({"action": "query", "format": "json", "titles": title, "prop": "imageinfo",
+             "iiprop": "url|extmetadata"})
     p = next(iter(r["query"]["pages"].values()))
     ii = p["imageinfo"][0]; em = ii.get("extmetadata", {})
     clean = lambda k: re.sub("<[^>]+>", "", html.unescape(em.get(k, {}).get("value", ""))).strip()
     return ii["url"], clean("LicenseShortName"), clean("Artist")
 
 
-def do_search():
-    posts = json.load(open("posts.json"))
+def do_search(only=()):
+    import time
+    posts = [p for p in json.load(open("posts.json")) if not only or p["n"] in only]
     extra = json.load(open("tools/music_queries.json")) if os.path.exists("tools/music_queries.json") else {}
     for p in posts:
         qs = extra.get(str(p["n"])) or [p["audio_search"]]
         print(f"=== #{p['n']} {p['title'][:50]} | want: {p['audio_search']}")
         seen = set()
         for q in qs:
+            time.sleep(1)
             for t, mime, lic, art, size in search(q):
                 if t in seen: continue
                 seen.add(t)
@@ -88,5 +102,5 @@ def build(only):
 
 
 if __name__ == "__main__":
-    if sys.argv[1] == "search": do_search()
+    if sys.argv[1] == "search": do_search([int(x) for x in sys.argv[2:]])
     else: build([int(x) for x in sys.argv[2:]])

@@ -27,7 +27,7 @@ jobs:
       - run: pip install requests==2.32.3 && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Search
         if: inputs.mode == 'search'
-        run: python tools/commons_music.py search
+        run: python tools/commons_music.py search ${{ inputs.only }}
       - name: Build
         if: inputs.mode == 'build'
         run: python tools/commons_music.py build ${{ inputs.only }}
