@@ -7,7 +7,7 @@ Env:
   DRY_RUN        "1" = check token, find the due post and its recording, upload nothing
   FORCE_N        post this calendar number now, ignoring its time (manual test)
 """
-import json, os, re, sys, time
+import glob, subprocess, json, os, re, sys, time
 from datetime import datetime, timezone
 import requests
 
@@ -126,6 +126,8 @@ def main():
     # Each Reel carries its own recording (Meta's API doesn't attach library music).
     # Only post a Reel whose video was built with a checked, non-silent recording.
     man = json.load(open(MANIFEST, encoding="utf-8")) if os.path.exists(MANIFEST) else {}
+    for mf in sorted(glob.glob("q1/manifest-*.json")):  # the 3-month queue's Reels live in the q1-reels release
+        man.update(json.load(open(mf, encoding="utf-8")))
     m = man.get(str(p.get("music_n", p["n"])))  # a repost uses the original's recording
     if not m:
         die(f"#{p['n']} has no recording built into its video yet; not posting a silent Reel")
@@ -134,6 +136,17 @@ def main():
         caption = caption.replace("\n\n#", f"\nMusic: {m['performer']}. {m['license']}.\n\n#", 1)
     audio_name = m.get("title") or p["audio_search"]
     print(f"Recording: {m['file']} | {m['license']} | {m['mean_db']} dB | audio name: {audio_name}")
+
+    if not os.path.exists(p["video"]) and p.get("release"):
+        # queued Reels are stored as release assets, not in the repo; fetch the one that is due
+        os.makedirs(os.path.dirname(p["video"]), exist_ok=True)
+        r = subprocess.run(["gh", "release", "download", p["release"], "-p", os.path.basename(p["video"]),
+                            "-D", os.path.dirname(p["video"]), "--clobber"], capture_output=True, text=True)
+        if r.returncode or not os.path.exists(p["video"]):
+            die(f"#{p['n']}: could not fetch {p['video']} from release {p['release']}: {r.stderr[:300]}")
+        print(f"Fetched {p['video']} from release {p['release']}")
+    if not os.path.exists(p["video"]):
+        die(f"#{p['n']}: video {p['video']} is missing")
 
     if DRY:
         print("Dry run: stopping before upload.")
@@ -145,7 +158,7 @@ def main():
         "caption": caption,
         "share_to_feed": True,
         "audio_name": audio_name[:100],
-        **({"thumb_offset": 14500} if os.path.exists(COVER(p)) else {}),  # grid cover = the curated end card
+        **({"thumb_offset": 14500} if os.path.exists(COVER(p)) or p.get("end_card") else {}),  # grid cover = the curated end card
     })
     cid = container["id"]
     print(f"Container: {cid}")

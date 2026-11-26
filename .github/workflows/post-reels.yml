@@ -61,6 +61,7 @@ jobs:
         if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.explore_audio) }}
         env:
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
           NO_PUBLISH: ${{ github.event_name == 'workflow_dispatch' && inputs.no_publish && '1' || '0' }}
           FORCE_N: ${{ github.event_name == 'workflow_dispatch' && inputs.force_n || '' }}
