@@ -28,5 +28,115 @@
   "performer": "Bach, Goldberg Variations, Aria, played by Kimiko Ishizaka (Open Goldberg)",
   "flatness": 0.02,
   "hf_db": -55.3
+ },
+ "4": {
+  "file": "File:Beethoven - Pathetique Sonata Op-13 Mvt-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -18.2,
+  "title": "Beethoven, Pathétique Sonata, Adagio cantabile (eldüendesüarez)",
+  "performer": "Beethoven, Pathétique Sonata, Adagio cantabile, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.011,
+  "hf_db": -56.6
+ },
+ "5": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 01 Prelude No. 1 in C major, BWV 846.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -18.5,
+  "title": "Bach, Prelude in C major, BWV 846 (Kimiko Ishizaka)",
+  "performer": "Bach, Prelude in C major, BWV 846, played by Kimiko Ishizaka (Open Well-Tempered Clavier)",
+  "flatness": 0.018,
+  "hf_db": -58.6
+ },
+ "6": {
+  "file": "File:Chopin - Nocturne No. 19 in E minor, Op. 72 No. 1 (Luke Faulkner).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin / Luke Faulkner",
+  "mean_db": -18.3,
+  "title": "Chopin, Nocturne Op. 72 No. 1 (Luke Faulkner)",
+  "performer": "Chopin, Nocturne in E minor, Op. 72 No. 1, played by Luke Faulkner (Musopen)",
+  "flatness": 0.01,
+  "hf_db": -57.0
+ },
+ "7": {
+  "file": "File:Mozart's Serenade No. 10 \"Grand Partita\" - III. Adagio. Andante - United States Marine Band.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -19.6,
+  "title": "Mozart, Gran Partita: Adagio (US Marine Band)",
+  "performer": "Mozart, Serenade No. 10 \"Gran Partita\", Adagio, played by the United States Marine Band",
+  "flatness": 0.005,
+  "hf_db": -59.0
+ },
+ "8": {
+  "file": "File:Chopin - Prelude in E Op-28 No-4 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chopin",
+  "mean_db": -18.8,
+  "title": "Chopin, Prelude in E minor, Op. 28 No. 4 (eldüendesüarez)",
+  "performer": "Chopin, Prelude in E minor, Op. 28 No. 4, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.008,
+  "hf_db": -51.1
+ },
+ "9": {
+  "file": "File:Bach, JS - Minuet in G (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -19.8,
+  "title": "Minuet in G, Anna Magdalena Bach Notebook (eldüendesüarez)",
+  "performer": "Minuet in G from the Anna Magdalena Bach Notebook, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.013,
+  "hf_db": -55.5
+ },
+ "10": {
+  "file": "File:Chopin - Nocturne No. 5 in F-sharp major, Op. 15 No. 2 (Luke Faulkner).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin / Luke Faulkner",
+  "mean_db": -18.6,
+  "title": "Chopin, Nocturne Op. 15 No. 2 (Luke Faulkner)",
+  "performer": "Chopin, Nocturne in F-sharp, Op. 15 No. 2 (a Paderewski favourite), played by Luke Faulkner (Musopen)",
+  "flatness": 0.009,
+  "hf_db": -57.2
+ },
+ "11": {
+  "file": "File:Chopin - Nocturne No. 21 in C minor, B. 108 (Diana Hughes).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -19.3,
+  "title": "Chopin, Nocturne in C minor, B. 108 (Diana Hughes)",
+  "performer": "Chopin, Nocturne in C minor, B. 108, played by Diana Hughes (Musopen)",
+  "flatness": 0.009,
+  "hf_db": -56.1
+ },
+ "12": {
+  "file": "File:Mozart, Wolfgang Amadeus — Piano Sonata No. 10 in C major, K. 330 — 1st movement — Bui-Nguyen Trieu-Tuong — MusOpen Project.mp3",
+  "license": "CC BY-SA 3.0",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -20.0,
+  "title": "Mozart, Piano Sonata K. 330 (Bui-Nguyen Trieu-Tuong)",
+  "performer": "Mozart, Piano Sonata in C, K. 330, played by Bui-Nguyen Trieu-Tuong (Musopen)",
+  "flatness": 0.007,
+  "hf_db": -53.5
+ },
+ "13": {
+  "file": "File:Beethoven - Moonlight Sonata Op-27 No-2 Mvt-1. (Piano Performance by eldüendesüarez)wav.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -17.4,
+  "title": "Beethoven, Moonlight Sonata, first movement (eldüendesüarez)",
+  "performer": "Beethoven, Moonlight Sonata, first movement, played by eldüendesüarez via Wikimedia Commons",
+  "flatness": 0.007,
+  "hf_db": -61.1
+ },
+ "15": {
+  "file": "File:Chopin - Nocturne No. 17 in B major, Op. 62 No. 1 (Olga Gurevich).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -21.7,
+  "title": "Chopin, Nocturne Op. 62 No. 1 (Olga Gurevich)",
+  "performer": "Chopin, Nocturne in B, Op. 62 No. 1, played by Olga Gurevich (Musopen)",
+  "flatness": 0.037,
+  "hf_db": -59.6
  }
 }
