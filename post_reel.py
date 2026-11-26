@@ -11,13 +11,16 @@ import json, os, sys, time
 from datetime import datetime, timezone
 import requests
 
-API = "https://graph.facebook.com/v22.0"
+VER = "v26.0"
+API = f"https://graph.facebook.com/{VER}"
 TOKEN = os.environ["IG_PAGE_TOKEN"]
 IG_USER = os.environ.get("IG_USER_ID", "17841437414226316")
 DRY = os.environ.get("DRY_RUN") == "1"
 FORCE_N = os.environ.get("FORCE_N", "").strip()
 NO_PUBLISH = os.environ.get("NO_PUBLISH") == "1"  # upload and process, but never publish
 STATE = "state/posted.json"
+MUSIC_OK = "state/music_ok.json"      # written once a published Reel reports media_audio_type MUSIC
+MUSIC_BROKEN = "state/music_broken.json"  # written if a published Reel came out without music; stops the schedule
 LATE_LIMIT_H = 6  # skip a slot rather than post it more than 6 hours late
 
 
@@ -119,6 +122,11 @@ def main():
         print("Nothing due.")
         return
     print(f"Due: #{p['n']} {p['title']} ({p['when_et']})")
+    if os.path.exists(MUSIC_BROKEN) and not FORCE_N:
+        die("a published Reel came out without music; schedule stopped until state/music_broken.json is removed")
+    if not os.path.exists(MUSIC_OK) and not FORCE_N and not DRY:
+        print("Holding: music on Reels not verified yet (no state/music_ok.json). Nothing posted.")
+        return
 
     audio_id, label = None, None
     if p.get("audio_id"):
@@ -137,12 +145,14 @@ def main():
         print("Dry run: stopping before upload.")
         return
 
-    container = call("POST", f"{IG_USER}/media", data={
+    # JSON body so audio_configuration goes as a nested object (Instagram Audio API).
+    # The video carries a silent track, so its own volume doesn't matter; leave video_volume at its default.
+    container = call("POST", f"{IG_USER}/media", json={
         "media_type": "REELS",
         "upload_type": "resumable",
         "caption": p["caption"],
-        "share_to_feed": "true",
-        "audio_configuration": json.dumps({"audio_id": audio_id, "audio_volume": 100, "video_volume": 0}),
+        "share_to_feed": True,
+        "audio_configuration": {"audio_id": str(audio_id), "audio_volume": 100},
     })
     cid = container["id"]
     print(f"Container: {cid}")
@@ -151,7 +161,7 @@ def main():
     size = os.path.getsize(path)
     with open(path, "rb") as f:
         r = requests.post(
-            f"https://rupload.facebook.com/ig-api-upload/v22.0/{cid}",
+            f"https://rupload.facebook.com/ig-api-upload/{VER}/{cid}",
             headers={"Authorization": f"OAuth {TOKEN}", "offset": "0", "file_size": str(size)},
             data=f, timeout=300)
     if r.status_code >= 400:
@@ -173,11 +183,24 @@ def main():
         print("Upload test passed: container is ready. Not publishing; it expires unpublished in 24 hours.")
         return
     pub = call("POST", f"{IG_USER}/media_publish", data={"creation_id": cid})
-    media = call("GET", pub["id"], params={"fields": "permalink"})
+    media = call("GET", pub["id"], params={"fields": "permalink,media_audio_type"})
     print(f"Published #{p['n']}: {media.get('permalink')}")
     done.append(p["n"])
     os.makedirs("state", exist_ok=True)
     json.dump(sorted(done), open(STATE, "w"))
+    kind = media.get("media_audio_type")
+    for _ in range(6):
+        if kind == "MUSIC":
+            break
+        time.sleep(20)
+        kind = call("GET", pub["id"], params={"fields": "media_audio_type"}).get("media_audio_type")
+    print(f"Audio on the published Reel: {kind}")
+    if kind == "MUSIC":
+        if not os.path.exists(MUSIC_OK):
+            json.dump({"verified_on": p["n"], "media": pub["id"]}, open(MUSIC_OK, "w"))
+    else:
+        json.dump({"post": p["n"], "media": pub["id"], "audio_type": kind}, open(MUSIC_BROKEN, "w"))
+        die(f"#{p['n']} published without music ({kind}); schedule stopped")
 
 
 if __name__ == "__main__":

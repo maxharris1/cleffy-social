@@ -53,6 +53,7 @@ jobs:
           FORCE_N: ${{ github.event_name == 'workflow_dispatch' && inputs.force_n || '' }}
         run: python post_reel.py
       - name: Record what was posted
+        if: always()
         run: |
           if [ -n "$(git status --porcelain state)" ]; then
             git config user.name "cleffy-bot"
