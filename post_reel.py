@@ -61,23 +61,42 @@ def pick(posts, done):
     return None
 
 
-def audio_queries(planned):
-    composer = planned.split(",")[0].strip()
-    piece = planned.split(",")[1].split("(")[0].split(" or ")[0].strip() if "," in planned else ""
-    qs = [f"{composer} {piece}".strip(), composer, "classical piano", "piano"]
-    return [q for i, q in enumerate(qs) if q and q not in qs[:i]]
+import unicodedata
+
+
+def plain(t):
+    return unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower()
+
+
+def search(q):
+    return call("GET", "ig_audio", params={"audio_type": "music", "user_id": IG_USER, "search_query": q}).get("audio", [])
+
+
+def label(a):
+    return f"{a.get('title')} by {a.get('display_artist')}"
 
 
 def find_audio(planned):
-    """Return (audio_id, label). Planned piece first, then the composer, then classical piano.
-    Never falls back to random trending audio, which wouldn't fit the feed."""
-    for q in audio_queries(planned):
-        res = call("GET", "ig_audio", params={"audio_type": "music", "user_id": IG_USER, "search_query": q}).get("audio", [])
+    """Return (audio_id, label). Only a track that names the composer counts as a match;
+    otherwise fall back to classical piano. Never random trending audio."""
+    composer = planned.split(",")[0].strip()
+    piece = planned.split(",")[1].split("(")[0].split(" or ")[0].strip() if "," in planned else ""
+    words = [w for w in plain(piece).replace(".", " ").split() if len(w) > 3 and w not in ("major", "minor", "sonata", "prelude")]
+    pool = []
+    for q in [f"{composer} {piece}", f"{composer} {plain(piece)}", composer]:
+        res = search(q.strip())
         if DRY:
-            print(f"  search '{q}': " + "; ".join(f"{a.get('title')} by {a.get('display_artist')}" for a in res[:3]) or "nothing")
+            print(f"  search '{q}': " + ("; ".join(label(a) for a in res[:5]) or "nothing"))
+        pool += [a for a in res if plain(composer) in plain(label(a))]
+    if pool:
+        best = max(pool, key=lambda a: sum(w in plain(label(a)) for w in words))
+        return best["audio_id"], f"{label(best)} (matched {composer})"
+    for q in ["classical piano", "piano"]:
+        res = search(q)
+        if DRY:
+            print(f"  search '{q}': " + ("; ".join(label(a) for a in res[:5]) or "nothing"))
         if res:
-            a = res[0]
-            return a["audio_id"], f"{a.get('title')} by {a.get('display_artist')} (search: {q})"
+            return res[0]["audio_id"], f"{label(res[0])} (fallback: {q})"
     return None, None
 
 
