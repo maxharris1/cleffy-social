@@ -5,6 +5,11 @@ name: Heartbeat
 # The 3-hourly cron only restarts the chain if it ever breaks (a second copy just waits its turn).
 on:
   workflow_dispatch:
+    inputs:
+      minutes:
+        description: "How long this run keeps checking (the next run gets the default)"
+        required: false
+        default: "330"
   schedule:
     - cron: "41 */3 * * *"
 
@@ -31,9 +36,10 @@ jobs:
           IG_PAGE_TOKEN: ${{ secrets.IG_PAGE_TOKEN }}
           GH_TOKEN: ${{ github.token }}
           DRY_RUN: "0"
+          MINUTES: ${{ inputs.minutes || '330' }}
         run: |
           git config user.name "cleffy-bot"; git config user.email "cleffy-bot@users.noreply.github.com"
-          end=$((SECONDS + 19800))
+          end=$((SECONDS + 60 * ${MINUTES:-330}))
           while [ $SECONDS -lt $end ]; do
             git pull -q --rebase || true
             echo "check $(date -u +%FT%TZ)"
@@ -42,7 +48,7 @@ jobs:
               git add state; git commit -qm "Record posted Reel"
               for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done
             fi
-            sleep 600
+            [ $((SECONDS + 600)) -lt $end ] && sleep 600 || break
           done
       - name: Start the next heartbeat
         if: always()
