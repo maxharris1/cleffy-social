@@ -60,16 +60,23 @@ def pick(posts, done):
     return None
 
 
-def find_audio(query):
-    """Return (audio_id, label). Try the planned track, then trending music."""
-    for q in [query.split(",")[0] + " " + query.split(",")[1] if "," in query else query, query, None]:
-        params = {"audio_type": "music", "user_id": IG_USER}
-        if q:
-            params["search_query"] = q.strip()
-        res = call("GET", "ig_audio", params=params).get("audio", [])
+def audio_queries(planned):
+    composer = planned.split(",")[0].strip()
+    piece = planned.split(",")[1].split("(")[0].split(" or ")[0].strip() if "," in planned else ""
+    qs = [f"{composer} {piece}".strip(), composer, "classical piano", "piano"]
+    return [q for i, q in enumerate(qs) if q and q not in qs[:i]]
+
+
+def find_audio(planned):
+    """Return (audio_id, label). Planned piece first, then the composer, then classical piano.
+    Never falls back to random trending audio, which wouldn't fit the feed."""
+    for q in audio_queries(planned):
+        res = call("GET", "ig_audio", params={"audio_type": "music", "user_id": IG_USER, "search_query": q}).get("audio", [])
+        if DRY:
+            print(f"  search '{q}': " + "; ".join(f"{a.get('title')} by {a.get('display_artist')}" for a in res[:3]) or "nothing")
         if res:
             a = res[0]
-            return a["audio_id"], f"{a.get('title')} by {a.get('display_artist')} (search: {q or 'trending'})"
+            return a["audio_id"], f"{a.get('title')} by {a.get('display_artist')} (search: {q})"
     return None, None
 
 
