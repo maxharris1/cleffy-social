@@ -110,6 +110,7 @@ def main():
     exp = dbg.get("expires_at", 0)
     left = (exp - time.time()) / 86400 if exp else None
     print(f"Token type: {dbg.get('type')}, expires: {'never' if not exp else f'in {left:.1f} days'}")
+    print(f"Token scopes: {','.join(dbg.get('scopes', []))}")
     if left is not None and left < 7:
         print("WARNING: token expires within a week; renew IG_PAGE_TOKEN")
     acct = call("GET", IG_USER, params={"fields": "username"})
@@ -125,7 +126,7 @@ def main():
     # Each Reel carries its own recording (Meta's API doesn't attach library music).
     # Only post a Reel whose video was built with a checked, non-silent recording.
     man = json.load(open(MANIFEST, encoding="utf-8")) if os.path.exists(MANIFEST) else {}
-    m = man.get(str(p["n"]))
+    m = man.get(str(p.get("music_n", p["n"])))  # a repost uses the original's recording
     if not m:
         die(f"#{p['n']} has no recording built into its video yet; not posting a silent Reel")
     caption = p["caption"]
@@ -181,6 +182,22 @@ def main():
     os.makedirs("state", exist_ok=True)
     json.dump(sorted(done), open(STATE, "w"))
     print(f"Audio on the published Reel: {media.get('media_audio_type')} (recording built into the video)")
+    if p.get("replaces"):
+        replace_old(p["replaces"], media.get("permalink", ""))
+
+
+def replace_old(code, new_link):
+    """A repost replaces an older Reel: delete the old one (Max's yes, Nov 26) once the new one is live."""
+    if code in new_link:
+        print("WARNING: the new Reel has the old code; not deleting")
+        return
+    items = call("GET", f"{IG_USER}/media", params={"fields": "id,permalink", "limit": 50}).get("data", [])
+    old = next((i for i in items if f"/{code}/" in (i.get("permalink") or "")), None)
+    if not old:
+        print(f"Old Reel {code} not found (already gone?)")
+        return
+    r = requests.delete(f"{API}/{old['id']}", params={"access_token": TOKEN}, timeout=60)
+    print(f"Delete old Reel {code}: {r.status_code} {r.text[:200]}")
 
 if __name__ == "__main__":
     main()
