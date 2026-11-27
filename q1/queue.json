@@ -414,10 +414,10 @@
   "video": "reels/b47-sousa-stars-and-stripes-1897.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Sousa's \"Wedding March\" - United States Marine Band (2019).mp3",
+   "file": "File:\"Black Canary Rag\" (1911), by Harry Austin Tierney.mp3",
    "start": 0,
-   "title": "Sousa, Wedding March",
-   "performer": "Sousa, Wedding March, performed by the U.S. Marine Band",
+   "title": "Harry Austin Tierney, Black Canary Rag (1911)",
+   "performer": "Harry Austin Tierney, Black Canary Rag (1911), recording by Harry Austin Tierney",
    "max_hf": -45
   },
   "head": "The Stars and Stripes Forever, first edition, 1897.",
@@ -2095,10 +2095,10 @@
   "video": "reels/b114-sousa-johnston-1904.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Sousa's \"Wedding March\" - United States Marine Band (2019).mp3",
+   "file": "File:\"Leola (Two-Step)\" (1905), by Scott Joplin.mp3",
    "start": 0,
-   "title": "Sousa, Wedding March",
-   "performer": "Sousa, Wedding March, performed by the U.S. Marine Band",
+   "title": "Scott Joplin, Leola (1905)",
+   "performer": "Scott Joplin, Leola (1905), recording via Wikimedia Commons",
    "max_hf": -45
   },
   "head": "The March King called records 'canned music'.",
@@ -4669,10 +4669,10 @@
   "video": "reels/b216-guardi-venetian-gala-concert.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Vivaldi The Four Seasons, Op. 8 - The Modena Chamber Orchestra - Violin Concerto in F major RV 293 Autumn.mp3",
-   "start": 30,
-   "title": "Vivaldi, The Four Seasons",
-   "performer": "Vivaldi, The Four Seasons, performed by the Modena Chamber Orchestra",
+   "file": "File:G Major Sonata of Domenico Scarlatti (Allegro K146) played and learned by piano student Zichen,Tao.wav",
+   "start": 0,
+   "title": "Scarlatti, Sonata in G major, K. 146",
+   "performer": "Scarlatti, Sonata in G major, K. 146, recording by Jason M. C., Han",
    "max_hf": -45
   },
   "head": "Venice puts on a concert for Russia's future tsar.",
