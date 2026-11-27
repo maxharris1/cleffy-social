@@ -568,5 +568,15 @@
   "performer": "Mozart, Piano Concerto No. 22, K. 482, opening, recording by Mozart",
   "flatness": 0.0185,
   "hf_db": -51.3
+ },
+ "216": {
+  "file": "File:G Major Sonata of Domenico Scarlatti (Allegro K146) played and learned by piano student Zichen,Tao.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jason M. C., Han",
+  "mean_db": -18.1,
+  "title": "Scarlatti, Sonata in G major, K. 146",
+  "performer": "Scarlatti, Sonata in G major, K. 146, recording by Jason M. C., Han",
+  "flatness": 0.0493,
+  "hf_db": -52.9
  }
 }
