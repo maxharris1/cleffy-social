@@ -1,0 +1,522 @@
+{
+ "33": {
+  "file": "File:Dvořák - String Quartet No. 12 in F major, Op. 96 'American' - II. Lento (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Antonín Dvořák",
+  "mean_db": -19.5,
+  "title": "Dvořák, 'American' Quartet, Lento",
+  "performer": "Dvořák, 'American' Quartet, Lento, performed by the Musopen String Quartet",
+  "flatness": 0.0166,
+  "hf_db": -45.7
+ },
+ "37": {
+  "file": "File:Ballade no. 4 - Op. 52.mp3",
+  "license": "CC0",
+  "artist": "Frederic Chopin",
+  "mean_db": -17.0,
+  "title": "Chopin, Ballade No. 4 in F minor, Op. 52",
+  "performer": "Chopin, Ballade No. 4 in F minor, Op. 52, recording by Frederic Chopin",
+  "flatness": 0.0107,
+  "hf_db": -54.1
+ },
+ "41": {
+  "file": "File:NYCP Tchaikovsky Andante cantabile.webm",
+  "license": "Public domain",
+  "artist": "Pyotr Ilyich Tchaikovsky, performed by New York Classical Players",
+  "mean_db": -19.6,
+  "title": "Tchaikovsky, Andante cantabile",
+  "performer": "Tchaikovsky, Andante cantabile, performed by the New York Philharmonic",
+  "flatness": 0.0366,
+  "hf_db": -54.9
+ },
+ "45": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 01 Prelude No. 1 in C major, BWV 846.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -18.5,
+  "title": "J. S. Bach, Prelude No. 1 in C, BWV 846",
+  "performer": "J. S. Bach, Prelude No. 1 in C, BWV 846, played by Kimiko Ishizaka",
+  "flatness": 0.0159,
+  "hf_db": -58.7
+ },
+ "49": {
+  "file": "File:Bach, JS - Fugue (WTC Bk-1 No-5) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -19.9,
+  "title": "J. S. Bach, Fugue No. 5, Well-Tempered Clavier Book 1",
+  "performer": "J. S. Bach, Fugue No. 5, Well-Tempered Clavier Book 1, played by eldüendesüarez",
+  "flatness": 0.0087,
+  "hf_db": -51.3
+ },
+ "53": {
+  "file": "File:Maurice Ravel - Le Tombeau de Couperin - Toccata (Marcelle Meyer).flac",
+  "license": "Public domain",
+  "artist": "Maurice Ravel",
+  "mean_db": -19.9,
+  "title": "Ravel, Le tombeau de Couperin: Toccata",
+  "performer": "Ravel, Le tombeau de Couperin: Toccata, played by Marcelle Meyer",
+  "flatness": 0.0401,
+  "hf_db": -56.5
+ },
+ "57": {
+  "file": "File:Beethoven - Moonlight Sonata Op-27 No-2 Mvt-3 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -18.4,
+  "title": "Beethoven, Moonlight Sonata, Op. 27 No. 2, finale",
+  "performer": "Beethoven, Moonlight Sonata, Op. 27 No. 2, finale, played by eldüendesüarez",
+  "flatness": 0.0076,
+  "hf_db": -48.2
+ },
+ "61": {
+  "file": "File:Бетховен Людвиг Ван - Соната 8 для ф-но Патетическая в до миноре, Op. 13 - 2. Adagio cantabile.wav",
+  "license": "CC0",
+  "artist": "Ludwig van Beethoven",
+  "mean_db": -17.1,
+  "title": "Beethoven, 'Pathétique' Sonata, Adagio cantabile",
+  "performer": "Beethoven, 'Pathétique' Sonata, Adagio cantabile, recording by Ludwig van Beethoven",
+  "flatness": 0.0125,
+  "hf_db": -60.2
+ },
+ "65": {
+  "file": "File:Der Erlkönig.wav",
+  "license": "Public domain",
+  "artist": "Vertonung: Suno AI, Text: Goethe",
+  "mean_db": -15.9,
+  "title": "Schubert, Erlkönig",
+  "performer": "Schubert, Erlkönig, recording by Vertonung: Suno AI, Text: Goethe",
+  "flatness": 0.0479,
+  "hf_db": -47.2
+ },
+ "69": {
+  "file": "File:Bach, JS - Fugue (WTC Bk-1 No-7) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -18.3,
+  "title": "J. S. Bach, Fugue No. 7, Well-Tempered Clavier Book 1",
+  "performer": "J. S. Bach, Fugue No. 7, Well-Tempered Clavier Book 1, played by eldüendesüarez",
+  "flatness": 0.0124,
+  "hf_db": -51.2
+ },
+ "73": {
+  "file": "File:Robert Schumann - Concerto for Piano and Orchestra in A minor, op. 54 - 1. Allegro affettuoso (Sviatoslav Richter, Witold Rowicki, Warsaw National Philharmonic Orchestra, 1959).flac",
+  "license": "Public domain",
+  "artist": "Sviatoslav Richter, Witold Rowicki, Warsaw National Philharmonic Orchestra",
+  "mean_db": -21.5,
+  "title": "Schumann, Piano Concerto, first movement",
+  "performer": "Schumann, Piano Concerto, first movement, recording via Wikimedia Commons",
+  "flatness": 0.0412,
+  "hf_db": -52.3
+ },
+ "77": {
+  "file": "File:Beethoven - String Quartet No. 6 in B flat major, Op. 18 No. 6 - III. Scherzo (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "mean_db": -19.5,
+  "title": "Beethoven, String Quartet Op. 18 No. 6, Scherzo",
+  "performer": "Beethoven, String Quartet Op. 18 No. 6, Scherzo, performed by the Musopen String Quartet",
+  "flatness": 0.0193,
+  "hf_db": -45.1
+ },
+ "81": {
+  "file": "File:Domenico Scarlatti, Sonata in D minor, K.32.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "AugusteBlanqui",
+  "mean_db": -18.8,
+  "title": "Scarlatti, Sonata in D minor, K. 32",
+  "performer": "Scarlatti, Sonata in D minor, K. 32, recording by AugusteBlanqui",
+  "flatness": 0.0221,
+  "hf_db": -56.2
+ },
+ "85": {
+  "file": "File:AnandaBhairavi.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Arunasank",
+  "mean_db": -19.5,
+  "title": "Raga Anandabhairavi (Carnatic tradition)",
+  "performer": "Raga Anandabhairavi (Carnatic tradition), recording by Arunasank",
+  "flatness": 0.0358,
+  "hf_db": -49.7
+ },
+ "89": {
+  "file": "File:Hark the Herald Angels Sing - Concert Band - United States Air Force Heritage of America Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Felix Mendelssohn, Aldo Forte; Performance: United States Air Force Heritage of America Band, Concert Band;",
+  "mean_db": -19.1,
+  "title": "Mendelssohn, Hark! The Herald Angels Sing",
+  "performer": "Mendelssohn, Hark! The Herald Angels Sing, performed by the U.S. Air Force Heritage of America Band",
+  "flatness": 0.0184,
+  "hf_db": -45.0
+ },
+ "93": {
+  "file": "File:Bach, JS - Prelude (WTC Bk-1 No-5 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS.",
+  "mean_db": -19.7,
+  "title": "J. S. Bach, Prelude No. 5, Well-Tempered Clavier Book 1",
+  "performer": "J. S. Bach, Prelude No. 5, Well-Tempered Clavier Book 1, played by eldüendesüarez",
+  "flatness": 0.01,
+  "hf_db": -53.6
+ },
+ "97": {
+  "file": "File:Missa Papae Marcelli - I. Kyrie.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -18.2,
+  "title": "Palestrina, Missa Papae Marcelli: Kyrie",
+  "performer": "Palestrina, Missa Papae Marcelli: Kyrie, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.036,
+  "hf_db": -48.4
+ },
+ "101": {
+  "file": "File:Paganini - Caprice in A minor, Op. 1, No. 24 (Menuhin, Baller).flac",
+  "license": "Public domain",
+  "artist": "Concert Films Corporation/Paul Gordon",
+  "mean_db": -19.6,
+  "title": "Paganini, Caprice No. 24",
+  "performer": "Paganini, Caprice No. 24, played by Yehudi Menuhin",
+  "flatness": 0.0477,
+  "hf_db": -47.0
+ },
+ "109": {
+  "file": "File:Mozart, Wolfgang Amadeus — Piano Sonata No. 10 in C major, K. 330 — 1st movement — Bui-Nguyen Trieu-Tuong — MusOpen Project.mp3",
+  "license": "CC BY-SA 3.0",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -20.0,
+  "title": "Mozart, Piano Sonata in C, K. 330, first movement",
+  "performer": "Mozart, Piano Sonata in C, K. 330, first movement, recording by Wolfgang Amadeus Mozart",
+  "flatness": 0.0097,
+  "hf_db": -53.5
+ },
+ "113": {
+  "file": "File:Bach, JS - Italian Concerto Mvt-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -18.7,
+  "title": "J. S. Bach, Italian Concerto, Andante",
+  "performer": "J. S. Bach, Italian Concerto, Andante, played by eldüendesüarez",
+  "flatness": 0.012,
+  "hf_db": -56.5
+ },
+ "117": {
+  "file": "File:Albeniz I - Tango. (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Albeniz I",
+  "mean_db": -18.1,
+  "title": "Albéniz, España Op. 165 No. 2, Tango",
+  "performer": "Albéniz, España Op. 165 No. 2, Tango, played by eldüendesüarez",
+  "flatness": 0.0102,
+  "hf_db": -50.8
+ },
+ "121": {
+  "file": "File:\"Quando le sere al placido\" (Ferruccio Giannini).wav",
+  "license": "Public domain",
+  "artist": "Giuseppe Verdi, Ferruccio Giannini",
+  "mean_db": -18.8,
+  "title": "Verdi, Luisa Miller: Quando le sere al placido",
+  "performer": "Verdi, Luisa Miller: Quando le sere al placido, played by Ferruccio Giannini",
+  "flatness": 0.0238,
+  "hf_db": -57.4
+ },
+ "125": {
+  "file": "File:Missa Papae Marcelli - III. Credo.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -19.6,
+  "title": "Palestrina, Missa Papae Marcelli: Credo",
+  "performer": "Palestrina, Missa Papae Marcelli: Credo, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.0444,
+  "hf_db": -49.1
+ },
+ "129": {
+  "file": "File:Bach, JS - Minuet in G (2) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -19.7,
+  "title": "Minuet in G from the Anna Magdalena Notebook",
+  "performer": "Minuet in G from the Anna Magdalena Notebook, played by eldüendesüarez",
+  "flatness": 0.0083,
+  "hf_db": -50.8
+ },
+ "133": {
+  "file": "File:Tournament Galop - Rampart Winds - United States Air Force Academy Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Louis Moreau Gottschalk; Transcription: Sarah Balian; Performance: United States Air Force Academy Band, Ra",
+  "mean_db": -18.5,
+  "title": "Gottschalk, Tournament Galop",
+  "performer": "Gottschalk, Tournament Galop, performed by the U.S. Air Force Academy Band",
+  "flatness": 0.0244,
+  "hf_db": -46.9
+ },
+ "137": {
+  "file": "File:Missa Papae Marcelli - IV. Sanctus.flac",
+  "license": "CC0",
+  "artist": "European Archive / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.4,
+  "title": "Palestrina, Missa Papae Marcelli: Sanctus",
+  "performer": "Palestrina, Missa Papae Marcelli: Sanctus, recording by European Archive / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.036,
+  "hf_db": -46.4
+ },
+ "141": {
+  "file": "File:Maurice Ravel - Miroirs - 3. Une barque sur l'océan.flac",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "mean_db": -18.5,
+  "title": "Ravel, Miroirs: Une barque sur l'océan",
+  "performer": "Ravel, Miroirs: Une barque sur l'océan, recording via Wikimedia Commons",
+  "flatness": 0.0199,
+  "hf_db": -55.1
+ },
+ "145": {
+  "file": "File:Paganini - Caprice in A minor, Op. 1, No. 24 (Menuhin, Baller).flac",
+  "license": "Public domain",
+  "artist": "Concert Films Corporation/Paul Gordon",
+  "mean_db": -19.6,
+  "title": "Paganini, Caprice No. 24",
+  "performer": "Paganini, Caprice No. 24, played by Yehudi Menuhin",
+  "flatness": 0.0477,
+  "hf_db": -47.0
+ },
+ "149": {
+  "file": "File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "mean_db": -18.3,
+  "title": "Rameau, La poule",
+  "performer": "Rameau, La poule, played by Marcelle Meyer",
+  "flatness": 0.0361,
+  "hf_db": -53.7
+ },
+ "153": {
+  "file": "File:Flute Concertino in D major - United States Marine Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Cécile Chaminade; Transcription: Jolly (U.S. Marine Band); Performance and recording: United States Marine ",
+  "mean_db": -18.7,
+  "title": "Chaminade, Flute Concertino, Op. 107",
+  "performer": "Chaminade, Flute Concertino, Op. 107, performed by the U.S. Marine Band",
+  "flatness": 0.0226,
+  "hf_db": -55.3
+ },
+ "157": {
+  "file": "File:Mozart - String Quartet No. 15 in D minor, K421 - II. Andante (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -18.7,
+  "title": "Mozart, String Quartet in D minor, K. 421, Andante",
+  "performer": "Mozart, String Quartet in D minor, K. 421, Andante, performed by the Musopen String Quartet",
+  "flatness": 0.0174,
+  "hf_db": -47.6
+ },
+ "161": {
+  "file": "File:Haydn Symphony 22 opening.wav",
+  "license": "Public domain",
+  "artist": "Haydn",
+  "mean_db": -19.9,
+  "title": "Haydn, Symphony No. 22, opening",
+  "performer": "Haydn, Symphony No. 22, opening, recording by Haydn",
+  "flatness": 0.0226,
+  "hf_db": -54.4
+ },
+ "165": {
+  "file": "File:Satie Gymnopedie No 2 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.6,
+  "title": "Satie, Gymnopédie No. 2",
+  "performer": "Satie, Gymnopédie No. 2, played by Michael Laucke",
+  "flatness": 0.051,
+  "hf_db": -53.5
+ },
+ "169": {
+  "file": "File:Chopin - 12 Études, Op. 10 - No. 12 in C minor 'Revolutionary' (Edward Neeman).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -18.5,
+  "title": "Chopin, Étude Op. 10 No. 12 'Revolutionary'",
+  "performer": "Chopin, Étude Op. 10 No. 12 'Revolutionary', played by Edward Neeman",
+  "flatness": 0.0083,
+  "hf_db": -53.3
+ },
+ "177": {
+  "file": "File:M. Moszkowsky Etude (Op.72 No.5) played by Jixun Han (Jason) for piano teaching.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jason M. C., Han",
+  "mean_db": -19.2,
+  "title": "Moszkowski, Étude Op. 72 No. 5",
+  "performer": "Moszkowski, Étude Op. 72 No. 5, played by Jixun Han",
+  "flatness": 0.0152,
+  "hf_db": -58.3
+ },
+ "181": {
+  "file": "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin, Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "mean_db": -17.8,
+  "title": "Couperin, Les barricades mystérieuses",
+  "performer": "Couperin, Les barricades mystérieuses, played by Marcelle Meyer",
+  "flatness": 0.0412,
+  "hf_db": -55.3
+ },
+ "185": {
+  "file": "File:Missa pange lingua josquin.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Денислав Банев",
+  "mean_db": -20.0,
+  "title": "Josquin des Prez, Missa Pange lingua",
+  "performer": "Josquin des Prez, Missa Pange lingua, recording by Денислав Банев",
+  "flatness": 0.0274,
+  "hf_db": -50.0
+ },
+ "193": {
+  "file": "File:Chopin - Nocturne No. 16 in E-flat major, Op. 55 No. 2 (Xuan He).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -20.0,
+  "title": "Chopin, Nocturne in E-flat, Op. 55 No. 2",
+  "performer": "Chopin, Nocturne in E-flat, Op. 55 No. 2, played by Xuan He",
+  "flatness": 0.0184,
+  "hf_db": -51.5
+ },
+ "197": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 30 Fugue No. 15 in G major, BWV 860.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -17.3,
+  "title": "J. S. Bach, Fugue No. 15 in G major, BWV 860",
+  "performer": "J. S. Bach, Fugue No. 15 in G major, BWV 860, played by Kimiko Ishizaka",
+  "flatness": 0.0134,
+  "hf_db": -52.2
+ },
+ "205": {
+  "file": "File:Second subject theme from the first movement of Beethoven's Piano Concerto No. 5 (Emperor).wav",
+  "license": "Public domain",
+  "artist": "Beethoven",
+  "mean_db": -18.7,
+  "title": "Beethoven, 'Emperor' Concerto, first movement",
+  "performer": "Beethoven, 'Emperor' Concerto, first movement, recording by Beethoven",
+  "flatness": 0.0091,
+  "hf_db": -53.3
+ },
+ "209": {
+  "file": "File:Mendelssohn - String Quartet No. 6 in F minor, Op. 80 - III. Adagio (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Felix Mendelssohn",
+  "mean_db": -18.8,
+  "title": "Mendelssohn, String Quartet No. 6, Adagio",
+  "performer": "Mendelssohn, String Quartet No. 6, Adagio, performed by the Musopen String Quartet",
+  "flatness": 0.0162,
+  "hf_db": -47.2
+ },
+ "213": {
+  "file": "File:AnandaBhairavi.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Arunasank",
+  "mean_db": -19.5,
+  "title": "Raga Anandabhairavi (Carnatic tradition)",
+  "performer": "Raga Anandabhairavi (Carnatic tradition), recording by Arunasank",
+  "flatness": 0.0358,
+  "hf_db": -49.7
+ },
+ "217": {
+  "file": "File:Claude Debussy, Images - 01 Reflets dans l'eau (Marcelle Meyer, 1957).flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -20.8,
+  "title": "Debussy, Reflets dans l'eau",
+  "performer": "Debussy, Reflets dans l'eau, played by Marcelle Meyer",
+  "flatness": 0.0382,
+  "hf_db": -59.3
+ },
+ "221": {
+  "file": "File:Missa Papae Marcelli - I. Kyrie.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -18.2,
+  "title": "Palestrina, Missa Papae Marcelli: Kyrie",
+  "performer": "Palestrina, Missa Papae Marcelli: Kyrie, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.036,
+  "hf_db": -48.4
+ },
+ "225": {
+  "file": "File:Missa Papae Marcelli - II. Gloria.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.3,
+  "title": "Palestrina, Missa Papae Marcelli: Gloria",
+  "performer": "Palestrina, Missa Papae Marcelli: Gloria, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.0399,
+  "hf_db": -48.8
+ },
+ "229": {
+  "file": "File:Missa Papae Marcelli - IV. Sanctus.flac",
+  "license": "CC0",
+  "artist": "European Archive / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.4,
+  "title": "Palestrina, Missa Papae Marcelli: Sanctus",
+  "performer": "Palestrina, Missa Papae Marcelli: Sanctus, recording by European Archive / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.036,
+  "hf_db": -46.4
+ },
+ "233": {
+  "file": "File:Jean-Philippe Rameau - La Poule (Marcelle Meyer, 1953).flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "mean_db": -18.3,
+  "title": "Rameau, La poule",
+  "performer": "Rameau, La poule, played by Marcelle Meyer",
+  "flatness": 0.0361,
+  "hf_db": -53.7
+ },
+ "241": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 40 Fugue No. 20 in A minor, BWV 865.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -18.2,
+  "title": "J. S. Bach, Fugue No. 20 in A minor, BWV 865",
+  "performer": "J. S. Bach, Fugue No. 20 in A minor, BWV 865, played by Kimiko Ishizaka",
+  "flatness": 0.0129,
+  "hf_db": -54.7
+ },
+ "245": {
+  "file": "File:\"An der schönen, blauen Donau\" performed by the U.S. Marine Band.flac",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -16.4,
+  "title": "Johann Strauss II, The Blue Danube",
+  "performer": "Johann Strauss II, The Blue Danube, performed by the U.S. Marine Band",
+  "flatness": 0.0268,
+  "hf_db": -51.2
+ },
+ "249": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 46 Fugue No. 23 in B major, BWV 868.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -17.4,
+  "title": "J. S. Bach, Fugue No. 23 in B major, BWV 868",
+  "performer": "J. S. Bach, Fugue No. 23 in B major, BWV 868, played by Kimiko Ishizaka",
+  "flatness": 0.018,
+  "hf_db": -54.7
+ },
+ "253": {
+  "file": "File:Sami-ninne-Sri ragam-Ramakrishnamurthy.wav",
+  "license": "CC BY 3.0",
+  "artist": "Ramakrishnamurthy",
+  "mean_db": -21.4,
+  "title": "Raga Sri, Carnatic kriti 'Sami ninne'",
+  "performer": "Raga Sri, Carnatic kriti 'Sami ninne', recording by Ramakrishnamurthy",
+  "flatness": 0.045,
+  "hf_db": -50.0
+ },
+ "261": {
+  "file": "File:Džildas ārija iz op. \"Rigoletto\"2091.wav",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -19.1,
+  "title": "Verdi, Rigoletto: Gilda's aria",
+  "performer": "Verdi, Rigoletto: Gilda's aria, recording via Wikimedia Commons",
+  "flatness": 0.0139,
+  "hf_db": -58.1
+ }
+}
