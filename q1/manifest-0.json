@@ -568,5 +568,15 @@
   "performer": "Schubert, Sonata in A, D. 664, finale, played by Paul Pitman",
   "flatness": 0.01,
   "hf_db": -53.4
+ },
+ "47": {
+  "file": "File:\"Black Canary Rag\" (1911), by Harry Austin Tierney.mp3",
+  "license": "Public domain",
+  "artist": "Harry Austin Tierney",
+  "mean_db": -19.1,
+  "title": "Harry Austin Tierney, Black Canary Rag (1911)",
+  "performer": "Harry Austin Tierney, Black Canary Rag (1911), recording by Harry Austin Tierney",
+  "flatness": 0.0085,
+  "hf_db": -51.5
  }
 }
