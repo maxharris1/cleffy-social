@@ -9,6 +9,17 @@ with contextlib.redirect_stdout(io.StringIO()):
 from PIL import Image, ImageDraw
 
 CREAM, CM = RC.CREAM, RC.CREAM_MUTED
+GAP, GAP_MIN = 28, 22   # space between headline and body (was 12; Max, Nov 27: too tight)
+
+import re as _re
+_ABBR = {'op', 'no', 'nos', 'c', 'ca', 'st', 'ste', 'mr', 'mrs', 'dr', 'jr', 'sr', 'mt', 'vol', 'fol', 'bk', 'k', 'bwv', 'hob', 'rv', 'woo', 'p', 'pp', 'ff', 'd', 'vs', 'etc', 'lt', 'col', 'gen', 'capt', 'sgt', 'rev', 'prof', 'fr', 'ft', 'mme', 'mlle', 'mm', 'messrs', 'ms', 'abb'}
+def first_sentence(s):
+    """First sentence of s, never split after an abbreviation (Op., No., c., St.) or an initial (J. S.)."""
+    for m in _re.finditer(r'\. (?=[A-Z0-9"\'(])', s):
+        w = _re.search(r'([A-Za-z]+)$', s[:m.start()])
+        if w and (len(w.group(1)) == 1 or w.group(1).lower() in _ABBR): continue
+        return s[:m.start()] + '.'
+    return s
 S = R.S; W, HH = 1080 * S, 1920 * S
 
 
@@ -40,12 +51,14 @@ def frame(it, n, dark, src_path, out):
     ART_T, ART_B, TXT_T, TXT_B = 236, 1160, 1204, 1660
     hs, ss = 74, 34
     sub = it['sub']
+    gap = GAP
     while True:
         hf, sf = R.BOD(hs), R.SANS(ss)
         hl = RC.wrap(d, it['head'], hf, TR - L); sl = RC.wrap(d, sub, sf, TR - L)
-        th = 36 + 26 + len(hl) * int(hs * 1.18) + 12 + len(sl) * int(ss * 1.45)
+        th = 36 + 26 + len(hl) * int(hs * 1.18) + gap + len(sl) * int(ss * 1.45)
         if TXT_T + th <= TXT_B: break
-        if '. ' in sub.rstrip('.'): sub = sub.split('. ')[0] + '.'; continue
+        if gap > GAP_MIN: gap = GAP_MIN; continue
+        if first_sentence(sub) != sub: sub = first_sentence(sub); continue
         if hs > 56: hs -= 2; continue
         if ss > 28: ss -= 1; continue
         break
@@ -71,7 +84,7 @@ def frame(it, n, dark, src_path, out):
         R.text(d, (x, y + 6), c, R.SANSB(21), col); x += R.tw(d, c, R.SANSB(21)) + 3.2
     y += 36 + 26
     for ln in hl: R.text(d, (L, y), ln, hf, fg); y += int(hs * 1.18)
-    y += 12
+    y += gap
     for ln in sl: R.text(d, (L, y), ln, sf, mu); y += int(ss * 1.45)
     im = im.resize((1080, 1920), Image.LANCZOS)
     if not dark: im = shade(im)
