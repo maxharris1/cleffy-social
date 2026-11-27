@@ -518,5 +518,65 @@
   "performer": "Verdi, Rigoletto: Gilda's aria, recording via Wikimedia Commons",
   "flatness": 0.0139,
   "hf_db": -58.1
+ },
+ "105": {
+  "file": "File:Brahms - Intermezzo in B-flat Op-117 No-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Brahms",
+  "mean_db": -19.9,
+  "title": "Brahms, Intermezzo in B-flat, Op. 117 No. 2",
+  "performer": "Brahms, Intermezzo in B-flat, Op. 117 No. 2, played by eldüendesüarez",
+  "flatness": 0.0104,
+  "hf_db": -53.2
+ },
+ "173": {
+  "file": "File:Jean-Philippe Rameau - Les Tourbillons (Marcelle Meyer, 1953).flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "mean_db": -17.2,
+  "title": "Rameau, Les tourbillons",
+  "performer": "Rameau, Les tourbillons, played by Marcelle Meyer",
+  "flatness": 0.0189,
+  "hf_db": -54.0
+ },
+ "189": {
+  "file": "File:Džildas ārija iz op. \"Rigoletto\"2091.wav",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -19.1,
+  "title": "Verdi, Rigoletto: Gilda's aria",
+  "performer": "Verdi, Rigoletto: Gilda's aria, recording via Wikimedia Commons",
+  "flatness": 0.0139,
+  "hf_db": -58.1
+ },
+ "201": {
+  "file": "File:François Couperin - Le tic toc choc ou les maillotins (Marcelle Meyer, 1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin, Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "mean_db": -17.5,
+  "title": "Couperin, Le tic-toc-choc",
+  "performer": "Couperin, Le tic-toc-choc, played by Marcelle Meyer",
+  "flatness": 0.0354,
+  "hf_db": -50.4
+ },
+ "237": {
+  "file": "File:Beethoven - Bagatelle Op-33 No-1 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -18.8,
+  "title": "Beethoven, Bagatelle Op. 33 No. 1",
+  "performer": "Beethoven, Bagatelle Op. 33 No. 1, played by eldüendesüarez",
+  "flatness": 0.0103,
+  "hf_db": -48.1
+ },
+ "257": {
+  "file": "File:Mozart Romanze from Piano Concerto 20.wav",
+  "license": "Public domain",
+  "artist": "Mozart",
+  "mean_db": -18.6,
+  "title": "Mozart, Piano Concerto No. 20: Romanze",
+  "performer": "Mozart, Piano Concerto No. 20: Romanze, recording by Mozart",
+  "flatness": 0.0089,
+  "hf_db": -60.6
  }
 }
