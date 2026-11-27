@@ -558,5 +558,15 @@
   "performer": "Palestrina, Missa Papae Marcelli: Agnus Dei I, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
   "flatness": 0.0422,
   "hf_db": -51.4
+ },
+ "114": {
+  "file": "File:\"Leola (Two-Step)\" (1905), by Scott Joplin.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -18.9,
+  "title": "Scott Joplin, Leola (1905)",
+  "performer": "Scott Joplin, Leola (1905), recording via Wikimedia Commons",
+  "flatness": 0.0084,
+  "hf_db": -51.0
  }
 }
