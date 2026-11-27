@@ -488,5 +488,85 @@
   "performer": "J. S. Bach, Goldberg Variations: Variation 17, played by Kimiko Ishizaka",
   "flatness": 0.01,
   "hf_db": -53.7
+ },
+ "32": {
+  "file": "File:Domenico Scarlatti - Sonates Kk. 263 & 264 (Ralph Kirkpatrick, 1954).flac",
+  "license": "Public domain",
+  "artist": "Domenico Scarlatti",
+  "mean_db": -18.3,
+  "title": "Scarlatti, Sonatas K. 263 and 264",
+  "performer": "Scarlatti, Sonatas K. 263 and 264, played by Ralph Kirkpatrick",
+  "flatness": 0.0311,
+  "hf_db": -47.6
+ },
+ "44": {
+  "file": "File:Mozart, Wolfgang Amadeus — Piano Sonata No. 10 in C major, K. 330, 3rd movement — Vadim Chaimovich — Musopen -8825.mp3",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -18.5,
+  "title": "Mozart, Piano Sonata in C, K. 330, finale",
+  "performer": "Mozart, Piano Sonata in C, K. 330, finale, recording by Wolfgang Amadeus Mozart",
+  "flatness": 0.0128,
+  "hf_db": -50.9
+ },
+ "88": {
+  "file": "File:Puer natus est nobis - Concert Band - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: traditional; Performance: United States Air Force Band, Concert Band; Recording: United States Air Force Ba",
+  "mean_db": -18.6,
+  "title": "Puer natus est nobis (Gregorian chant)",
+  "performer": "Puer natus est nobis (Gregorian chant), performed by the U.S. Air Force Band",
+  "flatness": 0.0318,
+  "hf_db": -52.9
+ },
+ "92": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 04 Fugue No. 2 in C minor, BWV 847.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -17.5,
+  "title": "J. S. Bach, Fugue No. 2 in C minor, BWV 847",
+  "performer": "J. S. Bach, Fugue No. 2 in C minor, BWV 847, played by Kimiko Ishizaka",
+  "flatness": 0.0158,
+  "hf_db": -55.6
+ },
+ "136": {
+  "file": "File:Satie Gymnopedie No 3 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.5,
+  "title": "Satie, Gymnopédie No. 3",
+  "performer": "Satie, Gymnopédie No. 3, played by Michael Laucke",
+  "flatness": 0.043,
+  "hf_db": -49.1
+ },
+ "176": {
+  "file": "File:Caprice on Danish and Russian Airs, Op.79 (Saint-Saëns, Camille).mp3",
+  "license": "CC BY-SA 3.0",
+  "artist": "Score: Saint-Saëns, Camille Recording: Pandora Records/Al Goldstein Archive",
+  "mean_db": -18.9,
+  "title": "Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79",
+  "performer": "Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79, recording via Wikimedia Commons",
+  "flatness": 0.0318,
+  "hf_db": -45.6
+ },
+ "204": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 37 Prelude No. 19 in A major, BWV 864.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -18.3,
+  "title": "J. S. Bach, Prelude No. 19 in A major, BWV 864",
+  "performer": "J. S. Bach, Prelude No. 19 in A major, BWV 864, played by Kimiko Ishizaka",
+  "flatness": 0.0101,
+  "hf_db": -54.6
+ },
+ "248": {
+  "file": "File:Mozart Piano Concerto K482 opening.wav",
+  "license": "Public domain",
+  "artist": "Mozart",
+  "mean_db": -18.6,
+  "title": "Mozart, Piano Concerto No. 22, K. 482, opening",
+  "performer": "Mozart, Piano Concerto No. 22, K. 482, opening, recording by Mozart",
+  "flatness": 0.0185,
+  "hf_db": -51.3
  }
 }
