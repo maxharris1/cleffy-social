@@ -1,0 +1,472 @@
+{
+ "34": {
+  "file": "File:Bach, JS - Fugue (WTC Bk-1 No-3) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -18.2,
+  "title": "J. S. Bach, Fugue No. 3, Well-Tempered Clavier Book 1",
+  "performer": "J. S. Bach, Fugue No. 3, Well-Tempered Clavier Book 1, played by eldüendesüarez",
+  "flatness": 0.0114,
+  "hf_db": -49.2
+ },
+ "38": {
+  "file": "File:Missa Papae Marcelli - I. Kyrie.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -18.2,
+  "title": "Palestrina, Missa Papae Marcelli: Kyrie",
+  "performer": "Palestrina, Missa Papae Marcelli: Kyrie, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.036,
+  "hf_db": -48.4
+ },
+ "42": {
+  "file": "File:Missa pange lingua josquin.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Денислав Банев",
+  "mean_db": -20.0,
+  "title": "Josquin des Prez, Missa Pange lingua",
+  "performer": "Josquin des Prez, Missa Pange lingua, recording by Денислав Банев",
+  "flatness": 0.0274,
+  "hf_db": -50.0
+ },
+ "50": {
+  "file": "File:Missa Papae Marcelli - II. Gloria.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.3,
+  "title": "Palestrina, Missa Papae Marcelli: Gloria",
+  "performer": "Palestrina, Missa Papae Marcelli: Gloria, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.0399,
+  "hf_db": -48.8
+ },
+ "54": {
+  "file": "File:Claude Debussy - Préludes (Livre II) - I. Brouillards (Marcelle Meyer, 1956).flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -17.5,
+  "title": "Debussy, Brouillards",
+  "performer": "Debussy, Brouillards, played by Marcelle Meyer",
+  "flatness": 0.0362,
+  "hf_db": -58.9
+ },
+ "58": {
+  "file": "File:Missa Papae Marcelli - IV. Sanctus.flac",
+  "license": "CC0",
+  "artist": "European Archive / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.4,
+  "title": "Palestrina, Missa Papae Marcelli: Sanctus",
+  "performer": "Palestrina, Missa Papae Marcelli: Sanctus, recording by European Archive / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.036,
+  "hf_db": -46.4
+ },
+ "62": {
+  "file": "File:04 Horenstein 9. Beethoven Pantheon XP 2550 - 4. satz.flac",
+  "license": "Public domain",
+  "artist": "Wilma LIPP, Elisabeth, Julius PATZAK, Otto WIENER, Jascha HORENSTEIN Pro Musica-Choir Pro Musica Symphony Orchestra",
+  "mean_db": -21.4,
+  "title": "Beethoven, Symphony No. 9, finale",
+  "performer": "Beethoven, Symphony No. 9, finale, Jascha Horenstein conducting",
+  "flatness": 0.0379,
+  "hf_db": -48.9
+ },
+ "66": {
+  "file": "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin, Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "mean_db": -17.8,
+  "title": "Couperin, Les barricades mystérieuses",
+  "performer": "Couperin, Les barricades mystérieuses, played by Marcelle Meyer",
+  "flatness": 0.0412,
+  "hf_db": -55.3
+ },
+ "70": {
+  "file": "File:Domenico Scarlatti - Sonate en sol majeur Kk.455 (Horowitz, 1947).flac",
+  "license": "Public domain",
+  "artist": "Domenico Scarlatti",
+  "mean_db": -18.0,
+  "title": "Scarlatti, Sonata in G major, K. 455",
+  "performer": "Scarlatti, Sonata in G major, K. 455, played by Vladimir Horowitz",
+  "flatness": 0.0266,
+  "hf_db": -53.1
+ },
+ "74": {
+  "file": "File:Debussy Gymnopedie 1, arrangement of Satie’s Gymnopedie 3.wav",
+  "license": "Public domain",
+  "artist": "Satie arr Debussy",
+  "mean_db": -18.2,
+  "title": "Satie, Gymnopédie (orchestrated by Debussy)",
+  "performer": "Satie, Gymnopédie (orchestrated by Debussy), recording by Satie arr Debussy",
+  "flatness": 0.0221,
+  "hf_db": -45.6
+ },
+ "78": {
+  "file": "File:Freie Kirchenmusik - Es ist ein Ros entsprungen zum Mitsingen (EG 30).mp3",
+  "license": "CC BY-SA 4.0",
+  "artist": "Aurel von Bismarck",
+  "mean_db": -18.5,
+  "title": "Praetorius, Es ist ein Ros entsprungen",
+  "performer": "Praetorius, Es ist ein Ros entsprungen, recording by Aurel von Bismarck",
+  "flatness": 0.0081,
+  "hf_db": -66.2
+ },
+ "86": {
+  "file": "File:Silent Night - Singing Sergeants - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Franz Xaver Gruber; Lyrics: John F. Young; Performance: United States Air Force Band; Recording: United Sta",
+  "mean_db": -19.4,
+  "title": "Gruber, Silent Night",
+  "performer": "Gruber, Silent Night, performed by the U.S. Air Force Singing Sergeants",
+  "flatness": 0.0267,
+  "hf_db": -60.4
+ },
+ "90": {
+  "file": "File:Puer natus est nobis - Concert Band - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: traditional; Performance: United States Air Force Band, Concert Band; Recording: United States Air Force Ba",
+  "mean_db": -18.6,
+  "title": "Puer natus est nobis (Gregorian chant)",
+  "performer": "Puer natus est nobis (Gregorian chant), performed by the U.S. Air Force Band",
+  "flatness": 0.0318,
+  "hf_db": -52.9
+ },
+ "94": {
+  "file": "File:Claude Debussy - Préludes (Livre I) - IX. La Sérénade interrompue.flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -17.3,
+  "title": "Debussy, La sérénade interrompue",
+  "performer": "Debussy, La sérénade interrompue, played by Marcelle Meyer",
+  "flatness": 0.0336,
+  "hf_db": -54.3
+ },
+ "98": {
+  "file": "File:Chopin - Polonaise No. 6 in A-flat major, Op. 53 'Héroïque' (Luke Faulkner).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin / Luke Faulkner",
+  "mean_db": -19.1,
+  "title": "Chopin, Polonaise in A-flat, Op. 53 'Heroic'",
+  "performer": "Chopin, Polonaise in A-flat, Op. 53 'Heroic', played by Luke Faulkner",
+  "flatness": 0.0202,
+  "hf_db": -57.4
+ },
+ "102": {
+  "file": "File:Haydn - String Quartet, Op. 64 No. 5 in D major 'The Lark' - I. Allegro moderato (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Joseph Haydn",
+  "mean_db": -18.4,
+  "title": "Haydn, 'Lark' Quartet, Op. 64 No. 5, first movement",
+  "performer": "Haydn, 'Lark' Quartet, Op. 64 No. 5, first movement, performed by the Musopen String Quartet",
+  "flatness": 0.0167,
+  "hf_db": -46.7
+ },
+ "106": {
+  "file": "File:Claude Debussy, Images - 01 Reflets dans l'eau (Marcelle Meyer, 1957).flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -20.8,
+  "title": "Debussy, Reflets dans l'eau",
+  "performer": "Debussy, Reflets dans l'eau, played by Marcelle Meyer",
+  "flatness": 0.0382,
+  "hf_db": -59.3
+ },
+ "110": {
+  "file": "File:Ludwig van Beethoven - Concerto for Piano and Orchestra no. 4 in G major - 2. Andante con moto (Wilhelm Kempff, Ferdinand Leitner, Berliner Philharmoniker, 1962).flac",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "mean_db": -18.5,
+  "title": "Beethoven, Piano Concerto No. 4, Andante",
+  "performer": "Beethoven, Piano Concerto No. 4, Andante, recording by Ludwig van Beethoven",
+  "flatness": 0.0358,
+  "hf_db": -51.4
+ },
+ "118": {
+  "file": "File:Mischa Elman - Nocturne in E flat major, Op 9 No 2.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -21.9,
+  "title": "Chopin, Nocturne Op. 9 No. 2 (violin arrangement)",
+  "performer": "Chopin, Nocturne Op. 9 No. 2 (violin arrangement), played by Mischa Elman",
+  "flatness": 0.0351,
+  "hf_db": -47.5
+ },
+ "122": {
+  "file": "File:Mercury, the Winged Messenger - Concert Band - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Gustav Holst; Arrangement: Master Sgt. John Romano; Performance: United States Air Force Band, Concert Band",
+  "mean_db": -18.4,
+  "title": "Holst, The Planets: Mercury",
+  "performer": "Holst, The Planets: Mercury, performed by the U.S. Air Force Band",
+  "flatness": 0.0259,
+  "hf_db": -49.5
+ },
+ "126": {
+  "file": "File:Chopin - Fantaisie-Impromptu in C-sharp Op-66 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chopin",
+  "mean_db": -17.1,
+  "title": "Chopin, Fantaisie-Impromptu, Op. 66",
+  "performer": "Chopin, Fantaisie-Impromptu, Op. 66, played by eldüendesüarez",
+  "flatness": 0.0065,
+  "hf_db": -49.0
+ },
+ "130": {
+  "file": "File:Claude Debussy, Images - 03 Mouvement (Marcelle Meyer, 1957).flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -17.1,
+  "title": "Debussy, Mouvement",
+  "performer": "Debussy, Mouvement, played by Marcelle Meyer",
+  "flatness": 0.0269,
+  "hf_db": -57.0
+ },
+ "134": {
+  "file": "File:Brahms - Intermezzo in E-flat Op-117 No-1 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Brahms",
+  "mean_db": -19.0,
+  "title": "Brahms, Intermezzo in E-flat, Op. 117 No. 1",
+  "performer": "Brahms, Intermezzo in E-flat, Op. 117 No. 1, played by eldüendesüarez",
+  "flatness": 0.014,
+  "hf_db": -59.0
+ },
+ "138": {
+  "file": "File:Bach, JS - Prelude (WTC Bk-1 No-7)(Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS.",
+  "mean_db": -18.2,
+  "title": "J. S. Bach, Prelude No. 7, Well-Tempered Clavier Book 1",
+  "performer": "J. S. Bach, Prelude No. 7, Well-Tempered Clavier Book 1, played by eldüendesüarez",
+  "flatness": 0.0124,
+  "hf_db": -52.7
+ },
+ "146": {
+  "file": "File:Pyotr Ilyich Tchaikovsky- Swan Lake- Extract from Act 4.flac",
+  "license": "Public domain",
+  "artist": "Pyotr Ilyich Tchaikovsky; Antal Dorati; London Philharmonic Orchestra",
+  "mean_db": -19.9,
+  "title": "Tchaikovsky, Swan Lake, Act 4",
+  "performer": "Tchaikovsky, Swan Lake, Act 4, recording via Wikimedia Commons",
+  "flatness": 0.0144,
+  "hf_db": -45.9
+ },
+ "150": {
+  "file": "File:Domenico Scarlatti - Sonates Kk. 263 & 264 (Ralph Kirkpatrick, 1954).flac",
+  "license": "Public domain",
+  "artist": "Domenico Scarlatti",
+  "mean_db": -18.3,
+  "title": "Scarlatti, Sonatas K. 263 and 264",
+  "performer": "Scarlatti, Sonatas K. 263 and 264, played by Ralph Kirkpatrick",
+  "flatness": 0.0311,
+  "hf_db": -47.6
+ },
+ "158": {
+  "file": "File:Cantique de Jean Racine (Op. 11).webm",
+  "license": "CC0",
+  "artist": "Mentxuwiki",
+  "mean_db": -18.5,
+  "title": "Fauré, Cantique de Jean Racine, Op. 11",
+  "performer": "Fauré, Cantique de Jean Racine, Op. 11, recording by Mentxuwiki",
+  "flatness": 0.0323,
+  "hf_db": -57.1
+ },
+ "162": {
+  "file": "File:Satie Gymnopedie No 1 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.0,
+  "title": "Satie, Gymnopédie No. 1",
+  "performer": "Satie, Gymnopédie No. 1, played by Michael Laucke",
+  "flatness": 0.0364,
+  "hf_db": -46.2
+ },
+ "166": {
+  "file": "File:Chopin - Mazurka No. 18 in C minor, Op. 30 No. 1 (Edward Neeman).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -17.7,
+  "title": "Chopin, Mazurka in C minor, Op. 30 No. 1",
+  "performer": "Chopin, Mazurka in C minor, Op. 30 No. 1, played by Edward Neeman",
+  "flatness": 0.0084,
+  "hf_db": -56.9
+ },
+ "170": {
+  "file": "File:Erik Satie, Désespoir agréable, 1908.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "AugusteBlanqui",
+  "mean_db": -17.7,
+  "title": "Satie, Désespoir agréable",
+  "performer": "Satie, Désespoir agréable, recording by AugusteBlanqui",
+  "flatness": 0.0064,
+  "hf_db": -56.6
+ },
+ "174": {
+  "file": "File:Jean-Philippe Rameau - Les Tourbillons (Marcelle Meyer, 1953).flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "mean_db": -17.2,
+  "title": "Rameau, Les tourbillons",
+  "performer": "Rameau, Les tourbillons, played by Marcelle Meyer",
+  "flatness": 0.0189,
+  "hf_db": -54.0
+ },
+ "178": {
+  "file": "File:Бетховен Людвиг Ван - Соната 8 для ф-но Патетическая в до миноре, Op. 13 - 2. Adagio cantabile.wav",
+  "license": "CC0",
+  "artist": "Ludwig van Beethoven",
+  "mean_db": -17.1,
+  "title": "Beethoven, 'Pathétique' Sonata, Adagio cantabile",
+  "performer": "Beethoven, 'Pathétique' Sonata, Adagio cantabile, recording by Ludwig van Beethoven",
+  "flatness": 0.0125,
+  "hf_db": -60.2
+ },
+ "182": {
+  "file": "File:Chopin - Mazurka No. 33 in B major, Op. 56 No. 1 (Xuan He).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -18.7,
+  "title": "Chopin, Mazurka in B major, Op. 56 No. 1",
+  "performer": "Chopin, Mazurka in B major, Op. 56 No. 1, played by Xuan He",
+  "flatness": 0.0077,
+  "hf_db": -55.3
+ },
+ "186": {
+  "file": "File:AnandaBhairavi.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Arunasank",
+  "mean_db": -19.5,
+  "title": "Raga Anandabhairavi (Carnatic tradition)",
+  "performer": "Raga Anandabhairavi (Carnatic tradition), recording by Arunasank",
+  "flatness": 0.0358,
+  "hf_db": -49.7
+ },
+ "190": {
+  "file": "File:Jean-Philippe Rameau - Les Trois mains (Marcelle Meyer, 1953).flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "mean_db": -18.9,
+  "title": "Rameau, Les trois mains",
+  "performer": "Rameau, Les trois mains, played by Marcelle Meyer",
+  "flatness": 0.026,
+  "hf_db": -53.7
+ },
+ "194": {
+  "file": "File:Debussy Gymnopedie 1, arrangement of Satie’s Gymnopedie 3.wav",
+  "license": "Public domain",
+  "artist": "Satie arr Debussy",
+  "mean_db": -18.2,
+  "title": "Satie, Gymnopédie (orchestrated by Debussy)",
+  "performer": "Satie, Gymnopédie (orchestrated by Debussy), recording by Satie arr Debussy",
+  "flatness": 0.0221,
+  "hf_db": -45.6
+ },
+ "198": {
+  "file": "File:Chopin - Mazurka in A-flat major, B. 85 (Edward Neeman).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -17.5,
+  "title": "Chopin, Mazurka in A-flat, B. 85",
+  "performer": "Chopin, Mazurka in A-flat, B. 85, played by Edward Neeman",
+  "flatness": 0.0215,
+  "hf_db": -57.8
+ },
+ "202": {
+  "file": "File:Claude Debussy - Préludes (Livre II) - I. Brouillards (Marcelle Meyer, 1956).flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -17.5,
+  "title": "Debussy, Brouillards",
+  "performer": "Debussy, Brouillards, played by Marcelle Meyer",
+  "flatness": 0.0362,
+  "hf_db": -58.9
+ },
+ "210": {
+  "file": "File:Goin' Home - Concert Band - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -17.8,
+  "title": "Dvořák, Goin' Home (Largo from the 'New World')",
+  "performer": "Dvořák, Goin' Home (Largo from the 'New World'), performed by the U.S. Air Force Band",
+  "flatness": 0.0194,
+  "hf_db": -50.2
+ },
+ "214": {
+  "file": "File:Dvořák - String Quartet No. 12 in F major, Op. 96 'American' - II. Lento (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Antonín Dvořák",
+  "mean_db": -19.5,
+  "title": "Dvořák, 'American' Quartet, Lento",
+  "performer": "Dvořák, 'American' Quartet, Lento, performed by the Musopen String Quartet",
+  "flatness": 0.0166,
+  "hf_db": -45.7
+ },
+ "218": {
+  "file": "File:Robert Schumann - Concerto for Piano and Orchestra in A minor, op. 54 - 2. Intermezzo. Andantino grazioso – attacca (Sviatoslav Richter, Witold Rowicki, Warsaw National Philharmonic Orchestra, 1959).flac",
+  "license": "Public domain",
+  "artist": "Sviatoslav Richter, Witold Rowicki, Warsaw National Philharmonic Orchestra",
+  "mean_db": -18.0,
+  "title": "Schumann, Piano Concerto: Intermezzo",
+  "performer": "Schumann, Piano Concerto: Intermezzo, recording via Wikimedia Commons",
+  "flatness": 0.0424,
+  "hf_db": -52.7
+ },
+ "226": {
+  "file": "File:Träumerei (Kinderszenen, Op 15 No 7) - Robert Schumann.wav",
+  "license": "CC BY-SA 3.0",
+  "artist": "Edigarmonteiro",
+  "mean_db": -18.4,
+  "title": "Schumann, Träumerei, Kinderszenen Op. 15 No. 7",
+  "performer": "Schumann, Träumerei, Kinderszenen Op. 15 No. 7, recording by Edigarmonteiro",
+  "flatness": 0.035,
+  "hf_db": -49.4
+ },
+ "242": {
+  "file": "File:La mer - I. De l'aube à midi sur la mer - Concert Band - United States Air Force Band.mp3",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -20.3,
+  "title": "Debussy, La mer: From Dawn to Noon on the Sea",
+  "performer": "Debussy, La mer: From Dawn to Noon on the Sea, performed by the U.S. Air Force Band",
+  "flatness": 0.0226,
+  "hf_db": -49.8
+ },
+ "246": {
+  "file": "File:Mendelssohn Vater-unser-Sonate op. 65,6｜Matthias Privler｜Späth-Orgel Allerheiligenkirche München-Schwabing｜2002｜live.mp3",
+  "license": "CC BY-SA 4.0",
+  "artist": "Composition: Felix Mendelssohn Performance and file: Matthias Privler",
+  "mean_db": -19.0,
+  "title": "Mendelssohn, Organ Sonata No. 6",
+  "performer": "Mendelssohn, Organ Sonata No. 6, played by Matthias Privler",
+  "flatness": 0.0148,
+  "hf_db": -61.9
+ },
+ "250": {
+  "file": "File:Kimiko Ishizaka - J.S. Bach- -Open- Goldberg Variations, BWV 988 (Piano) - 09 Variatio 8 a 2 Clav.mp3",
+  "license": "CC0",
+  "artist": "JS Bach and Kimiko Ishizaka",
+  "mean_db": -19.2,
+  "title": "J. S. Bach, Goldberg Variations: Variation 8",
+  "performer": "J. S. Bach, Goldberg Variations: Variation 8, played by Kimiko Ishizaka",
+  "flatness": 0.0107,
+  "hf_db": -51.7
+ },
+ "254": {
+  "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - III. Allegro (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -18.4,
+  "title": "Schubert, Sonata in A, D. 664, finale",
+  "performer": "Schubert, Sonata in A, D. 664, finale, played by Paul Pitman",
+  "flatness": 0.01,
+  "hf_db": -53.4
+ },
+ "258": {
+  "file": "File:Haydn from C minor Sonata finale 01.wav",
+  "license": "Public domain",
+  "artist": "Joseph Haydn",
+  "mean_db": -19.4,
+  "title": "Haydn, Sonata in C minor, finale",
+  "performer": "Haydn, Sonata in C minor, finale, recording by Joseph Haydn",
+  "flatness": 0.0084,
+  "hf_db": -54.3
+ }
+}
