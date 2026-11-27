@@ -468,5 +468,95 @@
   "performer": "Haydn, Sonata in C minor, finale, recording by Joseph Haydn",
   "flatness": 0.0084,
   "hf_db": -54.3
+ },
+ "46": {
+  "file": "File:Hector Berlioz - Les Nuits d'été, op.7 - II Le spectre de la rose (Eleanor Steber).flac",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -19.2,
+  "title": "Berlioz, Les nuits d'été: Le spectre de la rose",
+  "performer": "Berlioz, Les nuits d'été: Le spectre de la rose, played by Eleanor Steber",
+  "flatness": 0.0378,
+  "hf_db": -47.4
+ },
+ "82": {
+  "file": "File:Hark the Herald Angels Sing - Concert Band - United States Air Force Heritage of America Band.mp3",
+  "license": "Public domain",
+  "artist": "Composition: Felix Mendelssohn, Aldo Forte; Performance: United States Air Force Heritage of America Band, Concert Band;",
+  "mean_db": -19.1,
+  "title": "Mendelssohn, Hark! The Herald Angels Sing",
+  "performer": "Mendelssohn, Hark! The Herald Angels Sing, performed by the U.S. Air Force Heritage of America Band",
+  "flatness": 0.0184,
+  "hf_db": -45.0
+ },
+ "142": {
+  "file": "File:Satie Gymnopedie No 2 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.6,
+  "title": "Satie, Gymnopédie No. 2",
+  "performer": "Satie, Gymnopédie No. 2, played by Michael Laucke",
+  "flatness": 0.051,
+  "hf_db": -53.5
+ },
+ "154": {
+  "file": "File:Satie Gymnopedie No 3 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.5,
+  "title": "Satie, Gymnopédie No. 3",
+  "performer": "Satie, Gymnopédie No. 3, played by Michael Laucke",
+  "flatness": 0.043,
+  "hf_db": -49.1
+ },
+ "206": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 39 Prelude No. 20 in A minor, BWV 865.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -17.7,
+  "title": "J. S. Bach, Prelude No. 20 in A minor, BWV 865",
+  "performer": "J. S. Bach, Prelude No. 20 in A minor, BWV 865, played by Kimiko Ishizaka",
+  "flatness": 0.0123,
+  "hf_db": -52.8
+ },
+ "222": {
+  "file": "File:Satie Gymnopedie No 2 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.6,
+  "title": "Satie, Gymnopédie No. 2",
+  "performer": "Satie, Gymnopédie No. 2, played by Michael Laucke",
+  "flatness": 0.051,
+  "hf_db": -53.5
+ },
+ "230": {
+  "file": "File:\"Original Rags\", by Scott Joplin (1899).mp3",
+  "license": "Public domain",
+  "artist": "Scott Joplin.",
+  "mean_db": -19.2,
+  "title": "Scott Joplin, Original Rags (1899)",
+  "performer": "Scott Joplin, Original Rags (1899), recording by Scott Joplin.",
+  "flatness": 0.0079,
+  "hf_db": -49.7
+ },
+ "234": {
+  "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - II. Andante (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -18.3,
+  "title": "Schubert, Sonata in A, D. 664, Andante",
+  "performer": "Schubert, Sonata in A, D. 664, Andante, played by Paul Pitman",
+  "flatness": 0.0109,
+  "hf_db": -60.3
+ },
+ "238": {
+  "file": "File:Missa Papae Marcelli - V. Agnus Dei I.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.9,
+  "title": "Palestrina, Missa Papae Marcelli: Agnus Dei I",
+  "performer": "Palestrina, Missa Papae Marcelli: Agnus Dei I, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.0422,
+  "hf_db": -51.4
  }
 }
