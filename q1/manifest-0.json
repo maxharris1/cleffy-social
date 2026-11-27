@@ -488,5 +488,85 @@
   "performer": "J. S. Bach, Goldberg Variations: Aria, played by Kimiko Ishizaka",
   "flatness": 0.0206,
   "hf_db": -55.4
+ },
+ "87": {
+  "file": "File:Rameau- Nouvelles Suites de pièces de clavecin- Suite en la mineur - Gavotte et six doubles.flac",
+  "license": "Public domain",
+  "artist": "Jean-Philippe Rameau",
+  "mean_db": -19.4,
+  "title": "Rameau, Gavotte with six doubles",
+  "performer": "Rameau, Gavotte with six doubles, recording by Jean-Philippe Rameau",
+  "flatness": 0.0262,
+  "hf_db": -54.4
+ },
+ "115": {
+  "file": "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin, Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "mean_db": -17.8,
+  "title": "Couperin, Les barricades mystérieuses",
+  "performer": "Couperin, Les barricades mystérieuses, played by Marcelle Meyer",
+  "flatness": 0.0412,
+  "hf_db": -55.3
+ },
+ "143": {
+  "file": "File:Mozart - String Quartet No. 15 in D minor, K421 - II. Andante (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -18.7,
+  "title": "Mozart, String Quartet in D minor, K. 421, Andante",
+  "performer": "Mozart, String Quartet in D minor, K. 421, Andante, performed by the Musopen String Quartet",
+  "flatness": 0.0174,
+  "hf_db": -47.6
+ },
+ "167": {
+  "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - II. Andante cantabile (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -18.8,
+  "title": "Mozart, 'Dissonance' Quartet, K. 465, Andante cantabile",
+  "performer": "Mozart, 'Dissonance' Quartet, K. 465, Andante cantabile, performed by the Musopen String Quartet",
+  "flatness": 0.0183,
+  "hf_db": -45.6
+ },
+ "171": {
+  "file": "File:Flight of the Bumblebee - Concert Band - United States Air Force Band of the Rockies.mp3",
+  "license": "Public domain",
+  "artist": "Nikolai Rimsky-Korsakov",
+  "mean_db": -20.0,
+  "title": "Rimsky-Korsakov, Flight of the Bumblebee",
+  "performer": "Rimsky-Korsakov, Flight of the Bumblebee, performed by the U.S. Air Force Band of the Rockies",
+  "flatness": 0.0178,
+  "hf_db": -47.8
+ },
+ "219": {
+  "file": "File:Chopin - 12 Études, Op. 10 - No. 9 in F minor (Edward Neeman).flac",
+  "license": "Public domain",
+  "artist": "Frédéric Chopin",
+  "mean_db": -18.3,
+  "title": "Chopin, Étude Op. 10 No. 9 in F minor",
+  "performer": "Chopin, Étude Op. 10 No. 9 in F minor, played by Edward Neeman",
+  "flatness": 0.0088,
+  "hf_db": -55.7
+ },
+ "235": {
+  "file": "File:Beethoven - String Quartet No. 6 in B flat major, Op. 18 No. 6 - III. Scherzo (Musopen String Quartet).flac",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "mean_db": -19.5,
+  "title": "Beethoven, String Quartet Op. 18 No. 6, Scherzo",
+  "performer": "Beethoven, String Quartet Op. 18 No. 6, Scherzo, performed by the Musopen String Quartet",
+  "flatness": 0.0193,
+  "hf_db": -45.1
+ },
+ "239": {
+  "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - III. Allegro (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -18.4,
+  "title": "Schubert, Sonata in A, D. 664, finale",
+  "performer": "Schubert, Sonata in A, D. 664, finale, played by Paul Pitman",
+  "flatness": 0.01,
+  "hf_db": -53.4
  }
 }
