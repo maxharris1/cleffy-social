@@ -1,0 +1,492 @@
+{
+ "31": {
+  "file": "File:Bach, JS - Fugue (WTC Bk-1 No-21) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -18.5,
+  "title": "J. S. Bach, Fugue No. 21, Well-Tempered Clavier Book 1",
+  "performer": "J. S. Bach, Fugue No. 21, Well-Tempered Clavier Book 1, played by eldüendesüarez",
+  "flatness": 0.0088,
+  "hf_db": -53.4
+ },
+ "35": {
+  "file": "File:Chopin - Prelude in D-flat Op-28 No-15 (Raindrop) (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chopin",
+  "mean_db": -17.9,
+  "title": "Chopin, Prelude in D-flat, Op. 28 No. 15 'Raindrop'",
+  "performer": "Chopin, Prelude in D-flat, Op. 28 No. 15 'Raindrop', played by eldüendesüarez",
+  "flatness": 0.0117,
+  "hf_db": -51.0
+ },
+ "39": {
+  "file": "File:Beethoven - Bagatelle Op-33 No-1 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -18.8,
+  "title": "Beethoven, Bagatelle Op. 33 No. 1",
+  "performer": "Beethoven, Bagatelle Op. 33 No. 1, played by eldüendesüarez",
+  "flatness": 0.0103,
+  "hf_db": -48.1
+ },
+ "43": {
+  "file": "File:Beethoven - Bagatelle Op-33 No-4 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -19.5,
+  "title": "Beethoven, Bagatelle Op. 33 No. 4",
+  "performer": "Beethoven, Bagatelle Op. 33 No. 4, played by eldüendesüarez",
+  "flatness": 0.0113,
+  "hf_db": -49.0
+ },
+ "51": {
+  "file": "File:Beethoven - Moonlight Sonata Op-27 No-2 Mvt-1. (Piano Performance by eldüendesüarez)wav.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -17.4,
+  "title": "Beethoven, Moonlight Sonata, Op. 27 No. 2, first movement",
+  "performer": "Beethoven, Moonlight Sonata, Op. 27 No. 2, first movement, played by eldüendesüarez",
+  "flatness": 0.0071,
+  "hf_db": -61.2
+ },
+ "55": {
+  "file": "File:Domenico Scarlatti - Sonates Kk. 263 & 264 (Ralph Kirkpatrick, 1954).flac",
+  "license": "Public domain",
+  "artist": "Domenico Scarlatti",
+  "mean_db": -18.3,
+  "title": "Scarlatti, Sonatas K. 263 and 264",
+  "performer": "Scarlatti, Sonatas K. 263 and 264, played by Ralph Kirkpatrick",
+  "flatness": 0.0311,
+  "hf_db": -47.6
+ },
+ "59": {
+  "file": "File:Antonín Dvořák Symphony no. 9 1st movement excerpt.mp3",
+  "license": "CC BY-SA 4.0",
+  "artist": "hr-Sinfonieorchester",
+  "mean_db": -16.9,
+  "title": "Dvořák, Symphony No. 9 'From the New World', first movement",
+  "performer": "Dvořák, Symphony No. 9 'From the New World', first movement, recording by hr-Sinfonieorchester",
+  "flatness": 0.0325,
+  "hf_db": -51.2
+ },
+ "63": {
+  "file": "File:Paganini - Caprice in A minor, Op. 1, No. 24 (Menuhin, Baller).flac",
+  "license": "Public domain",
+  "artist": "Concert Films Corporation/Paul Gordon",
+  "mean_db": -19.6,
+  "title": "Paganini, Caprice No. 24",
+  "performer": "Paganini, Caprice No. 24, played by Yehudi Menuhin",
+  "flatness": 0.0477,
+  "hf_db": -47.0
+ },
+ "67": {
+  "file": "File:Brahms - Intermezzo in A Op-118 No-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Brahms",
+  "mean_db": -18.6,
+  "title": "Brahms, Intermezzo in A major, Op. 118 No. 2",
+  "performer": "Brahms, Intermezzo in A major, Op. 118 No. 2, played by eldüendesüarez",
+  "flatness": 0.0079,
+  "hf_db": -51.5
+ },
+ "71": {
+  "file": "File:Bach; Chaconne d-moll Heifetz.flac",
+  "license": "Public domain",
+  "artist": "Jascha Heifetz",
+  "mean_db": -20.4,
+  "title": "J. S. Bach, Chaconne from Partita No. 2 in D minor, BWV 1004",
+  "performer": "J. S. Bach, Chaconne from Partita No. 2 in D minor, BWV 1004, played by Jascha Heifetz",
+  "flatness": 0.0424,
+  "hf_db": -46.6
+ },
+ "75": {
+  "file": "File:Bach, JS - Italian Concerto Mvt-1. (Piano Performance by eldüendesüarez.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -18.8,
+  "title": "J. S. Bach, Italian Concerto, first movement",
+  "performer": "J. S. Bach, Italian Concerto, first movement, played by eldüendesüarez",
+  "flatness": 0.013,
+  "hf_db": -48.5
+ },
+ "79": {
+  "file": "File:Albeniz I - Tango. (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Albeniz I",
+  "mean_db": -18.1,
+  "title": "Albéniz, España Op. 165 No. 2, Tango",
+  "performer": "Albéniz, España Op. 165 No. 2, Tango, played by eldüendesüarez",
+  "flatness": 0.0102,
+  "hf_db": -50.8
+ },
+ "83": {
+  "file": "File:Missa Papae Marcelli - VI. Agnus Dei II.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.7,
+  "title": "Palestrina, Missa Papae Marcelli: Agnus Dei II",
+  "performer": "Palestrina, Missa Papae Marcelli: Agnus Dei II, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.033,
+  "hf_db": -51.6
+ },
+ "91": {
+  "file": "File:Brahms - Capriccio in BOp-76 No-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Brahms",
+  "mean_db": -19.2,
+  "title": "Brahms, Capriccio in B minor, Op. 76 No. 2",
+  "performer": "Brahms, Capriccio in B minor, Op. 76 No. 2, played by eldüendesüarez",
+  "flatness": 0.0098,
+  "hf_db": -49.2
+ },
+ "95": {
+  "file": "File:Claude Debussy - Préludes (Livre II) - VIII. Ondine (Marcelle Meyer, 1956).flac",
+  "license": "Public domain",
+  "artist": "Claude Debussy",
+  "mean_db": -18.4,
+  "title": "Debussy, Ondine",
+  "performer": "Debussy, Ondine, played by Marcelle Meyer",
+  "flatness": 0.0453,
+  "hf_db": -55.4
+ },
+ "99": {
+  "file": "File:Haydn from C minor Sonata finale 01.wav",
+  "license": "Public domain",
+  "artist": "Joseph Haydn",
+  "mean_db": -19.4,
+  "title": "Haydn, Sonata in C minor, finale",
+  "performer": "Haydn, Sonata in C minor, finale, recording by Joseph Haydn",
+  "flatness": 0.0084,
+  "hf_db": -54.3
+ },
+ "103": {
+  "file": "File:Mendelssohn - Hebrides Overture, Op. 26 (Musopen Symphony).flac",
+  "license": "Public domain",
+  "artist": "Felix Mendelssohn",
+  "mean_db": -17.3,
+  "title": "Mendelssohn, The Hebrides Overture",
+  "performer": "Mendelssohn, The Hebrides Overture, performed by the Musopen Symphony",
+  "flatness": 0.0125,
+  "hf_db": -48.3
+ },
+ "107": {
+  "file": "File:Ludwig van Beethoven - Concerto for Piano and Orchestra no. 4 in G major - 1. Allegro moderato (Wilhelm Kempff, Ferdinand Leitner, Berliner Philharmoniker, 1962).flac",
+  "license": "Public domain",
+  "artist": "Ludwig van Beethoven",
+  "mean_db": -17.5,
+  "title": "Beethoven, Piano Concerto No. 4, first movement",
+  "performer": "Beethoven, Piano Concerto No. 4, first movement, recording by Ludwig van Beethoven",
+  "flatness": 0.0273,
+  "hf_db": -52.0
+ },
+ "111": {
+  "file": "File:\"An der schönen, blauen Donau\" performed by the U.S. Marine Band.flac",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -16.4,
+  "title": "Johann Strauss II, The Blue Danube",
+  "performer": "Johann Strauss II, The Blue Danube, performed by the U.S. Marine Band",
+  "flatness": 0.0268,
+  "hf_db": -51.2
+ },
+ "119": {
+  "file": "File:Bach; Chaconne d-moll Heifetz.flac",
+  "license": "Public domain",
+  "artist": "Jascha Heifetz",
+  "mean_db": -20.4,
+  "title": "J. S. Bach, Chaconne from Partita No. 2 in D minor, BWV 1004",
+  "performer": "J. S. Bach, Chaconne from Partita No. 2 in D minor, BWV 1004, played by Jascha Heifetz",
+  "flatness": 0.0424,
+  "hf_db": -46.6
+ },
+ "123": {
+  "file": "File:Bach, JS - Italian Concerto Mvt-3 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bach, JS",
+  "mean_db": -19.5,
+  "title": "J. S. Bach, Italian Concerto, Presto",
+  "performer": "J. S. Bach, Italian Concerto, Presto, played by eldüendesüarez",
+  "flatness": 0.0089,
+  "hf_db": -50.1
+ },
+ "127": {
+  "file": "File:Sami-ninne-Sri ragam-Ramakrishnamurthy.wav",
+  "license": "CC BY 3.0",
+  "artist": "Ramakrishnamurthy",
+  "mean_db": -21.4,
+  "title": "Raga Sri, Carnatic kriti 'Sami ninne'",
+  "performer": "Raga Sri, Carnatic kriti 'Sami ninne', recording by Ramakrishnamurthy",
+  "flatness": 0.045,
+  "hf_db": -50.0
+ },
+ "131": {
+  "file": "File:Beethoven - Moonlight Sonata Op-27 No-2 Mvt-1. (Piano Performance by eldüendesüarez)wav.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -17.4,
+  "title": "Beethoven, Moonlight Sonata, Op. 27 No. 2, first movement",
+  "performer": "Beethoven, Moonlight Sonata, Op. 27 No. 2, first movement, played by eldüendesüarez",
+  "flatness": 0.0071,
+  "hf_db": -61.2
+ },
+ "135": {
+  "file": "File:Brahms - Rhapsody in G Op-79 No-2. (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Brahms",
+  "mean_db": -18.6,
+  "title": "Brahms, Rhapsody in G minor, Op. 79 No. 2",
+  "performer": "Brahms, Rhapsody in G minor, Op. 79 No. 2, played by eldüendesüarez",
+  "flatness": 0.0072,
+  "hf_db": -49.3
+ },
+ "139": {
+  "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - I. Allegro moderato (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -17.6,
+  "title": "Schubert, Sonata in A, D. 664, first movement",
+  "performer": "Schubert, Sonata in A, D. 664, first movement, played by Paul Pitman",
+  "flatness": 0.0079,
+  "hf_db": -55.0
+ },
+ "147": {
+  "file": "File:G Major Sonata of Domenico Scarlatti (Allegro K146) played and learned by piano student Zichen,Tao.wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jason M. C., Han",
+  "mean_db": -18.1,
+  "title": "Scarlatti, Sonata in G major, K. 146",
+  "performer": "Scarlatti, Sonata in G major, K. 146, recording by Jason M. C., Han",
+  "flatness": 0.0493,
+  "hf_db": -52.9
+ },
+ "151": {
+  "file": "File:Zortziko d'Albeniz.flac",
+  "license": "CC BY-SA 4.0",
+  "artist": "Isaac Albéniz (1860 - 1909), composer File: Flopinot2012",
+  "mean_db": -18.0,
+  "title": "Albéniz, Zortziko",
+  "performer": "Albéniz, Zortziko, recording by Isaac Albéniz (1860 - 1909), composer File: Flopinot2012",
+  "flatness": 0.0069,
+  "hf_db": -46.4
+ },
+ "155": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 29 Prelude No. 15 in G major, BWV 860.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -19.6,
+  "title": "J. S. Bach, Prelude No. 15 in G major, BWV 860",
+  "performer": "J. S. Bach, Prelude No. 15 in G major, BWV 860, played by Kimiko Ishizaka",
+  "flatness": 0.0122,
+  "hf_db": -54.8
+ },
+ "159": {
+  "file": "File:Caprice on Danish and Russian Airs, Op.79 (Saint-Saëns, Camille).mp3",
+  "license": "CC BY-SA 3.0",
+  "artist": "Score: Saint-Saëns, Camille Recording: Pandora Records/Al Goldstein Archive",
+  "mean_db": -18.9,
+  "title": "Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79",
+  "performer": "Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79, recording via Wikimedia Commons",
+  "flatness": 0.0318,
+  "hf_db": -45.6
+ },
+ "163": {
+  "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 18 Fugue No. 9 in E major, BWV 854.flac",
+  "license": "Public domain",
+  "artist": "Johann Sebastian Bach",
+  "mean_db": -18.1,
+  "title": "J. S. Bach, Fugue No. 9 in E major, BWV 854",
+  "performer": "J. S. Bach, Fugue No. 9 in E major, BWV 854, played by Kimiko Ishizaka",
+  "flatness": 0.0115,
+  "hf_db": -54.4
+ },
+ "175": {
+  "file": "File:Kimiko Ishizaka - J.S. Bach, The Art of Fugue, BWV 1080 - 01 Contrapunctus 1.flac",
+  "license": "CC0",
+  "artist": "Johann Sebastian Bach (composer), Kimiko Ishizaka (performer)",
+  "mean_db": -16.8,
+  "title": "J. S. Bach, The Art of Fugue: Contrapunctus 1",
+  "performer": "J. S. Bach, The Art of Fugue: Contrapunctus 1, played by Kimiko Ishizaka",
+  "flatness": 0.0249,
+  "hf_db": -56.4
+ },
+ "179": {
+  "file": "File:Missa Papae Marcelli - VI. Agnus Dei II.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -17.7,
+  "title": "Palestrina, Missa Papae Marcelli: Agnus Dei II",
+  "performer": "Palestrina, Missa Papae Marcelli: Agnus Dei II, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.033,
+  "hf_db": -51.6
+ },
+ "183": {
+  "file": "File:Zortziko d'Albeniz.flac",
+  "license": "CC BY-SA 4.0",
+  "artist": "Isaac Albéniz (1860 - 1909), composer File: Flopinot2012",
+  "mean_db": -18.0,
+  "title": "Albéniz, Zortziko",
+  "performer": "Albéniz, Zortziko, recording by Isaac Albéniz (1860 - 1909), composer File: Flopinot2012",
+  "flatness": 0.0069,
+  "hf_db": -46.4
+ },
+ "187": {
+  "file": "File:Mozart, Wolfgang Amadeus — Piano Sonata No. 10 in C major, K. 330, 3rd movement — Vadim Chaimovich — Musopen -8825.mp3",
+  "license": "Public domain",
+  "artist": "Wolfgang Amadeus Mozart",
+  "mean_db": -18.5,
+  "title": "Mozart, Piano Sonata in C, K. 330, finale",
+  "performer": "Mozart, Piano Sonata in C, K. 330, finale, recording by Wolfgang Amadeus Mozart",
+  "flatness": 0.0128,
+  "hf_db": -50.9
+ },
+ "191": {
+  "file": "File:Chaminade - Automne (Etude de Concert) Op-35 No-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chaminade",
+  "mean_db": -19.5,
+  "title": "Chaminade, Automne, Op. 35 No. 2",
+  "performer": "Chaminade, Automne, Op. 35 No. 2, played by eldüendesüarez",
+  "flatness": 0.0064,
+  "hf_db": -56.6
+ },
+ "195": {
+  "file": "File:Sami-ninne-Sri ragam-Ramakrishnamurthy.wav",
+  "license": "CC BY 3.0",
+  "artist": "Ramakrishnamurthy",
+  "mean_db": -21.4,
+  "title": "Raga Sri, Carnatic kriti 'Sami ninne'",
+  "performer": "Raga Sri, Carnatic kriti 'Sami ninne', recording by Ramakrishnamurthy",
+  "flatness": 0.045,
+  "hf_db": -50.0
+ },
+ "199": {
+  "file": "File:Schubert - Piano Sonata No. 8 in E flat major, D568 - III. Menuetto (Allegretto) (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -19.8,
+  "title": "Schubert, Sonata in E-flat, D. 568, Menuetto",
+  "performer": "Schubert, Sonata in E-flat, D. 568, Menuetto, played by Paul Pitman",
+  "flatness": 0.0215,
+  "hf_db": -54.5
+ },
+ "203": {
+  "file": "File:Chaminade - Automne (Etude de Concert) Op-35 No-2 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chaminade",
+  "mean_db": -19.5,
+  "title": "Chaminade, Automne, Op. 35 No. 2",
+  "performer": "Chaminade, Automne, Op. 35 No. 2, played by eldüendesüarez",
+  "flatness": 0.0064,
+  "hf_db": -56.6
+ },
+ "207": {
+  "file": "File:Satie Gymnopedie No 1 performed by Michael Laucke.flac",
+  "license": "Public domain",
+  "artist": "Mlaucke",
+  "mean_db": -18.0,
+  "title": "Satie, Gymnopédie No. 1",
+  "performer": "Satie, Gymnopédie No. 1, played by Michael Laucke",
+  "flatness": 0.0364,
+  "hf_db": -46.2
+ },
+ "211": {
+  "file": "File:Kimiko Ishizaka - J.S. Bach, The Art of Fugue, BWV 1080 - 05 Contrapunctus 5.flac",
+  "license": "CC0",
+  "artist": "Johann Sebastian Bach (composer), Kimiko Ishizaka (performer)",
+  "mean_db": -17.6,
+  "title": "J. S. Bach, The Art of Fugue: Contrapunctus 5",
+  "performer": "J. S. Bach, The Art of Fugue: Contrapunctus 5, played by Kimiko Ishizaka",
+  "flatness": 0.0202,
+  "hf_db": -58.5
+ },
+ "215": {
+  "file": "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac",
+  "license": "Public domain",
+  "artist": "François Couperin, Marcelle Meyer (Paris, Salle Adyar, late 1953 or January 1954)",
+  "mean_db": -17.8,
+  "title": "Couperin, Les barricades mystérieuses",
+  "performer": "Couperin, Les barricades mystérieuses, played by Marcelle Meyer",
+  "flatness": 0.0412,
+  "hf_db": -55.3
+ },
+ "223": {
+  "file": "File:\"Leola (Two-Step)\" (1905), by Scott Joplin.mp3",
+  "license": "Public domain",
+  "artist": "",
+  "mean_db": -18.9,
+  "title": "Scott Joplin, Leola (1905)",
+  "performer": "Scott Joplin, Leola (1905), recording via Wikimedia Commons",
+  "flatness": 0.0084,
+  "hf_db": -51.0
+ },
+ "227": {
+  "file": "File:Missa Papae Marcelli - III. Credo.flac",
+  "license": "CC0",
+  "artist": "European Archive Music / Giovanni Pierluigi da Palestrina",
+  "mean_db": -19.6,
+  "title": "Palestrina, Missa Papae Marcelli: Credo",
+  "performer": "Palestrina, Missa Papae Marcelli: Credo, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
+  "flatness": 0.0444,
+  "hf_db": -49.1
+ },
+ "231": {
+  "file": "File:Maurice Ravel - Miroirs - 2. Oiseaux tristes.flac",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "mean_db": -18.1,
+  "title": "Ravel, Miroirs: Oiseaux tristes",
+  "performer": "Ravel, Miroirs: Oiseaux tristes, recording via Wikimedia Commons",
+  "flatness": 0.0133,
+  "hf_db": -60.8
+ },
+ "243": {
+  "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - II. Andante (Paul Pitman).flac",
+  "license": "Public domain",
+  "artist": "Franz Schubert",
+  "mean_db": -18.3,
+  "title": "Schubert, Sonata in A, D. 664, Andante",
+  "performer": "Schubert, Sonata in A, D. 664, Andante, played by Paul Pitman",
+  "flatness": 0.0109,
+  "hf_db": -60.3
+ },
+ "247": {
+  "file": "File:Debussy - Clair de lune.(Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Debussy",
+  "mean_db": -20.6,
+  "title": "Debussy, Clair de lune",
+  "performer": "Debussy, Clair de lune, played by eldüendesüarez",
+  "flatness": 0.0261,
+  "hf_db": -58.9
+ },
+ "251": {
+  "file": "File:Beethoven - Moonlight Sonata Op-27 No-2 Mvt-3 (Piano Performance by eldüendesüarez).wav",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beethoven",
+  "mean_db": -18.4,
+  "title": "Beethoven, Moonlight Sonata, Op. 27 No. 2, finale",
+  "performer": "Beethoven, Moonlight Sonata, Op. 27 No. 2, finale, played by eldüendesüarez",
+  "flatness": 0.0076,
+  "hf_db": -48.2
+ },
+ "255": {
+  "file": "File:Mendelssohn - Hebrides Overture, Op. 26 (Musopen Symphony).flac",
+  "license": "Public domain",
+  "artist": "Felix Mendelssohn",
+  "mean_db": -17.3,
+  "title": "Mendelssohn, The Hebrides Overture",
+  "performer": "Mendelssohn, The Hebrides Overture, performed by the Musopen Symphony",
+  "flatness": 0.0125,
+  "hf_db": -48.3
+ },
+ "259": {
+  "file": "File:Kimiko Ishizaka - J.S. Bach- -Open- Goldberg Variations, BWV 988 (Piano) - 01 Aria.mp3",
+  "license": "CC0",
+  "artist": "JS Bach and Kimiko Ishizaka",
+  "mean_db": -18.0,
+  "title": "J. S. Bach, Goldberg Variations: Aria",
+  "performer": "J. S. Bach, Goldberg Variations: Aria, played by Kimiko Ishizaka",
+  "flatness": 0.0206,
+  "hf_db": -55.4
+ }
+}
