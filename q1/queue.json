@@ -39,10 +39,10 @@
   "video": "reels/b32-robertsbridge-codex.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Domenico Scarlatti - Sonates Kk. 119 & 120 (Ralph Kirkpatrick, 1954).flac",
+   "file": "File:Domenico Scarlatti - Sonates Kk. 263 & 264 (Ralph Kirkpatrick, 1954).flac",
    "start": 0,
-   "title": "Scarlatti, Sonatas K. 119 and 120",
-   "performer": "Scarlatti, Sonatas K. 119 and 120, played by Ralph Kirkpatrick",
+   "title": "Scarlatti, Sonatas K. 263 and 264",
+   "performer": "Scarlatti, Sonatas K. 263 and 264, played by Ralph Kirkpatrick",
    "max_hf": -45
   },
   "head": "The oldest surviving keyboard music, around 1360.",
@@ -339,10 +339,10 @@
   "video": "reels/b44-beethoven-copies-don-giovanni.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Mozart - String Quartet No. 15 in D minor, K421 - IV. Allegro ma non troppo - Più allegro (Musopen String Quartet).flac",
+   "file": "File:Mozart, Wolfgang Amadeus — Piano Sonata No. 10 in C major, K. 330, 3rd movement — Vadim Chaimovich — Musopen -8825.mp3",
    "start": 0,
-   "title": "Mozart, String Quartet in D minor, K. 421, finale",
-   "performer": "Mozart, String Quartet in D minor, K. 421, finale, performed by the Musopen String Quartet",
+   "title": "Mozart, Piano Sonata in C, K. 330, finale",
+   "performer": "Mozart, Piano Sonata in C, K. 330, finale, recording by Wolfgang Amadeus Mozart",
    "max_hf": -45
   },
   "head": "Beethoven, copying out Mozart's Don Giovanni.",
@@ -389,10 +389,10 @@
   "video": "reels/b46-courbet-berlioz.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Hector Berlioz - Les Nuits d'été, op.7 - I Villanelle (Eleanor Steber).flac",
-   "start": 0,
-   "title": "Berlioz, Les nuits d'été: Villanelle",
-   "performer": "Berlioz, Les nuits d'été: Villanelle, played by Eleanor Steber",
+   "file": "File:Hector Berlioz - Les Nuits d'été, op.7 - II Le spectre de la rose (Eleanor Steber).flac",
+   "start": 30,
+   "title": "Berlioz, Les nuits d'été: Le spectre de la rose",
+   "performer": "Berlioz, Les nuits d'été: Le spectre de la rose, played by Eleanor Steber",
    "max_hf": -45
   },
   "head": "Berlioz never studied piano. He played flute and guitar.",
@@ -414,10 +414,10 @@
   "video": "reels/b47-sousa-stars-and-stripes-1897.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Sousa's \"The Stars and Stripes Forever\" - United States Marine Band (2017).mp3",
-   "start": 30,
-   "title": "Sousa, The Stars and Stripes Forever",
-   "performer": "Sousa, The Stars and Stripes Forever, performed by the U.S. Marine Band",
+   "file": "File:Sousa's \"Wedding March\" - United States Marine Band (2019).mp3",
+   "start": 0,
+   "title": "Sousa, Wedding March",
+   "performer": "Sousa, Wedding March, performed by the U.S. Marine Band",
    "max_hf": -45
   },
   "head": "The Stars and Stripes Forever, first edition, 1897.",
@@ -1295,10 +1295,10 @@
   "video": "reels/b82-rossetti-a-christmas-carol.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Carol of the Bells - Concert Band - United States Air Force Band of the Rockies.mp3",
-   "start": 0,
-   "title": "Leontovych, Carol of the Bells",
-   "performer": "Leontovych, Carol of the Bells, performed by the U.S. Air Force Band of the Rockies",
+   "file": "File:Hark the Herald Angels Sing - Concert Band - United States Air Force Heritage of America Band.mp3",
+   "start": 30,
+   "title": "Mendelssohn, Hark! The Herald Angels Sing",
+   "performer": "Mendelssohn, Hark! The Herald Angels Sing, performed by the U.S. Air Force Heritage of America Band",
    "max_hf": -45
   },
   "head": "Rossetti's Christmas carol, sung in gold and holly.",
@@ -1420,10 +1420,10 @@
   "video": "reels/b87-de-hooch-family-playing-music.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Purcell Fantazia upon One Note.wav",
+   "file": "File:Rameau- Nouvelles Suites de pièces de clavecin- Suite en la mineur - Gavotte et six doubles.flac",
    "start": 0,
-   "title": "Purcell, Fantazia upon One Note",
-   "performer": "Purcell, Fantazia upon One Note, recording by Purcell",
+   "title": "Rameau, Gavotte with six doubles",
+   "performer": "Rameau, Gavotte with six doubles, recording by Jean-Philippe Rameau",
    "max_hf": -45
   },
   "head": "A family portrait, and everyone has an instrument.",
@@ -1445,10 +1445,10 @@
   "video": "reels/b88-piero-nativity-angel-musicians.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Freie Kirchenmusik - Stille Nacht zum Mitsingen (EG 46).mp3",
-   "start": 0,
-   "title": "Gruber, Stille Nacht",
-   "performer": "Gruber, Stille Nacht, recording by Aurel von Bismarck",
+   "file": "File:Puer natus est nobis - Concert Band - United States Air Force Band.mp3",
+   "start": 30,
+   "title": "Puer natus est nobis (Gregorian chant)",
+   "performer": "Puer natus est nobis (Gregorian chant), performed by the U.S. Air Force Band",
    "max_hf": -45
   },
   "head": "Five angels, and the band starts playing.",
@@ -1545,10 +1545,10 @@
   "video": "reels/b92-bach-mass-b-minor-kyrie.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Johann Sebastian Bach Prelude in A minor BWV 543 Robert Köbler Silbermann-Organ.mp3",
+   "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 04 Fugue No. 2 in C minor, BWV 847.flac",
    "start": 0,
-   "title": "J. S. Bach, Prelude in A minor, BWV 543",
-   "performer": "J. S. Bach, Prelude in A minor, BWV 543, played by Robert Köbler",
+   "title": "J. S. Bach, Fugue No. 2 in C minor, BWV 847",
+   "performer": "J. S. Bach, Fugue No. 2 in C minor, BWV 847, played by Kimiko Ishizaka",
    "max_hf": -45
   },
   "head": "The first page of Bach's Mass in B minor.",
@@ -1870,10 +1870,10 @@
   "video": "reels/b105-caruso-victrola.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Leoncavallo - Pagliacci - Vesti la giubba (Antonio Paoli).flac",
+   "file": "File:Brahms - Intermezzo in B-flat Op-117 No-2 (Piano Performance by eldüendesüarez).wav",
    "start": 0,
-   "title": "Leoncavallo, Pagliacci: Vesti la giubba",
-   "performer": "Leoncavallo, Pagliacci: Vesti la giubba, played by Antonio Paoli",
+   "title": "Brahms, Intermezzo in B-flat, Op. 117 No. 2",
+   "performer": "Brahms, Intermezzo in B-flat, Op. 117 No. 2, played by eldüendesüarez",
    "max_hf": -45
   },
   "head": "Caruso, with the machine that made him famous.",
@@ -2095,10 +2095,10 @@
   "video": "reels/b114-sousa-johnston-1904.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Sousa's \"The Stars and Stripes Forever\" - United States Marine Band (2017).mp3",
-   "start": 30,
-   "title": "Sousa, The Stars and Stripes Forever",
-   "performer": "Sousa, The Stars and Stripes Forever, performed by the U.S. Marine Band",
+   "file": "File:Sousa's \"Wedding March\" - United States Marine Band (2019).mp3",
+   "start": 0,
+   "title": "Sousa, Wedding March",
+   "performer": "Sousa, Wedding March, performed by the U.S. Marine Band",
    "max_hf": -45
   },
   "head": "The March King called records 'canned music'.",
@@ -2120,10 +2120,10 @@
   "video": "reels/b115-memling-music-making-angels.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Domenico Scarlatti - Sonates Kk. 119 & 120 (Ralph Kirkpatrick, 1954).flac",
+   "file": "File:François Couperin - Les barricades mysterieuses (Marcelle Meyer, 1954).flac",
    "start": 0,
-   "title": "Scarlatti, Sonatas K. 119 and 120",
-   "performer": "Scarlatti, Sonatas K. 119 and 120, played by Ralph Kirkpatrick",
+   "title": "Couperin, Les barricades mystérieuses",
+   "performer": "Couperin, Les barricades mystérieuses, played by Marcelle Meyer",
    "max_hf": -45
   },
   "head": "Memling's angel orchestra, made for a Spanish church.",
@@ -2657,10 +2657,10 @@
   "video": "reels/b136-levni-surname-women-musicians.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Rizitiko - Crete 1 (Agrimia).mp3",
+   "file": "File:Satie Gymnopedie No 3 performed by Michael Laucke.flac",
    "start": 0,
-   "title": "Rizitiko, a Cretan folk song",
-   "performer": "Rizitiko, a Cretan folk song, recording by JTE Dimandix",
+   "title": "Satie, Gymnopédie No. 3",
+   "performer": "Satie, Gymnopédie No. 3, played by Michael Laucke",
    "max_hf": -45
   },
   "head": "Two musicians at a 15-day Ottoman festival.",
@@ -2807,10 +2807,10 @@
   "video": "reels/b142-bihzad-royal-encampment-musicians.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Rizitiko - Crete 1 (Agrimia).mp3",
+   "file": "File:Satie Gymnopedie No 2 performed by Michael Laucke.flac",
    "start": 0,
-   "title": "Rizitiko, a Cretan folk song",
-   "performer": "Rizitiko, a Cretan folk song, recording by JTE Dimandix",
+   "title": "Satie, Gymnopédie No. 2",
+   "performer": "Satie, Gymnopédie No. 2, played by Michael Laucke",
    "max_hf": -45
   },
   "head": "Dinner music outside a royal tent, Herat style.",
@@ -2832,10 +2832,10 @@
   "video": "reels/b143-mozart-adagio-glass-harmonica.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Mozart - String Quartet No. 15 in D minor, K421 - I. Allegro moderato (Musopen String Quartet).flac",
+   "file": "File:Mozart - String Quartet No. 15 in D minor, K421 - II. Andante (Musopen String Quartet).flac",
    "start": 0,
-   "title": "Mozart, String Quartet in D minor, K. 421, first movement",
-   "performer": "Mozart, String Quartet in D minor, K. 421, first movement, performed by the Musopen String Quartet",
+   "title": "Mozart, String Quartet in D minor, K. 421, Andante",
+   "performer": "Mozart, String Quartet in D minor, K. 421, Andante, performed by the Musopen String Quartet",
    "max_hf": -45
   },
   "head": "Mozart writes for the glass harmonica.",
@@ -3107,10 +3107,10 @@
   "video": "reels/b154-berlin-painter-kithara-singer.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Rizitiko - Crete 1 (Agrimia).mp3",
+   "file": "File:Satie Gymnopedie No 3 performed by Michael Laucke.flac",
    "start": 0,
-   "title": "Rizitiko, a Cretan folk song",
-   "performer": "Rizitiko, a Cretan folk song, recording by JTE Dimandix",
+   "title": "Satie, Gymnopédie No. 3",
+   "performer": "Satie, Gymnopédie No. 3, played by Michael Laucke",
    "max_hf": -45
   },
   "head": "A singer with a kithara, mid-song, 490 BCE.",
@@ -3432,10 +3432,10 @@
   "video": "reels/b167-mozart-corrects-attwood.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Mozart - String Quartet No. 15 in D minor, K421 - III. Minuetto (Allegretto) (Musopen String Quartet).flac",
+   "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - II. Andante cantabile (Musopen String Quartet).flac",
    "start": 0,
-   "title": "Mozart, String Quartet in D minor, K. 421, Minuetto",
-   "performer": "Mozart, String Quartet in D minor, K. 421, Minuetto, performed by the Musopen String Quartet",
+   "title": "Mozart, 'Dissonance' Quartet, K. 465, Andante cantabile",
+   "performer": "Mozart, 'Dissonance' Quartet, K. 465, Andante cantabile, performed by the Musopen String Quartet",
    "max_hf": -45
   },
   "head": "Mozart corrects his English pupil's homework.",
@@ -3532,10 +3532,10 @@
   "video": "reels/b171-vrubel-swan-princess.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Flight of the Bumblebee - Strolling Strings - United States Air Force Band.mp3",
+   "file": "File:Flight of the Bumblebee - Concert Band - United States Air Force Band of the Rockies.mp3",
    "start": 0,
    "title": "Rimsky-Korsakov, Flight of the Bumblebee",
-   "performer": "Rimsky-Korsakov, Flight of the Bumblebee, performed by the U.S. Air Force Strolling Strings",
+   "performer": "Rimsky-Korsakov, Flight of the Bumblebee, performed by the U.S. Air Force Band of the Rockies",
    "max_hf": -45
   },
   "head": "The Swan Princess, painted by the singer's husband.",
@@ -3582,10 +3582,10 @@
   "video": "reels/b173-purcell-orpheus-britannicus.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Purcell Fantazia upon One Note.wav",
+   "file": "File:Jean-Philippe Rameau - Les Tourbillons (Marcelle Meyer, 1953).flac",
    "start": 0,
-   "title": "Purcell, Fantazia upon One Note",
-   "performer": "Purcell, Fantazia upon One Note, recording by Purcell",
+   "title": "Rameau, Les tourbillons",
+   "performer": "Rameau, Les tourbillons, played by Marcelle Meyer",
    "max_hf": -45
   },
   "head": "Orpheus Britannicus: Purcell's songs, printed after his death.",
@@ -3663,10 +3663,10 @@
   "video": "reels/b176-saint-saens-carnival-autograph.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Saint-Saëns - Concerto pour piano n°5, op.103 - II. Andante (Magda Tagliaferro, Jean Fournet 1954).flac",
-   "start": 0,
-   "title": "Saint-Saëns, Piano Concerto No. 5, Andante",
-   "performer": "Saint-Saëns, Piano Concerto No. 5, Andante, played by Magda Tagliaferro",
+   "file": "File:Caprice on Danish and Russian Airs, Op.79 (Saint-Saëns, Camille).mp3",
+   "start": 30,
+   "title": "Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79",
+   "performer": "Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79, recording via Wikimedia Commons",
    "max_hf": -45
   },
   "head": "The suite Saint-Saëns wouldn't let anyone publish.",
@@ -3994,10 +3994,10 @@
   "video": "reels/b189-boldini-verdi-pastel.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Berliner 0572 - Miserere (Ferruccio Giannini\".wav",
+   "file": "File:Džildas ārija iz op. \"Rigoletto\"2091.wav",
    "start": 0,
-   "title": "Verdi, Il trovatore: Miserere",
-   "performer": "Verdi, Il trovatore: Miserere, played by Ferruccio Giannini",
+   "title": "Verdi, Rigoletto: Gilda's aria",
+   "performer": "Verdi, Rigoletto: Gilda's aria, recording via Wikimedia Commons",
    "max_hf": -45
   },
   "head": "Verdi in a top hat, drawn by Boldini in pastel.",
@@ -4294,10 +4294,10 @@
   "video": "reels/b201-amati-kurtz-violin.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Johann Sebastian Bach Prelude in A minor BWV 543 Robert Köbler Silbermann-Organ.mp3",
+   "file": "File:François Couperin - Le tic toc choc ou les maillotins (Marcelle Meyer, 1954).flac",
    "start": 0,
-   "title": "J. S. Bach, Prelude in A minor, BWV 543",
-   "performer": "J. S. Bach, Prelude in A minor, BWV 543, played by Robert Köbler",
+   "title": "Couperin, Le tic-toc-choc",
+   "performer": "Couperin, Le tic-toc-choc, played by Marcelle Meyer",
    "max_hf": -45
   },
   "head": "One of the oldest violins, maybe made for a royal wedding.",
@@ -4369,10 +4369,10 @@
   "video": "reels/b204-gainsborough-linley-sisters.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Purcell Fantazia upon One Note.wav",
+   "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 37 Prelude No. 19 in A major, BWV 864.flac",
    "start": 0,
-   "title": "Purcell, Fantazia upon One Note",
-   "performer": "Purcell, Fantazia upon One Note, recording by Purcell",
+   "title": "J. S. Bach, Prelude No. 19 in A major, BWV 864",
+   "performer": "J. S. Bach, Prelude No. 19 in A major, BWV 864, played by Kimiko Ishizaka",
    "max_hf": -45
   },
   "head": "Two singing sisters, painted by Gainsborough.",
@@ -4419,10 +4419,10 @@
   "video": "reels/b206-jacquet-de-la-guerre-dedication.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Johann Pachelbel Canon P 37 1694.mp3",
-   "start": 30,
-   "title": "Pachelbel, Canon in D",
-   "performer": "Pachelbel, Canon in D, recording by Johann Pachelbel",
+   "file": "File:Kimiko Ishizaka - Bach- Well-Tempered Clavier, Book 1 - 39 Prelude No. 20 in A minor, BWV 865.flac",
+   "start": 0,
+   "title": "J. S. Bach, Prelude No. 20 in A minor, BWV 865",
+   "performer": "J. S. Bach, Prelude No. 20 in A minor, BWV 865, played by Kimiko Ishizaka",
    "max_hf": -45
   },
   "head": "Signed 'Elizabeth Jacquet', to Louis XIV.",
@@ -4669,10 +4669,10 @@
   "video": "reels/b216-guardi-venetian-gala-concert.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Vivaldi - Four Seasons 4 Winter Air Force Strings - United States Air Force Band.mp3",
+   "file": "File:Vivaldi The Four Seasons, Op. 8 - The Modena Chamber Orchestra - Violin Concerto in F major RV 293 Autumn.mp3",
    "start": 30,
-   "title": "Vivaldi, The Four Seasons: Winter",
-   "performer": "Vivaldi, The Four Seasons: Winter, performed by the U.S. Air Force Strings",
+   "title": "Vivaldi, The Four Seasons",
+   "performer": "Vivaldi, The Four Seasons, performed by the Modena Chamber Orchestra",
    "max_hf": -45
   },
   "head": "Venice puts on a concert for Russia's future tsar.",
@@ -4744,10 +4744,10 @@
   "video": "reels/b219-renoir-wagner.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Wagner, Tristan, Liebestod closing bars 01.wav",
+   "file": "File:Chopin - 12 Études, Op. 10 - No. 9 in F minor (Edward Neeman).flac",
    "start": 0,
-   "title": "Wagner, Tristan und Isolde: Liebestod, closing bars",
-   "performer": "Wagner, Tristan und Isolde: Liebestod, closing bars, recording by Wagner",
+   "title": "Chopin, Étude Op. 10 No. 9 in F minor",
+   "performer": "Chopin, Étude Op. 10 No. 9 in F minor, played by Edward Neeman",
    "max_hf": -45
   },
   "head": "Renoir met Wagner in 1882. This is what he saw.",
@@ -4819,10 +4819,10 @@
   "video": "reels/b222-egyptian-ostracon-harpist.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Rizitiko - Crete 1 (Agrimia).mp3",
+   "file": "File:Satie Gymnopedie No 2 performed by Michael Laucke.flac",
    "start": 0,
-   "title": "Rizitiko, a Cretan folk song",
-   "performer": "Rizitiko, a Cretan folk song, recording by JTE Dimandix",
+   "title": "Satie, Gymnopédie No. 2",
+   "performer": "Satie, Gymnopédie No. 2, played by Michael Laucke",
    "max_hf": -45
   },
   "head": "An Egyptian artist's practice sketch of a harpist.",
@@ -5019,10 +5019,10 @@
   "video": "reels/b230-joplin-hayden-kismet-rag.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:\"Palm Leaf Rag\" (1903), by Scott Joplin.mp3",
+   "file": "File:\"Original Rags\", by Scott Joplin (1899).mp3",
    "start": 0,
-   "title": "Scott Joplin, Palm Leaf Rag (1903)",
-   "performer": "Scott Joplin, Palm Leaf Rag (1903), recording via Wikimedia Commons",
+   "title": "Scott Joplin, Original Rags (1899)",
+   "performer": "Scott Joplin, Original Rags (1899), recording by Scott Joplin.",
    "max_hf": -45
   },
   "head": "Kismet Rag, 1913: the Sphinx, two snakes and a magic lamp.",
@@ -5119,10 +5119,10 @@
   "video": "reels/b234-zorn-hins-anders.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Polska - SMV - MMF7 0677 06.wav",
+   "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - II. Andante (Paul Pitman).flac",
    "start": 0,
-   "title": "Polska, a Swedish folk dance",
-   "performer": "Polska, a Swedish folk dance, recording via Wikimedia Commons",
+   "title": "Schubert, Sonata in A, D. 664, Andante",
+   "performer": "Schubert, Sonata in A, D. 664, Andante, played by Paul Pitman",
    "max_hf": -45
   },
   "head": "Anders Zorn's old fiddler, Hins Anders.",
@@ -5144,10 +5144,10 @@
   "video": "reels/b235-saint-george-ward-after-mather-brown.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Haydn - String Quartet, Op. 64 No. 5 in D major 'The Lark' - IV. Finale. Vivace (Musopen String Quartet).flac",
+   "file": "File:Beethoven - String Quartet No. 6 in B flat major, Op. 18 No. 6 - III. Scherzo (Musopen String Quartet).flac",
    "start": 0,
-   "title": "Haydn, 'Lark' Quartet, finale",
-   "performer": "Haydn, 'Lark' Quartet, finale, performed by the Musopen String Quartet",
+   "title": "Beethoven, String Quartet Op. 18 No. 6, Scherzo",
+   "performer": "Beethoven, String Quartet Op. 18 No. 6, Scherzo, performed by the Musopen String Quartet",
    "max_hf": -45
   },
   "head": "Violinist, composer, conductor and champion fencer.",
@@ -5194,10 +5194,10 @@
   "video": "reels/b237-bohm-piano-marie-louise.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - I. Adagio - Allegro (Musopen String Quartet).flac",
+   "file": "File:Beethoven - Bagatelle Op-33 No-1 (Piano Performance by eldüendesüarez).wav",
    "start": 0,
-   "title": "Mozart, 'Dissonance' Quartet, K. 465, first movement",
-   "performer": "Mozart, 'Dissonance' Quartet, K. 465, first movement, performed by the Musopen String Quartet",
+   "title": "Beethoven, Bagatelle Op. 33 No. 1",
+   "performer": "Beethoven, Bagatelle Op. 33 No. 1, played by eldüendesüarez",
    "max_hf": -45
   },
   "head": "A piano believed to be Napoleon's wife's.",
@@ -5219,10 +5219,10 @@
   "video": "reels/b238-cantigas-codex-of-the-musicians.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Domenico Scarlatti - Sonates Kk. 119 & 120 (Ralph Kirkpatrick, 1954).flac",
+   "file": "File:Missa Papae Marcelli - V. Agnus Dei I.flac",
    "start": 0,
-   "title": "Scarlatti, Sonatas K. 119 and 120",
-   "performer": "Scarlatti, Sonatas K. 119 and 120, played by Ralph Kirkpatrick",
+   "title": "Palestrina, Missa Papae Marcelli: Agnus Dei I",
+   "performer": "Palestrina, Missa Papae Marcelli: Agnus Dei I, recording by European Archive Music / Giovanni Pierluigi da Palestrina",
    "max_hf": -45
   },
   "head": "King Alfonso's songbook, with a portrait of the band.",
@@ -5244,10 +5244,10 @@
   "video": "reels/b239-wagner-tristan-final-bars.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Wagner, Tristan, Liebestod closing bars 01.wav",
+   "file": "File:Schubert - Piano Sonata No. 13 in A major, D664 - III. Allegro (Paul Pitman).flac",
    "start": 0,
-   "title": "Wagner, Tristan und Isolde: Liebestod, closing bars",
-   "performer": "Wagner, Tristan und Isolde: Liebestod, closing bars, recording by Wagner",
+   "title": "Schubert, Sonata in A, D. 664, finale",
+   "performer": "Schubert, Sonata in A, D. 664, finale, played by Paul Pitman",
    "max_hf": -45
   },
   "head": "The last bars of Tristan und Isolde, in Wagner's hand.",
@@ -5469,10 +5469,10 @@
   "video": "reels/b248-mozart-dice-game-k516f.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - III. Allegretto (Musopen String Quartet).flac",
+   "file": "File:Mozart Piano Concerto K482 opening.wav",
    "start": 0,
-   "title": "Mozart, 'Dissonance' Quartet, K. 465, Menuetto",
-   "performer": "Mozart, 'Dissonance' Quartet, K. 465, Menuetto, performed by the Musopen String Quartet",
+   "title": "Mozart, Piano Concerto No. 22, K. 482, opening",
+   "performer": "Mozart, Piano Concerto No. 22, K. 482, opening, recording by Mozart",
    "max_hf": -45
   },
   "head": "Mozart's 'dice game' page, with every bar lettered.",
@@ -5694,10 +5694,10 @@
   "video": "reels/b257-mozart-jupiter-first-page.mp4",
   "release": "q1-reels",
   "music": {
-   "file": "File:Mozart - String Quartet No. 19 in C major, K465 'Dissonance' - IV. Allegro molto (Musopen String Quartet).flac",
+   "file": "File:Mozart Romanze from Piano Concerto 20.wav",
    "start": 0,
-   "title": "Mozart, 'Dissonance' Quartet, K. 465, finale",
-   "performer": "Mozart, 'Dissonance' Quartet, K. 465, finale, performed by the Musopen String Quartet",
+   "title": "Mozart, Piano Concerto No. 20: Romanze",
+   "performer": "Mozart, Piano Concerto No. 20: Romanze, recording by Mozart",
    "max_hf": -45
   },
   "head": "The first page of Mozart's last symphony.",
