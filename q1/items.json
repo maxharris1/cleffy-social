@@ -2703,7 +2703,13 @@
    "Huizong reigned 1100 to 1126 -> https://en.wikipedia.org/wiki/Emperor_Huizong_of_Song"
   ],
   "notes": "Very tall hanging scroll (3036x7905). Crop to the lower figures for the Reel; the poem sits at the top. 'Early 12th century' in the credit follows the Northern Song and Huizong attribution.",
-  "group": "A4"
+  "group": "A4",
+  "crop": [
+   150,
+   2600,
+   1800,
+   3950
+  ]
  },
  {
   "key": "night-revels-han-xizai-pipa",
@@ -3348,7 +3354,13 @@
    "Autograph page: end of sinfonia and beginning of V'adoro pupille, Act II Scene 1; British Library R.M.20.c.4 -> https://commons.wikimedia.org/wiki/File:V'adoro_pupille_autograph_manuscript_1723_Handel.jpg"
   ],
   "notes": "12328x4888, PD. Very wide two-page image; crop to one page.",
-  "group": "S1"
+  "group": "S1",
+  "crop": [
+   985,
+   0,
+   1840,
+   761
+  ]
  },
  {
   "key": "handel-king-shall-rejoice",
@@ -4193,7 +4205,13 @@
    "Autograph title page 1886, Gallica btv1b55007215h, public domain, 1024x1416 -> https://commons.wikimedia.org/wiki/File:Le_carnaval_des_animaux_de_Saint-Saëns.jpg"
   ],
   "notes": "The 1886 date comes from the Commons description. An alternative is the 1922 first-edition title page: File:Le carnaval des animaux de Saint-Saëns édition.jpg.",
-  "group": "S2"
+  "group": "S2",
+  "crop": [
+   60,
+   180,
+   1000,
+   900
+  ]
  },
  {
   "key": "wagner-tristan-final-bars",
@@ -4797,7 +4815,13 @@
    "1512-1516, Matthias Grünewald, Unterlinden Museum Colmar; Concert of Angels and Nativity form the central scene of the opened altarpiece; painted for the Monastery of St Anthony in Issenheim, which did hospital work -> https://en.wikipedia.org/wiki/Isenheim_Altarpiece"
   ],
   "notes": "MUST CROP: the full image (3200x1875) includes the Annunciation, Resurrection and the dead Christ in the predella. Crop to the two central panels (Concert of Angels and Nativity) only. Instrument described from the image.",
-  "group": "A4"
+  "group": "A4",
+  "crop": [
+   470,
+   135,
+   1420,
+   860
+  ]
  },
  {
   "key": "rossetti-a-christmas-carol",
@@ -4851,7 +4875,13 @@
    "Born January 5, 1868 or 1869, Portsmouth, Virginia; 'Black Patti' given by a New York Clipper critic, she preferred Madame Jones; sang for Benjamin Harrison (Feb 1892), Cleveland, McKinley, T. Roosevelt; about 75,000 at Madison Square Garden April 1892, sang La traviata selections; first African American to sing at the Music Hall, renamed Carnegie Hall -> https://en.wikipedia.org/wiki/Sissieretta_Jones"
   ],
   "notes": "Portrait, 7728x11848 (huge). Poster tagline at bottom uses period wording ('of her race'); consider cropping to the portrait and medals. Audio: she sang La traviata selections in 1892; the specific aria is a fit, not a documented performance.",
-  "group": "A4"
+  "group": "A4",
+  "crop": [
+   0,
+   0,
+   1920,
+   2800
+  ]
  },
  {
   "key": "saint-george-ward-after-mather-brown",
@@ -4981,6 +5011,12 @@
    "Born 17 March 1665, died 27 June 1729; performed at Versailles at five, noticed by Louis XIV; Pièces de clavessin 1687, one of few printed in France in 17th c.; Céphale et Procris 15 March 1694; Titon du Tillet placed her on his Parnassus next to Lalande and Marais, praised preludes off the cuff -> https://en.wikipedia.org/wiki/%C3%89lisabeth_Jacquet_de_La_Guerre"
   ],
   "notes": "Very tall (1944x4536); likely includes a long text panel below the portrait; crop to the portrait. Date 1729 from BnF/Commons. 'First opera by a woman staged in France' is the usual claim; Wikipedia gives premiere 1694 at the Académie Royale. The 1687 book includes a D minor suite (not checked); curator may simplify audio to 'Pièces de clavecin (1687)'. Her birthday (March 17) falls outside the window.",
-  "group": "A4"
+  "group": "A4",
+  "crop": [
+   380,
+   200,
+   1620,
+   1620
+  ]
  }
 ]

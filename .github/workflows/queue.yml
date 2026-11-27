@@ -55,10 +55,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests==2.32.3 && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install requests==2.32.3 pillow==13.0.0 numpy && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: |
           gh release view q1-reels >/dev/null 2>&1 || gh release create q1-reels --title "Queued Reels" --notes "Finished Reels for the 3-month queue; post_reel.py downloads each one when it is due" || true
-          mkdir -p /tmp/frames && gh release download q1-frames -p 'frames-*.zip' -D /tmp/frames && cd /tmp/frames && for z in frames-*.zip; do unzip -oq "$z"; done
+          mkdir -p /tmp/src && gh release download q1-src -p 'src-*.zip' -D /tmp/src && (cd /tmp/src && for z in src-*.zip; do unzip -oq "$z"; done)
+      - name: Render frames and covers
+        run: |
+          NS=$(python -c "import json; q=json.load(open('q1/queue.json')); print(' '.join(str(e['n']) for i, e in enumerate(q) if i % 4 == ${{ matrix.shard }}))")
+          python q1/render/render_q1.py q1/queue.json /tmp/src /tmp/frames $NS
       - run: python tools/queue_tools.py build ${{ matrix.shard }} 4
       - name: Commit manifest
         if: always()

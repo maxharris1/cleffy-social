@@ -1,0 +1,265 @@
+1|strauss|R|band|Johann Strauss II, The Blue Danube|the U.S. Marine Band
+4|auld|H|band|Auld Lang Syne (traditional)|the U.S. Marine Band
+5|tierney|A|piano|Harry Austin Tierney, Black Canary Rag (1911)|~
+6|joplin|A|piano|Scott Joplin, Leola (1905)|~
+7|weeks|A|piano|H. Taylor Weeks, Mew Mew Rag (1910)|~
+8|mcgrew|A|piano|F. Ray McGrew, Ninez Rag (1907)|~
+9|joplin|A|piano|Scott Joplin, Original Rags (1899)|~
+10|joplin|A|piano|Scott Joplin, Palm Leaf Rag (1903)|~
+11|verdi|R|voice|Verdi, Luisa Miller: Quando le sere al placido|Ferruccio Giannini
+12|glade|A|piano|Richard Glade, The Domino Rag (1908)|~
+13|joplin|A|piano|Scott Joplin, The Nonpareil (1907)|~
+14|beethoven|C|orch|Beethoven, Symphony No. 9, finale|Jascha Horenstein conducting
+18|albéniz|R|piano|Albéniz, España Op. 165 No. 2, Tango|eldüendesüarez
+21|carnatic|W-IN|voice|Raga Anandabhairavi (Carnatic tradition)|~
+24|dvořák|R|orch|Dvořák, Symphony No. 9 'From the New World', first movement|~
+26|auld|H|band|Auld Lang Syne (traditional)|the U.S. Air Force Heritage of America Band
+32|bach|B|piano|J. S. Bach, Fugue No. 21, Well-Tempered Clavier Book 1|eldüendesüarez
+33|bach|B|piano|J. S. Bach, Fugue No. 3, Well-Tempered Clavier Book 1|eldüendesüarez
+34|bach|B|piano|J. S. Bach, Fugue No. 5, Well-Tempered Clavier Book 1|eldüendesüarez
+35|bach|B|piano|J. S. Bach, Fugue No. 7, Well-Tempered Clavier Book 1|eldüendesüarez
+36|bach|B|piano|J. S. Bach, Italian Concerto, first movement|eldüendesüarez
+37|bach|B|piano|J. S. Bach, Italian Concerto, Andante|eldüendesüarez
+38|bach|B|piano|J. S. Bach, Italian Concerto, Presto|eldüendesüarez
+39|bach|B|piano|Minuet in G from the Anna Magdalena Notebook|eldüendesüarez
+41|bach|B|piano|J. S. Bach, Prelude No. 5, Well-Tempered Clavier Book 1|eldüendesüarez
+42|bach|B|piano|J. S. Bach, Prelude No. 7, Well-Tempered Clavier Book 1|eldüendesüarez
+44|bach|B|violin|J. S. Bach, Chaconne from Partita No. 2 in D minor, BWV 1004|Jascha Heifetz
+46|chopin|R|piano|Chopin, Ballade No. 4 in F minor, Op. 52|~
+47|beethoven|C|piano|Beethoven, Bagatelle Op. 33 No. 1|eldüendesüarez
+48|beethoven|C|piano|Beethoven, Bagatelle Op. 33 No. 4|eldüendesüarez
+50|beethoven|C|piano|Beethoven, Moonlight Sonata, Op. 27 No. 2, first movement|eldüendesüarez
+51|beethoven|C|piano|Beethoven, Moonlight Sonata, Op. 27 No. 2, finale|eldüendesüarez
+52|beethoven|C|strings|Beethoven, String Quartet Op. 18 No. 6, Scherzo|the Musopen String Quartet
+54|verdi|R|voice|Verdi, Il trovatore: Miserere|Ferruccio Giannini
+55|cook|A|piano|E. M. Cook, Blue Moon (1906)|~
+56|boccherini|C|piano|Boccherini, Minuet|eldüendesüarez
+58|gamelan|W-ID|ens|Gamelan degung (Sundanese tradition)|~
+61|brahms|R|piano|Brahms, Capriccio in B minor, Op. 76 No. 2|eldüendesüarez
+62|brahms|R|piano|Brahms, Intermezzo in A major, Op. 118 No. 2|eldüendesüarez
+63|brahms|R|piano|Brahms, Intermezzo in B-flat, Op. 117 No. 2|eldüendesüarez
+64|brahms|R|piano|Brahms, Intermezzo in C-sharp minor, Op. 117 No. 3|eldüendesüarez
+65|brahms|R|piano|Brahms, Intermezzo in E-flat, Op. 117 No. 1|eldüendesüarez
+66|brahms|R|piano|Brahms, Intermezzo in E-flat minor, Op. 118 No. 6|eldüendesüarez
+67|brahms|R|piano|Brahms, Rhapsody in G minor, Op. 79 No. 2|eldüendesüarez
+68|brahms|R|piano|Brahms, Waltz in A-flat, Op. 39 No. 15|eldüendesüarez
+69|pachelbel|B|strings|Pachelbel, Canon in D|the U.S. Air Force Strolling Strings
+72|fauré|R|choir|Fauré, Cantique de Jean Racine, Op. 11|~
+73|saint-saëns|R|ens|Saint-Saëns, Caprice on Danish and Russian Airs, Op. 79|~
+74|leontovych|H|band|Leontovych, Carol of the Bells|the U.S. Air Force Band of the Rockies
+77|chaminade|R|piano|Chaminade, Automne, Op. 35 No. 2|eldüendesüarez
+78|chopin|R|piano|Chopin, Étude Op. 10 No. 12 'Revolutionary'|Edward Neeman
+79|chopin|R|piano|Chopin, Étude Op. 10 No. 2|Edward Neeman
+80|chopin|R|piano|Chopin, Étude Op. 10 No. 9 in F minor|Edward Neeman
+81|chopin|R|piano|Chopin, Étude Op. 25 No. 4 in A minor|Edward Neeman
+82|chopin|R|piano|Chopin, Ballade No. 4 in F minor, Op. 52|Frank Lévy
+83|chopin|R|piano|Chopin, Barcarolle, Op. 60|eldüendesüarez
+84|chopin|R|piano|Chopin, Fantaisie-Impromptu, Op. 66|eldüendesüarez
+85|chopin|R|piano|Chopin, Mazurka in C minor, Op. 30 No. 1|Edward Neeman
+86|chopin|R|piano|Chopin, Mazurka in B major, Op. 56 No. 1|Xuan He
+87|chopin|R|piano|Chopin, Mazurka in C major, Op. 56 No. 2|Xuan He
+88|chopin|R|piano|Chopin, Mazurka in A-flat, B. 85|Edward Neeman
+93|chopin|R|piano|Chopin, Nocturne in E-flat, Op. 55 No. 2|Xuan He
+94|chopin|R|piano|Chopin, Nocturne in E-flat, Op. 9 No. 2|Frank Lévy
+95|chopin|R|piano|Chopin, Nocturne in C minor, B. 108|Diana Hughes
+96|chopin|R|piano|Chopin, Polonaise in A-flat, Op. 53 'Heroic'|Luke Faulkner
+97|chopin|R|piano|Chopin, Prelude in A major, Op. 28 No. 7|eldüendesüarez
+98|chopin|R|piano|Chopin, Prelude in B major, Op. 28 No. 11|eldüendesüarez
+99|chopin|R|piano|Chopin, Prelude in D-flat, Op. 28 No. 15 'Raindrop'|eldüendesüarez
+101|chopin|R|piano|Chopin, Prelude in F-sharp minor, Op. 28 No. 8|eldüendesüarez
+103|chopin|R|ens|Chopin, Variations for Flute and Piano, B. 9|Diana Hughes
+104|chopin|R|piano|Chopin, Souvenir de Paganini, B. 37|Olga Gurevich
+105|chopin|R|piano|Chopin, Waltz in E minor, B. 56|Olga Gurevich
+106|chopin|R|piano|Chopin, Waltz in E-flat, B. 133|Aya Higuchi
+107|chopin|R|piano|Chopin, Waltz in A minor, B. 150|Aya Higuchi
+109|chopin|R|piano|Chopin, Waltz in A-flat, Op. 42|Olga Gurevich
+110|chopin|R|piano|Chopin, 'Minute' Waltz, Op. 64 No. 1|eldüendesüarez
+111|chopin|R|piano|Chopin, Waltz in E major, Op. posth.|eldüendesüarez
+114|debussy|L|band|Debussy, Clair de lune|the U.S. Air Force Band of Flight
+116|debussy|L|piano|Debussy, La sérénade interrompue|Marcelle Meyer
+117|debussy|L|piano|Debussy, Brouillards|Marcelle Meyer
+118|debussy|L|piano|Debussy, Ondine|Marcelle Meyer
+119|debussy|L|piano|Debussy, Reflets dans l'eau|Marcelle Meyer
+120|debussy|L|piano|Debussy, Mouvement|Marcelle Meyer
+122|debussy|L|piano|Debussy, Arabesque No. 1|eldüendesüarez
+123|debussy|L|piano|Debussy, Arabesque No. 2|eldüendesüarez
+124|debussy|L|piano|Debussy, Clair de lune|eldüendesüarez
+125|debussy|L|piano|Debussy, Doctor Gradus ad Parnassum|eldüendesüarez
+127|satie|L|orch|Satie, Gymnopédie (orchestrated by Debussy)|~
+129|schubert|R|voice|Schubert, Erlkönig|~
+131|scarlatti|B|piano|Scarlatti, Sonata in G major, K. 455|Vladimir Horowitz
+132|scarlatti|B|harpsichord|Scarlatti, Sonatas K. 119 and 120|Ralph Kirkpatrick
+133|scarlatti|B|harpsichord|Scarlatti, Sonatas K. 263 and 264|Ralph Kirkpatrick
+134|scarlatti|B|piano|Scarlatti, Sonata in D minor, K. 32|~
+137|dvořák|R|strings|Dvořák, 'American' Quartet, first movement|the Musopen String Quartet
+138|dvořák|R|strings|Dvořák, 'American' Quartet, Lento|the Musopen String Quartet
+139|dvořák|R|strings|Dvořák, 'American' Quartet, scherzo|the Musopen String Quartet
+140|dvořák|R|strings|Dvořák, 'American' Quartet, finale|the Musopen String Quartet
+141|verdi|R|voice|Verdi, Rigoletto: Gilda's aria|~
+142|chabrier|R|piano|Chabrier, Impromptu|Marcelle Meyer
+143|chabrier|R|orch|Chabrier, Suite pastorale: Scherzo-valse|Paul Paray conducting
+145|satie|L|piano|Satie, Désespoir agréable|~
+146|fauré|R|choir|Fauré, Requiem: Introït et Kyrie|~
+147|fauré|R|choir|Fauré, Requiem: Sanctus|~
+148|fauré|R|choir|Fauré, Requiem: In paradisum|~
+149|fauré|R|piano|Fauré and Messager, Souvenirs de Bayreuth|~
+150|holst|L|band|Holst, First Suite in E-flat: Intermezzo|the U.S. Air Force Band
+151|rimsky-korsakov|R|band|Rimsky-Korsakov, Flight of the Bumblebee|the U.S. Air Force Band of the Rockies
+152|rimsky-korsakov|R|strings|Rimsky-Korsakov, Flight of the Bumblebee|the U.S. Air Force Strolling Strings
+153|chaminade|R|band|Chaminade, Flute Concertino, Op. 107|the U.S. Marine Band
+154|couperin|B|piano|Couperin, Le tic-toc-choc|Marcelle Meyer
+155|couperin|B|piano|Couperin, Les barricades mystérieuses|Marcelle Meyer
+157|gruber|H|voice|Gruber, Stille Nacht|~
+158|scarlatti|B|piano|Scarlatti, Sonata in G major, K. 146|~
+159|dvořák|R|band|Dvořák, Goin' Home (Largo from the 'New World')|the U.S. Air Force Band
+160|andean|W-AN|ens|Sikuri panpipes (Andean tradition)|~
+163|mendelssohn|H|band|Mendelssohn, Hark! The Herald Angels Sing|the U.S. Air Force Heritage of America Band
+164|haydn|C|strings|Haydn, 'Lark' Quartet, Op. 64 No. 5, first movement|the Musopen String Quartet
+165|haydn|C|strings|Haydn, 'Lark' Quartet, Adagio|the Musopen String Quartet
+166|haydn|C|strings|Haydn, 'Lark' Quartet, Menuet|the Musopen String Quartet
+167|haydn|C|strings|Haydn, 'Lark' Quartet, finale|the Musopen String Quartet
+168|haydn|C|orch|Haydn, Symphony No. 22, opening|~
+169|haydn|C|piano|Haydn, Sonata in C minor, finale|~
+171|berlioz|R|voice|Berlioz, Les nuits d'été: Villanelle|Eleanor Steber
+172|berlioz|R|voice|Berlioz, Les nuits d'été: Le spectre de la rose|Eleanor Steber
+174|berlioz|R|voice|Berlioz, Les nuits d'été: Sur les lagunes|Victoria de los Ángeles
+175|berlioz|R|voice|Berlioz, Les nuits d'été: L'île inconnue|Victoria de los Ángeles
+178|brahms|R|strings|Brahms, Hungarian Dance No. 1|the U.S. Air Force Strolling Strings
+183|ives|L|piano|Ives, Concord Sonata: Hawthorne|Eric Xi Xin Liang
+184|rameau|B|piano|Rameau, La poule|Marcelle Meyer
+185|rameau|B|piano|Rameau, Le lardon|Marcelle Meyer
+186|rameau|B|piano|Rameau, Les niais de Sologne|Marcelle Meyer
+187|rameau|B|piano|Rameau, Les tourbillons|Marcelle Meyer
+188|rameau|B|piano|Rameau, Les trois mains|Marcelle Meyer
+189|pachelbel|B|ens|Pachelbel, Canon in D|~
+190|bach|B|organ|J. S. Bach, Prelude in A minor, BWV 543|Robert Köbler
+191|bach|B|piano|J. S. Bach, Prelude No. 1 in C, BWV 846|Kimiko Ishizaka
+192|bach|B|piano|J. S. Bach, Fugue No. 2 in C minor, BWV 847|Kimiko Ishizaka
+193|bach|B|piano|J. S. Bach, Fugue No. 9 in E major, BWV 854|Kimiko Ishizaka
+194|bach|B|piano|J. S. Bach, Prelude No. 15 in G major, BWV 860|Kimiko Ishizaka
+195|bach|B|piano|J. S. Bach, Fugue No. 15 in G major, BWV 860|Kimiko Ishizaka
+196|bach|B|piano|J. S. Bach, Prelude No. 19 in A major, BWV 864|Kimiko Ishizaka
+197|bach|B|piano|J. S. Bach, Prelude No. 20 in A minor, BWV 865|Kimiko Ishizaka
+198|bach|B|piano|J. S. Bach, Fugue No. 20 in A minor, BWV 865|Kimiko Ishizaka
+199|bach|B|piano|J. S. Bach, Fugue No. 23 in B major, BWV 868|Kimiko Ishizaka
+200|bach|B|piano|J. S. Bach, The Art of Fugue: Contrapunctus 1|Kimiko Ishizaka
+201|bach|B|piano|J. S. Bach, The Art of Fugue: Contrapunctus 2|Kimiko Ishizaka
+202|bach|B|piano|J. S. Bach, The Art of Fugue: Contrapunctus 3|Kimiko Ishizaka
+203|bach|B|piano|J. S. Bach, The Art of Fugue: Contrapunctus 4|Kimiko Ishizaka
+204|bach|B|piano|J. S. Bach, The Art of Fugue: Contrapunctus 5|Kimiko Ishizaka
+206|bach|B|piano|J. S. Bach, The Art of Fugue: Canon at the Octave|Kimiko Ishizaka
+207|bach|B|piano|J. S. Bach, Goldberg Variations: Aria|Kimiko Ishizaka
+208|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 2|Kimiko Ishizaka
+209|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 8|Kimiko Ishizaka
+210|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 11|Kimiko Ishizaka
+211|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 17|Kimiko Ishizaka
+212|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 19|Kimiko Ishizaka
+213|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 22|Kimiko Ishizaka
+214|bach|B|piano|J. S. Bach, Goldberg Variations: Variation 23|Kimiko Ishizaka
+216|debussy|L|band|Debussy, La mer: From Dawn to Noon on the Sea|the U.S. Air Force Band
+217|debussy|L|band|Debussy, La mer: Play of the Waves|the U.S. Air Force Band
+218|debussy|L|band|Debussy, La mer: Dialogue of the Wind and the Sea|the U.S. Air Force Band
+220|leoncavallo|R|voice|Leoncavallo, Pagliacci: Vesti la giubba|Antonio Paoli
+222|joplin|A|piano|Louis Chauvin and Scott Joplin, Heliotrope Bouquet (1907)|~
+223|beethoven|C|orch|Beethoven, Piano Concerto No. 4, first movement|~
+224|beethoven|C|orch|Beethoven, Piano Concerto No. 4, Andante|~
+225|moszkowski|R|piano|Moszkowski, Étude Op. 72 No. 5|Jixun Han
+226|ravel|L|piano|Ravel, Le tombeau de Couperin: Toccata|Marcelle Meyer
+228|ravel|L|piano|Ravel, Miroirs: Noctuelles|~
+229|ravel|L|piano|Ravel, Miroirs: Oiseaux tristes|~
+230|ravel|L|piano|Ravel, Miroirs: Une barque sur l'océan|~
+231|ravel|L|piano|Ravel, Miroirs: Alborada del gracioso|~
+232|ravel|L|piano|Ravel, Sonatine, first movement|~
+233|ravel|L|piano|Ravel, Sonatine: Mouvement de menuet|~
+235|ravel|L|piano|Ravel, Sonatine, first movement|Marcelle Meyer
+236|ravel|L|piano|Ravel, Sonatine, finale|Walter Gieseking
+239|mendelssohn|R|orch|Mendelssohn, The Hebrides Overture|the Musopen Symphony
+240|mendelssohn|R|strings|Mendelssohn, String Quartet No. 6, Adagio|the Musopen String Quartet
+241|mendelssohn|R|organ|Mendelssohn, Organ Sonata No. 6|Matthias Privler
+245|bach|B|piano|Minuet in G from the Anna Magdalena Notebook|~
+246|chopin|R|violin|Chopin, Nocturne Op. 9 No. 2 (violin arrangement)|Mischa Elman
+247|palestrina|M|choir|Palestrina, Missa Papae Marcelli: Kyrie|~
+248|palestrina|M|choir|Palestrina, Missa Papae Marcelli: Gloria|~
+249|palestrina|M|choir|Palestrina, Missa Papae Marcelli: Credo|~
+250|palestrina|M|choir|Palestrina, Missa Papae Marcelli: Sanctus|~
+251|palestrina|M|choir|Palestrina, Missa Papae Marcelli: Agnus Dei I|~
+252|palestrina|M|choir|Palestrina, Missa Papae Marcelli: Agnus Dei II|~
+253|josquin|M|choir|Josquin des Prez, Missa Pange lingua|~
+256|mozart|C|strings|Mozart, String Quartet in D minor, K. 421, first movement|the Musopen String Quartet
+257|mozart|C|strings|Mozart, String Quartet in D minor, K. 421, Andante|the Musopen String Quartet
+258|mozart|C|strings|Mozart, String Quartet in D minor, K. 421, Minuetto|the Musopen String Quartet
+259|mozart|C|strings|Mozart, String Quartet in D minor, K. 421, finale|the Musopen String Quartet
+260|mozart|C|strings|Mozart, 'Dissonance' Quartet, K. 465, first movement|the Musopen String Quartet
+261|mozart|C|strings|Mozart, 'Dissonance' Quartet, K. 465, Andante cantabile|the Musopen String Quartet
+262|mozart|C|strings|Mozart, 'Dissonance' Quartet, K. 465, Menuetto|the Musopen String Quartet
+263|mozart|C|strings|Mozart, 'Dissonance' Quartet, K. 465, finale|the Musopen String Quartet
+264|mozart|C|orch|Mozart, Piano Concerto No. 22, K. 482, opening|~
+266|mozart|C|orch|Mozart, Piano Concerto No. 20: Romanze|~
+267|mozart|C|ens|Mozart, Serenade in C minor, K. 388: Trio|~
+269|mozart|C|band|Mozart, 'Gran Partita', K. 361: Menuetto|the U.S. Marine Band
+270|mozart|C|band|Mozart, 'Gran Partita', K. 361: second Menuetto|the U.S. Marine Band
+271|mozart|C|orch|Mozart, Piano Concerto No. 24, K. 491, slow movement|~
+272|mozart|C|piano|Mozart, Piano Sonata in C, K. 330, first movement|~
+273|mozart|C|piano|Mozart, Piano Sonata in C, K. 330, finale|~
+274|mozart|C|orch|Mozart, 'Coronation' Concerto, K. 537, first movement|~
+275|mozart|C|orch|Mozart, 'Coronation' Concerto, K. 537, Larghetto|~
+276|mozart|C|orch|Mozart, 'Coronation' Concerto, K. 537, finale|~
+277|tchaikovsky|R|strings|Tchaikovsky, Andante cantabile|the New York Philharmonic
+280|chopin|R|piano|Chopin, Nocturne in E-flat, Op. 55 No. 2|~
+283|tannenbaum|H|voice|O Tannenbaum (traditional)|the U.S. Air Force Singing Sergeants
+290|pachelbel|B|ens|Pachelbel, Canon in D|~
+292|paganini|R|violin|Paganini, Caprice No. 24|Yehudi Menuhin
+299|bach|B|piano|J. S. Bach, Prelude in C, BWV 846|~
+301|chant|H|band|Puer natus est nobis (Gregorian chant)|the U.S. Air Force Band
+302|purcell|B|strings|Purcell, Fantazia upon One Note|~
+303|tchaikovsky|R|orch|Tchaikovsky, Swan Lake, Act 4|~
+305|rameau|B|harpsichord|Rameau, Gavotte with six doubles|~
+309|rimsky-korsakov|R|orch|Rimsky-Korsakov, Russian Easter Festival Overture|the Musopen Symphony
+310|cretan|W-ME|ens|Rizitiko, a Cretan folk song|~
+311|schumann|R|orch|Schumann, Piano Concerto, first movement|~
+312|schumann|R|orch|Schumann, Piano Concerto: Intermezzo|~
+313|schumann|R|orch|Schumann, Piano Concerto, finale|~
+314|saint-saëns|R|orch|Saint-Saëns, Piano Concerto No. 5, Andante|Magda Tagliaferro
+315|saint-saëns|R|orch|Saint-Saëns, Piano Concerto No. 5, finale|Magda Tagliaferro
+316|carnatic|W-IN|voice|Raga Sri, Carnatic kriti 'Sami ninne'|~
+317|satie|L|piano|Satie, Gymnopédie No. 1|Michael Laucke
+318|satie|L|piano|Satie, Gymnopédie No. 2|Michael Laucke
+319|satie|L|piano|Satie, Gymnopédie No. 3|Michael Laucke
+322|schubert|R|piano|Schubert, Sonata in A, D. 664, first movement|Paul Pitman
+323|schubert|R|piano|Schubert, Sonata in A, D. 664, Andante|Paul Pitman
+324|schubert|R|piano|Schubert, Sonata in A, D. 664, finale|Paul Pitman
+325|schubert|R|piano|Schubert, Sonata in A minor, D. 784, first movement|Paul Pitman
+326|schubert|R|piano|Schubert, Sonata in A minor, D. 784, Andante|Paul Pitman
+328|schubert|R|piano|Schubert, Sonata in A minor, D. 845, first movement|Paul Pitman
+329|schubert|R|piano|Schubert, Sonata in A minor, D. 845, Andante|Paul Pitman
+330|schubert|R|piano|Schubert, Sonata in D, D. 850, Con moto|Paul Pitman
+331|schubert|R|piano|Schubert, Sonata in C minor, D. 958, Adagio|Paul Pitman
+332|schubert|R|piano|Schubert, Sonata in A, D. 959, first movement|Paul Pitman
+333|schubert|R|piano|Schubert, Sonata in A, D. 959, Andantino|Paul Pitman
+334|schubert|R|piano|Schubert, Sonata in E-flat, D. 568, Andante molto|Paul Pitman
+335|schubert|R|piano|Schubert, Sonata in E-flat, D. 568, Menuetto|Paul Pitman
+337|schubert|R|piano|Schubert, Erlkönig, piano introduction|~
+338|joplin|A|piano|Scott Joplin, Combination March|Lucas Werkmeister
+340|beethoven|C|orch|Beethoven, 'Emperor' Concerto, first movement|~
+342|gruber|H|voice|Gruber, Silent Night|the U.S. Air Force Singing Sergeants
+344|bartlett|A|piano|Margaret Bartlett, Sorority Rag (1909)|~
+345|sousa|A|band|Sousa, The Stars and Stripes Forever|the U.S. Marine Band
+346|sousa|A|band|Sousa, Wedding March|the U.S. Marine Band
+347|handy|A|band|W. C. Handy, St. Louis Blues (1922 recording)|Handy's Memphis Blues Band
+348|strauss|R|orch|Johann Strauss II, The Blue Danube|~
+350|tchaikovsky|R|orch|Tchaikovsky, Swan Lake, Act 4 finale|~
+355|tchaikovsky|R|orch|Tchaikovsky, Symphony No. 6, second movement|~
+358|holst|L|choir|Holst, Thaxted|~
+359|handy|A|band|W. C. Handy, The Jogo Blues (1913)|~
+364|fum|H|band|Fum, Fum, Fum (Catalan carol)|the U.S. Air Force Heritage of America Band
+366|gottschalk|R|band|Gottschalk, Tournament Galop|the U.S. Air Force Academy Band
+367|ravel|L|ens|Ravel, Piano Trio, opening bars|~
+368|schumann|R|piano|Schumann, Träumerei, Kinderszenen Op. 15 No. 7|~
+370|viardot|R|voice|Pauline Viardot, Dernier aveu|~
+371|viardot|R|voice|Pauline Viardot, Havanaise|~
+372|viardot|R|voice|Pauline Viardot, Le vase brisé|~
+374|vivaldi|B|strings|Vivaldi, The Four Seasons: Winter|the U.S. Air Force Strings
+376|vivaldi|B|strings|Vivaldi, The Four Seasons|the Modena Chamber Orchestra
+381|wagner|R|orch|Wagner, Tristan und Isolde: Liebestod, closing bars|~
+384|albéniz|R|guitar|Albéniz, Zortziko|~
+385|beethoven|C|piano|Beethoven, 'Pathétique' Sonata, Adagio cantabile|~
